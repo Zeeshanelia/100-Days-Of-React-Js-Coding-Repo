@@ -1,6 +1,7 @@
 ## Avatar Image Generator Axios
 
-![Alt Text](images/Avatar-Image-Generator-Axios.png)
+![Avatar](public/images/Avatar-Image-Generator-Axios.png)
+
 
 ##  const API_KEY = "Clkt7MebuStvBjaw6TRE8h5TaEdOEYAKzSLj0kTBBOkiplsIybX2Ejz7"
 
