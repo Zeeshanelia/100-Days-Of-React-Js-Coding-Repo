@@ -10,20 +10,31 @@
  use in Project :
  
  pixel Api
+
  axios 
+ 
  react-toastify
+ 
  remix-icon
 
-get access  =>   <img src={item.src.medium}/>
+get access  =>   
+<src={item.src.medium}/>
 src : medium 
 
 1.landscape
+
 2.large
+
 3.large2x
+
 4.original
+
 5.portrait
+
 6.medium
+
 7.small
+
 8.tiny
 
 

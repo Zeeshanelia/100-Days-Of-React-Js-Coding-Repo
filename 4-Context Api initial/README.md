@@ -3,4 +3,4 @@
 Context Api basic project
 
 
-![Avatar](public/img/Screenshot 2025-11-20 140119.png)
+![Avatar](public/images/Screenshot 2025-11-20 140119.png)
