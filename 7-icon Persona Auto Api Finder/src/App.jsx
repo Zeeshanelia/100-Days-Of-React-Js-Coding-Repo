@@ -154,10 +154,10 @@ function App() {
         </div>
 
         {
-          loading &&
-          <div className=" h-screen">
-            <i className="ri-loader-5-line text-4xl animate-spin">  </i>
-          </div>
+          // loading &&
+          // <div className=" h-screen">
+          //   <i className="ri-loader-5-line text-4xl animate-spin">  </i>
+          // </div>
         }
 
         <ToastContainer />
