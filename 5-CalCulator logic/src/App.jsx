@@ -5,6 +5,7 @@ import ButtonContainer from '../component/ButtonContainer'
 import { useState } from 'react'
 function App() {
   const [calValue, setcalValue] = useState('')
+
   const onButtonClick = (buttonText) => {
     if (buttonText === 'c') {
       setcalValue('');
@@ -16,6 +17,8 @@ function App() {
       setcalValue(newDisplay)
     }
   }
+
+  
   return (
     <div className={styles.Calculator}>
       <Display displayValue={calValue} />

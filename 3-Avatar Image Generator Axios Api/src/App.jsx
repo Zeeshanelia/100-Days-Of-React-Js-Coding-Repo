@@ -45,6 +45,7 @@ function App() {
     fetchingImg()
   }, [page, quary])
 
+  
   const Searched = (e) => {
     e.preventDefault()
     const q = e.target[0].value.trim()
@@ -105,7 +106,7 @@ function App() {
 
 
 
-      
+
 
       {
         img.length > 0

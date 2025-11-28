@@ -45,7 +45,7 @@ const data = [
 function App() {
   const [src, setSrc] = useState(null)
   const [options, setOptions] = useState("male")
-  const [loading, setLoading] = useState(false)
+  
 
 
   const generate = () => {

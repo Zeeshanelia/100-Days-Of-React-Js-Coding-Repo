@@ -8,6 +8,7 @@ export default function App() {
   return (
     <UserContextProvider >
       <h3> context api idea </h3>
+      
      <Login/>
      <Profile/>
     </UserContextProvider>
