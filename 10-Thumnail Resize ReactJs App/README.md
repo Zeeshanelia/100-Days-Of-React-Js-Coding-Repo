@@ -1,6 +1,6 @@
 # Thumnail Resize ReactJs App
 
-![alt text](public/images/Thumnail-Resize-ReactJs.png.png)
+![alt text](public/images/thumnail-Resize.png)
 
  Tool use in Project :
  - npm i get-youtube-id
@@ -28,7 +28,6 @@ https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg
 
 
 
-I
 
 
 
@@ -57,9 +56,7 @@ I
 
 
 
-
-
-
+Logic________________
 
 const YT_BASE = "https://img.youtube.com/vi/";
 

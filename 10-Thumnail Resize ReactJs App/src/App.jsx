@@ -77,6 +77,8 @@ const fetchThumnail = (e) => {
     toast.error("Invalid YouTube URL");
     return;
   }
+
+  
   const model = urlModel.map((item) => {
     const finalUrl = `https://img.youtube.com/vi/${videoId}/${item.file}`;
     console.log("Generated URL:", finalUrl);

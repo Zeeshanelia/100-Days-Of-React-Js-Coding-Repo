@@ -1,9 +1,8 @@
 ## Avatar Auto Pictures Generator Unlimited
 
-![Alt Text](public/images/Screenshot 2025-11-24 184306.png)
+![Alt Text](public/images/7-icon-Persona Auto-Api-Finder.png)
 
-##  const API_KEY = "Clkt7MebuStvBjaw6TRE8h5TaEdOEYAKzSLj0kTBBOkiplsIybX2Ejz7"
-
+# const API_KEY ="Clkt7MebuStvBjaw6TRE8h5TaEdOEYAKzSLj0kTBBOkiplsIybX2Ejz7"
 
  use in Project :
  animate css
