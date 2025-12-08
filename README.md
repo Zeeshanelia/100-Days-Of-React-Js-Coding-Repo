@@ -15,12 +15,15 @@ Let's Start to build, learningsssss , and growssss in ReactJs !
 
 
 
+
+
 # Installation :
 Instructions so others can clone and run your projects locally:
 - git clone https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo.git
 - cd project-folder
 - npm i
 - npm run dev
+
 
 
 
@@ -32,6 +35,7 @@ Instructions so others can clone and run your projects locally:
 - Installation
 - Usage
 - Contributing
+
 
 
 
@@ -48,9 +52,16 @@ List what concepts each project or the repo as a whole covers:
 
 
 
+
+
+
 ## Projects List
 This repository contains 100 React projects built over 100 days.  
 Each project is linked below for easy access and learning.
+
+
+
+
 
 
 
@@ -97,27 +108,51 @@ Each project is linked below for easy access and learning.
 
 
 
-| 10   | [10-Thumnail Resize](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/10-Thumnail%20Resize%20ReactJs%20App) | get-youtube-id library ,map over an array of objects | Learned map objects and return a new object with extra fields |
+| 10   | [Thumnail Resize](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/10-Thumnail%20Resize%20ReactJs%20App) | get-youtube-id library ,map over an array of objects | Learned map objects and return a new object with extra fields |
 
-| 11   | [10-Thumnail Resize](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/11-Custom%20Slider) | useEffect & useState for Logic setInterval use and cleanup | Learned useState better use with other hooks |
+| 11   | [Custom Slider](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/11-Custom%20Slider) | useEffect & useState for Logic with setInterval use and cleanup | Learned useState better use with other hooks |
+
+| 12   | [Context Api Dark Mode Website](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/12-Context%20Api%20Dark%20Mode%20Website) | localStorage , useEffect , nav logic for mobile | Learned set tailwind.config.js : adding this for dark mode effect darkMode: "class" |
+
+| 13   | [ContextApi Functional Website](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/11-Custom%20Slider) | maximum use of Context Api , Router  | Learned responsive, dynamic e-commerce React app with a functional shopping cart, global state management, dark mode, and smooth UI effects using Tailwind CSS and React Context. Gained hands-on experience with routing, debugging, custom hooks, and clean project structuring for maintainable, modern applications |
 
 
 
 
 
 
- - Project 1  ![alt text](public/images/1-Gradient-Unlimited.png)
- - Project 2  ![alt text](public/images/2-Movie-Search-Api.png)
- - Project 3  ![alt text](public/images/3-Avatar-Image-Generator-Axios.png)
- - Project 4  ![alt text](public/images/4-Context-Api.png)
- - Project 5  ![alt text](public/images/5-CalCulator-Logic.png)
- - Project 6  ![alt text](public/images/6-Mini-School-App-With-Router.png)
- - Project 7  ![alt text](public/images/7-Avatar-Unique-Api-finder.png)
+
+
+
+
+
+
+
+ - Project 1   ![alt text](public/images/1-Gradient-Unlimited.png)
+ - Project 2   ![alt text](public/images/2-Movie-Search-Api.png)
+ - Project 3   ![alt text](public/images/3-Avatar-Image-Generator-Axios.png)
+ - Project 4   ![alt text](public/images/4-Context-Api.png)
+
+ - Project 5   ![alt text](public/images/5-CalCulator-Logic.png) 
+
+ - Project 6   ![alt text](public/images/6-Mini-School-App-With-Router.png)
+ - Project 7   ![alt text](public/images/7-Avatar-Unique-Api-finder.png)
  - Project 8  ![alt text](public/images/8-Crud-In-React.png) 
- - Project 9  ![alt text](public/images/9-Crud-With-Student-Form.png)
- - Project 10 ![alt text](public/images/10-Thumnail-Resize-ReactJs.png)
- - Project 11 ![alt text](public/images/11-Custom-Slider.png)
- - Project 12
+ - Project 9   ![alt text](public/images/9-Crud-With-Student-Form.png)
+ - Project 10  ![alt text](public/images/10-Thumnail-Resize-ReactJs.png)
+
+ - Project 11  ![alt text](public/images/11-Custom-Slider.png)
+ - Project 12  ![alt text](public/images/12-Dark-mode-ContextApi.png)
+ - Project 13  ![alt text](public/images/13-ContextApi-Functional-Website.png)
+ 
+
+
+
+
+
+
+
+
 
 
 
