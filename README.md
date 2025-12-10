@@ -11,7 +11,7 @@ Mistakes, fixes, and lessons learned are all part of the process here.
 Every line of code is progress, and progress leads to mastery.
 Let's Start to build, learningsssss , and growssss in ReactJs ! 
 
- -                        ![100 Days Of ReactJs Coding & Hard Projects Challenge](https://img.shields.io/badge/100%20Days-ReactJS%20Coding%20%26%20Hard%20Projects-brightgreen)
+ -   ![100 Days Of ReactJs Coding & Hard Projects Challenge](https://img.shields.io/badge/100%20Days-ReactJS%20Coding%20%26%20Hard%20Projects-brightgreen)
 
 
 
@@ -144,10 +144,14 @@ Each project is linked below for easy access and learning.
 | 14   | [Google Translate Clone](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/11-Custom%20Slider) | maximum use of Axios Api , useEffect, useState, useCallback  | Learned Built a Google Clone using React for a dynamic search interface.  
 Implemented language translation features using APIs for multi-language support.  
 Used useState and useEffect for state and side-effect management.  
-Optimized API calls with Axios and useCallback for smooth performance.
- |
+Optimized API calls with Axios and useCallback for smooth performance.|
 
 
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 15   | [Google Translate Clone](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/11-Custom%20Slider) | Login logOut Form  useReducer useState with hide show password username  | Learned Login & Logout Form in React using useReducer for state management.Handle username and ID inputs smoothly with controlled components.
+Learn simple, clean, and efficient form handling  |
 
 
 
@@ -200,7 +204,8 @@ Optimized API calls with Axios and useCallback for smooth performance.
   - Project 14 
   ![alt text](public/images/14-Google-Translate-Clone.png)
 
-
+ - Project 15 
+  ![alt text](public/images/15-Login-Form-with-useReducer.PNG)
 
 
 
