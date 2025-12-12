@@ -133,7 +133,7 @@ Each project is linked below for easy access and learning.
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 13   | [ContextApi Functional Website](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo) | maximum use of Context Api , Router  | Learned responsive, dynamic e-commerce React app with a functional shopping cart, global state management, dark mode, and smooth UI effects using Tailwind CSS and React Context. Gained hands-on experience with routing, debugging, custom hooks, and clean project structuring for maintainable, modern applications |
+| 13   | [ContextApi Functional Website](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/13-ContextApi%20Functional%20Website) | maximum use of Context Api , Router  | Learned responsive, dynamic e-commerce React app with a functional shopping cart, global state management, dark mode, and smooth UI effects using Tailwind CSS and React Context. Gained hands-on experience with routing, debugging, custom hooks, and clean project structuring for maintainable, modern applications |
 
 
 
@@ -141,17 +141,39 @@ Each project is linked below for easy access and learning.
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 14   | [Google Translate Clone](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/11-Custom%20Slider) | maximum use of Axios Api , useEffect, useState, useCallback  | Learned Built a Google Clone using React for a dynamic search interface.  
+| 14   | [Google Translate Clone](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/14-%20Google%20Translate%20Clone)  | maximum use of Axios Api , useEffect, useState, useCallback  | Learned Built a Google Clone using React for a dynamic search interface.  
 Implemented language translation features using APIs for multi-language support.  
 Used useState and useEffect for state and side-effect management.  
 Optimized API calls with Axios and useCallback for smooth performance.|
 
 
 
+
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 15   | [Google Translate Clone](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/11-Custom%20Slider) | Login logOut Form  useReducer useState with hide show password username  | Learned Login & Logout Form in React using useReducer for state management.Handle username and ID inputs smoothly with controlled components.
-Learn simple, clean, and efficient form handling  |
+| 15   | [ContextApi Functional Website](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/15-Login%20Form%20with%20useReducer%20Mini%20Pro) | Login logOut Form  useReducer useState with hide show password username | Learned Login & Logout Form in React using useReducer for state management.Handle username and ID inputs smoothly with controlled components.
+Learn simple, clean, and efficient form handling | 
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 16  | [ Emoji Finder React App ](  )  | useState practice & download logic uses <a>tag clicks | Learned An emoji is NOT an image
+Emojis such as 😀 or 😎 are text characters, not image files.
+This is why they cannot be downloaded directly as .jpg or .png.
+Convert emojis into real images (PNG/JPG)
+Use canvas drawing 
+Create flexible React download functions
+Trigger file downloads programmatically |
+
+
+
+
+
+
+
+
+
 
 
 
@@ -206,6 +228,14 @@ Learn simple, clean, and efficient form handling  |
 
  - Project 15 
   ![alt text](public/images/15-Login-Form-with-useReducer.PNG)
+
+
+ - Project 16
+  ![alt text](public/images/16-Emoji-Finder-App.png)
+
+
+   
+
 
 
 

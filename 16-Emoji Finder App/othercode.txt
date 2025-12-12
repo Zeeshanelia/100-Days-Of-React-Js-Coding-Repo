@@ -1,0 +1,80 @@
+
+// import { useEffect, useState } from "react";
+
+// export default function EmojiGenerator() {
+//   const [emojiList, setEmojiList] = useState([]);
+
+//   // Unicode source file
+//   const url = "https://unicode.org/Public/emoji/latest/emoji-test.txt";
+
+//   useEffect(() => {
+//     async function generateEmojis() {
+//       try {
+//         console.log("Downloading emoji list...");
+//         const res = await fetch(url);
+//         const text = await res.text();
+
+//         console.log("Parsing...");
+//         const list = parseEmojiFile(text);
+
+//         console.log("Generated emojis:", list.length);
+//         setEmojiList(list);
+
+//       } catch (err) {
+//         console.error("Error loading emoji list:", err);
+//       }
+//     }
+
+//     generateEmojis();
+//   }, []);
+
+//   function parseEmojiFile(text) {
+//     const lines = text.split("\n");
+//     const emojis = [];
+
+//     for (const line of lines) {
+//       if (!line.includes("; fully-qualified")) continue;
+
+//       // Example:
+//       // "1F600                                      ; fully-qualified     # 😀 grinning face"
+//       const parts = line.split("#");
+//       if (!parts[1]) continue;
+
+//       const emojiPart = parts[1].trim(); // 😀 grinning face
+
+//       const firstSpace = emojiPart.indexOf(" ");
+//       const emoji = emojiPart.substring(0, firstSpace);
+//       const name = emojiPart
+//         .substring(firstSpace + 1)
+//         .replace(/[()]/g, "")
+//         .replace(/:/g, "")
+//         .trim();
+
+//       emojis.push({
+//         emoji,
+//         name,
+//         keywords: name.toLowerCase().split(" ").filter(Boolean),
+//       });
+//     }
+
+//     return emojis;
+//   }
+
+//   return (
+//     <div style={{ padding: 20 }}>
+//       <h2>Emoji List Generator</h2>
+//       <p>Total Emojis: {emojiList.length}</p>
+
+//       {/* Example rendering */}
+//       <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
+//         {emojiList.slice(0, 200).map((e, i) => (
+//           <div key={i} style={{ fontSize: 28 }}>
+//             {e.emoji}
+//           </div>
+//         ))}
+//       </div>
+
+//       <p>Open console to view full emojiList array.</p>
+//     </div>
+//   );
+// }
