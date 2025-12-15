@@ -192,12 +192,16 @@ Trigger file downloads programmatically |
 
 
 
+| Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
+|-----|---------|----------------|------------------|
+| 18 | [Ecommerce With Context Api & useEffect Rest Api] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | maximum use Context API with useEffect with Real World Project   | Learned best approach useEffect to Update Context with fetching data | 
 
 
 
 
-
-
+| Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
+|-----|---------|----------------|------------------|
+| 19 | [ Image Rezise Finder ] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | maximum use useState with best approach   | Learned  | 
 
 
 
@@ -252,17 +256,27 @@ Trigger file downloads programmatically |
   ![alt text](public/images/15-Login-Form-with-useReducer.PNG)
 
 
- - Project 16
+  - Project 16
   ![alt text](public/images/16-Emoji-Finder-App.png)
 
 
+    - Project 17
+  ![alt text](public/images/17-img-edit.png)
+
+
+  - Project 18
+  ![alt text](public/images/18-context-api-with-simple-approach.png)
+
+
+   -  Project 19
+   ![Avatar](publicimagesimg-resize-finder.png)
+
+
+
+
+
+
    
-
-
-
-
-
-
 
 
 
