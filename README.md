@@ -201,7 +201,18 @@ Trigger file downloads programmatically |
 
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
-| 19 | [ Image Rezise Finder ] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | maximum use useState with best approach   | Learned  | 
+| 19 | [ Image Rezise Finder ] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/19%20-%20image%20Resize%20Finder%20App) | maximum use useState with best logic approach   | Learned in this project It calculates and displays image width and height dynamically. useState is used for managing image data and dimensions. Users can upload an image and get instant results.The interface is clean, responsive, and easy to use.
+Ideal for learning React state management and file handling. | 
+
+
+
+| Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
+|-----|---------|----------------|------------------|
+| 20 | [ QR Code Generator React JS App ] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | maximum use useState , useRef with Ant Design (AntD) Form components are used for structured and validated inputs. | Learned This project is a QR Code Generator built using React JS. It allows users to generate QR codes for text or URLs instantly. The application uses the useRef hook for direct DOM access and input handling.
+Ant Design (AntD) Form components are used for structured and validated inputs.
+Tailwind CSS is applied for modern, responsive, and clean UI styling. Users can customize QR code size and appearance.The app supports dynamic updates without page reloads.
+State management is handled using React hooks.The UI includes smooth animations for better user experience.The project follows a clean and modular component structure.
+It is beginner-friendly and easy to understand. Ideal for practice, demos, and small utility projects. | 
 
 
 
@@ -209,69 +220,128 @@ Trigger file downloads programmatically |
 
 
 
- - Project 1   
+
+
+
+ - Project 1  
+ 
  ![alt text](public/images/1-Gradient-Unlimited.png)
 
- - Project 2  
+
+
+ - Project 2 
+
   ![alt text](public/images/2-Movie-Search-Api.png)
 
- - Project 3  
+
+
+ - Project 3 
+
   ![alt text](public/images/3-Avatar-Image-Generator-Axios.png)
 
- - Project 4   
+
+
+ - Project 4 
+
  ![alt text](public/images/4-Context-Api.png)
 
- - Project 5   
+
+
+ - Project 5 
+
  ![alt text](public/images/5-CalCulator-Logic.png) 
 
+
+
  - Project 6  
+
   ![alt text](public/images/6-Mini-School-App-With-Router.png)
 
- - Project 7  
+
+
+ - Project 7 
+
   ![alt text](public/images/7-Avatar-Unique-Api-finder.png)
 
+
+
  - Project 8 
+
   ![alt text](public/images/8-Crud-In-React.png) 
 
+
+
  - Project 9  
+
   ![alt text](public/images/9-Crud-With-Student-Form.png)
 
 
+
+
  - Project 10  
+
  ![alt text](public/images/10-Thumnail-Resize-ReactJs.png)
 
+
+
  - Project 11 
+
   ![alt text](public/images/11-Custom-Slider.png)
 
+
+
  - Project 12 
+
   ![alt text](public/images/12-Dark-mode-ContextApi.png)
 
+
+
+
  - Project 13 
+
   ![alt text](public/images/13-ContextApi-Functional-Website.png)
+
+
  
   - Project 14 
+
   ![alt text](public/images/14-Google-Translate-Clone.png)
 
+
+
  - Project 15 
-  ![alt text](public/images/15-Login-Form-with-useReducer.PNG)
+
+  ![alt text](public/images/15-Login-Form-with-useReducer.png)
+
 
 
   - Project 16
+
   ![alt text](public/images/16-Emoji-Finder-App.png)
 
 
+
     - Project 17
+
   ![alt text](public/images/17-img-edit.png)
 
 
   - Project 18
+
   ![alt text](public/images/18-context-api-with-simple-approach.png)
+
+  
 
 
    -  Project 19
-   ![Avatar](publicimagesimg-resize-finder.png)
+
+   ![Avatar](public/images/19-img-resize-finder.png)
 
 
+    -  Project 20
+
+   ![Avatar](public/images/qrcode2.png)
+   ![Avatar](public/images/qrcode.png)
 
 
 
