@@ -208,7 +208,7 @@ Ideal for learning React state management and file handling. |
 
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
-| 20 | [ QR Code Generator React JS App ] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | maximum use useState , useRef with Ant Design (AntD) Form components are used for structured and validated inputs. | Learned This project is a QR Code Generator built using React JS. It allows users to generate QR codes for text or URLs instantly. The application uses the useRef hook for direct DOM access and input handling.
+| 20 | [ QR Code Generator React JS App ] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/20%20-%20QR%20Code%20Generator) | maximum use useState , useRef with Ant Design (AntD) Form components are used for structured and validated inputs. | Learned This project is a QR Code Generator built using React JS. It allows users to generate QR codes for text or URLs instantly. The application uses the useRef hook for direct DOM access and input handling.
 Ant Design (AntD) Form components are used for structured and validated inputs.
 Tailwind CSS is applied for modern, responsive, and clean UI styling. Users can customize QR code size and appearance.The app supports dynamic updates without page reloads.
 State management is handled using React hooks.The UI includes smooth animations for better user experience.The project follows a clean and modular component structure.
@@ -216,6 +216,12 @@ It is beginner-friendly and easy to understand. Ideal for practice, demos, and s
 
 
 
+
+| Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
+|-----|---------|----------------|------------------|
+| 21 | [ Image Resize React App ] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | create logic approch with useState Form components are used for structured and validated inputs. | Learned This React application demonstrates a practical image resizing solution using hooks. It focuses on a clear and logical implementation built with useState. Users can upload an image and view its original dimensions instantly. Custom width and height inputs allow controlled resizing.
+State management ensures real-time updates without page reloads. The logic separates original and resized dimensions for accuracy. Basic validation prevents invalid or empty inputs.
+The UI is lightweight and responsive for better usability. This project helps understand state-driven rendering in React. Ideal for beginners learning React logic and hook-based workflows. | 
 
 
 
@@ -333,17 +339,22 @@ It is beginner-friendly and easy to understand. Ideal for practice, demos, and s
   
 
 
-   -  Project 19
+   - Project 19
 
    ![Avatar](public/images/19-img-resize-finder.png)
 
 
-    -  Project 20
+  - Project 20
 
-   ![Avatar](public/images/qrcode2.png)
+   ![Avatar](public/images/20-qrcode2.png)
    ![Avatar](public/images/qrcode.png)
 
 
+
+
+ - Project 21
+
+   ![Avatar](public/images/21-imgResized.png)
 
 
    
