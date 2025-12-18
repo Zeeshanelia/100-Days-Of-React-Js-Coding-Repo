@@ -175,12 +175,8 @@ Each project is linked below for easy access and learning.
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 16  | [ Emoji Finder React App ](  )  | useState practice & download logic uses <a>tag clicks | Learned An emoji is NOT an image
-Emojis such as 😀 or 😎 are text characters, not image files.
-This is why they cannot be downloaded directly as .jpg or .png.
-Convert emojis into real images (PNG/JPG)
-Use canvas drawing 
-Create flexible React download functions
+| 16  | [ Emoji Finder React App ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/16-Emoji%20Finder%20App )  | useState practice & download logic uses <a>tag clicks | Learned An emoji is NOT an image
+Emojis such as 😀 or 😎 are text characters, not image files. This is why they cannot be downloaded directly as .jpg or .png .Convert emojis into real images (PNG/JPG) Use canvas drawing .Create flexible React download functions
 Trigger file downloads programmatically |
 
 
@@ -188,27 +184,27 @@ Trigger file downloads programmatically |
 
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
-| 17 | [ContextApi Functional Website] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/13-ContextApi%20Functional%20Website) | maximum use of   | Learned  |   
+| 17  |[ContextApi Functional Website]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/13-ContextApi%20Functional%20Website ) | maximum use of   | Learned  |   
 
 
 
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
-| 18 | [Ecommerce With Context Api & useEffect Rest Api] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | maximum use Context API with useEffect with Real World Project   | Learned best approach useEffect to Update Context with fetching data | 
+| 18 |[Ecommerce With Context Api & useEffect Rest Api](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | maximum use Context API with useEffect with Real World Project   | Learned best approach useEffect to Update Context with fetching data | 
 
 
 
 
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
-| 19 | [ Image Rezise Finder ] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/19%20-%20image%20Resize%20Finder%20App) | maximum use useState with best logic approach   | Learned in this project It calculates and displays image width and height dynamically. useState is used for managing image data and dimensions. Users can upload an image and get instant results.The interface is clean, responsive, and easy to use.
+| 19 |[ Image Rezise Finder ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/19%20-%20image%20Resize%20Finder%20App) | maximum use useState with best logic approach   | Learned in this project It calculates and displays image width and height dynamically. useState is used for managing image data and dimensions. Users can upload an image and get instant results.The interface is clean, responsive, and easy to use.
 Ideal for learning React state management and file handling. | 
 
 
 
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
-| 20 | [ QR Code Generator React JS App ] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/20%20-%20QR%20Code%20Generator) | maximum use useState , useRef with Ant Design (AntD) Form components are used for structured and validated inputs. | Learned This project is a QR Code Generator built using React JS. It allows users to generate QR codes for text or URLs instantly. The application uses the useRef hook for direct DOM access and input handling.
+| 20 | [ QR Code Generator React JS App ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/20%20-%20QR%20Code%20Generator) | maximum use useState , useRef with Ant Design (AntD) Form components are used for structured and validated inputs. | Learned This project is a QR Code Generator built using React JS. It allows users to generate QR codes for text or URLs instantly. The application uses the useRef hook for direct DOM access and input handling.
 Ant Design (AntD) Form components are used for structured and validated inputs.
 Tailwind CSS is applied for modern, responsive, and clean UI styling. Users can customize QR code size and appearance.The app supports dynamic updates without page reloads.
 State management is handled using React hooks.The UI includes smooth animations for better user experience.The project follows a clean and modular component structure.
@@ -219,12 +215,15 @@ It is beginner-friendly and easy to understand. Ideal for practice, demos, and s
 
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
-| 21 | [ Image Resize React App ] (https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | create logic approch with useState Form components are used for structured and validated inputs. | Learned This React application demonstrates a practical image resizing solution using hooks. It focuses on a clear and logical implementation built with useState. Users can upload an image and view its original dimensions instantly. Custom width and height inputs allow controlled resizing.
+| 21 | [ Image Resize React App ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/21%20-%20Canvas%20Image%20Resizer) | create logic approch with useState Form components are used for structured and validated inputs. | Learned This React application demonstrates a practical image resizing solution using hooks. It focuses on a clear and logical implementation built with useState. Users can upload an image and view its original dimensions instantly. Custom width and height inputs allow controlled resizing.
 State management ensures real-time updates without page reloads. The logic separates original and resized dimensions for accuracy. Basic validation prevents invalid or empty inputs.
 The UI is lightweight and responsive for better usability. This project helps understand state-driven rendering in React. Ideal for beginners learning React logic and hook-based workflows. | 
 
 
-
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 22  | [ Currency Converter React App ](   ) |    | Learned This Currency Converter is a React.js application built using functional components and the useState hook. It allows users to enter an amount and select source and target currencies for conversion. Axios is used to fetch real-time exchange rates from a public currency exchange API. The application handles loading states to improve user experience during API requests. Basic input validation prevents invalid or negative amounts from being converted. Error handling is implemented to display user-friendly messages when the API fails. Tailwind CSS is used for responsive layout and clean UI styling.The converter supports multiple currencies such as USD, PKR, INR, and AUD.
+The result is displayed dynamically after successful conversion. This project demonstrates API integration, state management, and clean UI design in React.  |
 
 
 
@@ -357,7 +356,10 @@ The UI is lightweight and responsive for better usability. This project helps un
    ![Avatar](public/images/21-imgResized.png)
 
 
-   
+
+- Project  22
+
+  ![Avatar](public/images/22-Currency-Converter.png)
 
 
 
