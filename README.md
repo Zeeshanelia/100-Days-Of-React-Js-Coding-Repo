@@ -220,10 +220,19 @@ State management ensures real-time updates without page reloads. The logic separ
 The UI is lightweight and responsive for better usability. This project helps understand state-driven rendering in React. Ideal for beginners learning React logic and hook-based workflows. | 
 
 
+
+
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 22  | [ Currency Converter React App ](   ) |    | Learned This Currency Converter is a React.js application built using functional components and the useState hook. It allows users to enter an amount and select source and target currencies for conversion. Axios is used to fetch real-time exchange rates from a public currency exchange API. The application handles loading states to improve user experience during API requests. Basic input validation prevents invalid or negative amounts from being converted. Error handling is implemented to display user-friendly messages when the API fails. Tailwind CSS is used for responsive layout and clean UI styling.The converter supports multiple currencies such as USD, PKR, INR, and AUD.
-The result is displayed dynamically after successful conversion. This project demonstrates API integration, state management, and clean UI design in React.  |
+| 22  | [ Currency Converter React App ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/22%20-%20Currency%20Converter) |  input validation  useState , Axios , demonstrates API integration | Learned This Currency Converter is a React.js application built using functional components and the useState hook. It allows users to enter an amount and select source and target currencies for conversion. Axios is used to fetch real-time exchange rates from a public currency exchange API. The application handles loading states to improve user experience during API requests. Basic input validation prevents invalid or negative amounts from being converted. Error handling is implemented to display user-friendly messages when the API fails. Tailwind CSS is used for responsive layout and clean UI styling.The converter supports multiple currencies such as USD, PKR, INR, and AUD.
+The result is displayed dynamically after successful conversion. This project demonstrates API integration, state management, and clean UI design in React. |
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 22  | [ Currency Converter React App ](   ) |    | Learned   |
 
 
 
@@ -362,7 +371,9 @@ The result is displayed dynamically after successful conversion. This project de
   ![Avatar](public/images/22-Currency-Converter.png)
 
 
+- Project  23
 
+  ![Avatar](public/images/password-generator.png)
 
 ## Acknowledgements
 
