@@ -232,7 +232,27 @@ The result is displayed dynamically after successful conversion. This project de
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 22  | [ Currency Converter React App ](   ) |    | Learned   |
+| 23  | [ Password Generator App ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/23%20-%20Password%20Generator) |    | Learned   |
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 24  | [ Sticky Note React App ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/24%20-%20Sticky%20Notes%20App) | toggle-based UI ,  best use parent–child component communication with usestate         | Learned Users can add multiple notes dynamically using React state management.Each note supports inline editing with a simple toggle-based UI.Text updates are handled efficiently through parent–child component communication.Notes can be deleted individually without affecting others.
+The layout is responsive and adapts to different screen sizes. Clean component structure improves readability and maintainability. This project demonstrates practical use of React hooks and UI state control.  |
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 25  | [ Quiz application ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/24%20-%20Sticky%20Notes%20App) |  props , array extract and useState  | learned This is a React Quiz App built using useState for state management.The app displays multiple-choice array-based questions imported from arrayQuestions.jsx.
+Users can select answers and navigate between questions using Previous and Next buttons.
+Each selected answer is compared with the correct answer to calculate the score.The app tracks the current question index, selected choice, and total score.Once all questions are answered, it shows a Quiz Result screen with total score.Users can restart the quiz, which resets all states including score and selections.
+
+Styling is implemented using Tailwind CSS for responsive and clean UI.Remixicon icons are used for Previous/Next navigation buttons.The app ensures real-time score updating and smooth question transitions for an interactive quiz experience. |
+
+
+
+
 
 
 
@@ -373,7 +393,28 @@ The result is displayed dynamically after successful conversion. This project de
 
 - Project  23
 
-  ![Avatar](public/images/password-generator.png)
+  ![Avatar](public/images/.png)
+
+
+
+- Project  24
+
+ - ![Avatar](public/images/.png)
+
+
+
+- Project  25
+
+ - ![Avatar](public/images/25-Quiz-App.png)
+
+
+
+
+
+
+
+
+
 
 ## Acknowledgements
 

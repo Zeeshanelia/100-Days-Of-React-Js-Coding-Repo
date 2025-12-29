@@ -1,26 +1,20 @@
- ##   QR Code Generator React Js App 
+ ##   Sticky Note App ReactJs App 
 
-  - QR Code Generator React JS App
-  
-This project is a QR Code Generator built using React JS.
-It allows users to generate QR codes for text or URLs instantly.
-The application uses the useRef hook for direct DOM access and input handling.
-Ant Design (AntD) Form components are used for structured and validated inputs.
-Tailwind CSS is applied for modern, responsive, and clean UI styling.
-Users can customize QR code size and appearance.
-The app supports dynamic updates without page reloads.
-State management is handled using React hooks.
-The UI includes smooth animations for better user experience.
-The project follows a clean and modular component structure.
-It is beginner-friendly and easy to understand.
-Suitable for learning React hooks and UI libraries integration.
-The app is fully responsive across different screen sizes.
-Ideal for practice, demos, and small utility projects.
+  - Sticky Notes application.
+
+This project is a Sticky Notes application built with React and Tailwind CSS.
+Users can add multiple notes dynamically using React state management.
+Each note supports inline editing with a simple toggle-based UI.
+Text updates are handled efficiently through parent–child component communication.
+Notes can be deleted individually without affecting others.
+The layout is responsive and adapts to different screen sizes.
+Clean component structure improves readability and maintainability.
+This project demonstrates practical use of React hooks and UI state control.
 
 
- - ![Avatar](public/images/qrcode2.png)
+ - ![Avatar](public/images/24-Sticky-Note-App.png)
 
- - ![Avatar](public/images/qrcode.png)
+
 
 
 

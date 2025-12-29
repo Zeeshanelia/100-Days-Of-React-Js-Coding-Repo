@@ -4,11 +4,24 @@ import { StickyNotes } from "./Component/StickyNotes"
 
 function App() {
   const [addNote, setAddNote] = useState([]);
+ 
   const notes = () => {
-    setAddNote([...addNote, { id: Date.now() ,text:"addi note with abc defjhr"
+    setAddNote([...addNote, { id: Date.now() , text: "Start typing here, This is Sticky Note "
     }])
     console.log(addNote)
   }
+
+  const upadatesNote = (id , newText) => {
+    setAddNote((previousNotes)=> previousNotes.map((note) =>(
+      note.id === id ? {...note , text: newText} : note )))
+  }
+
+  const deleteBtn = (id) => {
+    // setAddNote(addNote.filter((note)=> note.id !==id ))
+    setAddNote(prev => prev.filter(note => note.id !== id));
+
+    
+    }
 
   return (
     <>
@@ -24,7 +37,9 @@ function App() {
 
             {
               addNote.map((note)=>(
-                   <StickyNotes key={note.id} id={note.id} text={note.text} />
+                   <StickyNotes key={note.id} id={note.id} text={note.text} 
+                   onUpdatesNote={upadatesNote} 
+                   onDelete={()=>deleteBtn(note.id)} />
               ))
             }
           </div>
