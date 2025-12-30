@@ -232,7 +232,7 @@ The result is displayed dynamically after successful conversion. This project de
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 23  | [ Password Generator App ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/23%20-%20Password%20Generator) |    | Learned   |
+| 23  | [ Password Generator App ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/23%20-%20Password%20Generator) | best usecase of useState   | Learned Random Password Generator using useState and TailwindCSS.Generates secure passwords with customizable length based on a predefined pattern.Users can input desired password length and generate a random password instantly.Displays the generated password in a read-only field with copy icon for convenience.Styled with responsive layout, gradients, shadows, and modern UI elements. Perfect for quickly creating strong passwords for online accounts and security needs. |
 
 
 
@@ -242,14 +242,20 @@ The result is displayed dynamically after successful conversion. This project de
 The layout is responsive and adapts to different screen sizes. Clean component structure improves readability and maintainability. This project demonstrates practical use of React hooks and UI state control.  |
 
 
+
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 25  | [ Quiz application ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/24%20-%20Sticky%20Notes%20App) |  props , array extract and useState  | learned This is a React Quiz App built using useState for state management.The app displays multiple-choice array-based questions imported from arrayQuestions.jsx.
-Users can select answers and navigate between questions using Previous and Next buttons.
-Each selected answer is compared with the correct answer to calculate the score.The app tracks the current question index, selected choice, and total score.Once all questions are answered, it shows a Quiz Result screen with total score.Users can restart the quiz, which resets all states including score and selections.
-
+| 25  | [ Quiz application ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/25%20-%20Quiz%20App) |  props , array extract and useState  | learned This is a React Quiz App built using useState for state management.The app displays multiple-choice array-based questions imported from arrayQuestions.jsx.Users can select answers and navigate between questions using Previous and Next buttons. Each selected answer is compared with the correct answer to calculate the score.The app tracks the current question index, selected choice, and total score.Once all questions are answered, it shows a Quiz Result screen with total score.Users can restart the quiz, which resets all states including score and selections.
 Styling is implemented using Tailwind CSS for responsive and clean UI.Remixicon icons are used for Previous/Next navigation buttons.The app ensures real-time score updating and smooth question transitions for an interactive quiz experience. |
 
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 25  | [ validation with Zod  ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/25%20-%20Quiz%20App) |  Zod lib. Form Validation Project and useState  | learned A simple React form with email and password inputs.
+Uses state to manage form values and errors.Validates inputs on form submission (required fields, email format, password length). Displays error messages below inputs when validation fails.Clears specific errors as the user types for better UX.Uses spread operator (...) to update state immutably. |
 
 
 
@@ -324,6 +330,7 @@ Styling is implemented using Tailwind CSS for responsive and clean UI.Remixicon 
 
 
 
+
  - Project 12 
 
   ![alt text](public/images/12-Dark-mode-ContextApi.png)
@@ -336,10 +343,12 @@ Styling is implemented using Tailwind CSS for responsive and clean UI.Remixicon 
   ![alt text](public/images/13-ContextApi-Functional-Website.png)
 
 
+
  
   - Project 14 
 
   ![alt text](public/images/14-Google-Translate-Clone.png)
+
 
 
 
@@ -349,9 +358,11 @@ Styling is implemented using Tailwind CSS for responsive and clean UI.Remixicon 
 
 
 
+
   - Project 16
 
   ![alt text](public/images/16-Emoji-Finder-App.png)
+
 
 
 
@@ -370,6 +381,8 @@ Styling is implemented using Tailwind CSS for responsive and clean UI.Remixicon 
    - Project 19
 
    ![Avatar](public/images/19-img-resize-finder.png)
+
+
 
 
   - Project 20
@@ -406,6 +419,21 @@ Styling is implemented using Tailwind CSS for responsive and clean UI.Remixicon 
 - Project  25
 
  - ![Avatar](public/images/25-Quiz-App.png)
+
+
+
+
+- Project  26
+
+ - ![Avatar](public/images/26-.png)
+
+
+
+
+ - Project 26  
+ 
+ ![alt text](public/images/26-zod.png)
+
 
 
 
