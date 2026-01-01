@@ -254,10 +254,17 @@ Styling is implemented using Tailwind CSS for responsive and clean UI.Remixicon 
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 25  | [ validation with Zod  ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/25%20-%20Quiz%20App) |  Zod lib. Form Validation Project and useState  | learned A simple React form with email and password inputs.
+| 26  | [ validation with Zod  ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/26-validation-with-zod) |  Zod lib. Form Validation Project and useState  | learned A simple React form with email and password inputs.
 Uses state to manage form values and errors.Validates inputs on form submission (required fields, email format, password length). Displays error messages below inputs when validation fails.Clears specific errors as the user types for better UX.Uses spread operator (...) to update state immutably. |
 
 
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 27  | [ Text Editor App  ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/26-validation-with-zod) |  Zod lib. Form Validation Project and useState  | learned This React app integrates TipTap, a modern rich text editor, with Tailwind CSS styling.
+It supports bold, headings (H1–H6), paragraphs, code, code blocks, line breaks, and horizontal rules.Users can save content, and undo/redo actions are fully functional.
+The editor is responsive and provides a clean, scrollable toolbar.
+Saved HTML content is displayed below the editor for easy review or backend submission. This setup is ideal for creating blogs, notes, or any rich text input in React projects. |
 
 
 
@@ -433,6 +440,13 @@ Uses state to manage form values and errors.Validates inputs on form submission 
  - Project 26  
  
  ![alt text](public/images/26-zod.png)
+
+
+
+ - Project 27
+
+ ![alt text](public/images/text-editor.png)
+
 
 
 
