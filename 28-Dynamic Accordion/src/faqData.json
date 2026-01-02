@@ -1,0 +1,27 @@
+ [
+    {
+      "id": 1,
+      "question": "What is the DOM in JavaScript?",
+      "answer": "The DOM (Document Object Model) is an interface that allows programs to interact with and manipulate HTML or XML documents. It represents the page as a tree structure where each node is an object representing part of the page."
+    },
+    {
+      "id": 2,
+      "question": "How can I access an element in the DOM?",
+      "answer": "You can access elements in the DOM using methods like `getElementById()`, `getElementsByClassName()`, or `querySelector()`. For example: `document.getElementById('myElement')`."
+    },
+    {
+      "id": 3,
+      "question": "What is the difference between `getElementById()` and `querySelector()`?",
+      "answer": "`getElementById()` returns an element with the specified `id` attribute, while `querySelector()` returns the first element that matches a specified CSS selector (it can be more flexible, like selecting by class or tag)."
+    },
+    {
+      "id": 4,
+      "question": "How can I change the content of an element in the DOM?",
+      "answer": "To change the content of an element, you can use the `innerHTML` or `textContent` properties. For example, `document.getElementById('myElement').innerHTML = 'New Content';`."
+    },
+    {
+      "id": 5,
+      "question": "What is event handling in the DOM?",
+      "answer": "Event handling in the DOM allows you to respond to user actions (like clicks, typing, etc.). You can attach event listeners using methods like `addEventListener()` to listen for specific events on DOM elements."
+    }
+  ]

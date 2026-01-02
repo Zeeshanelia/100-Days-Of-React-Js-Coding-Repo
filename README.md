@@ -261,8 +261,7 @@ Uses state to manage form values and errors.Validates inputs on form submission 
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 27  | [ Text Editor App  ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/26-validation-with-zod) |  Zod lib. Form Validation Project and useState  | learned This React app integrates TipTap, a modern rich text editor, with Tailwind CSS styling.
-It supports bold, headings (H1–H6), paragraphs, code, code blocks, line breaks, and horizontal rules.Users can save content, and undo/redo actions are fully functional.
+| 27  | [ Text Editor App  ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/27-%20Tiptap%20text%20editor) |    | learned This React app integrates TipTap, a modern rich text editor, with Tailwind CSS styling.It supports bold, headings (H1–H6), paragraphs, code, code blocks, line breaks, and horizontal rules.Users can save content, and undo/redo actions are fully functional.
 The editor is responsive and provides a clean, scrollable toolbar.
 Saved HTML content is displayed below the editor for easy review or backend submission. This setup is ideal for creating blogs, notes, or any rich text input in React projects. |
 
@@ -413,13 +412,13 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
 - Project  23
 
-  ![Avatar](public/images/.png)
+  ![Avatar](public/images/23-password-generator.png)
 
 
 
 - Project  24
 
- - ![Avatar](public/images/.png)
+ - ![Avatar](public/images/24-Sticky-Note-App.png)
 
 
 
@@ -432,14 +431,9 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
 - Project  26
 
- - ![Avatar](public/images/26-.png)
+ - ![Avatar](public/images/26-zod.png)
 
 
-
-
- - Project 26  
- 
- ![alt text](public/images/26-zod.png)
 
 
 
