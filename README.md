@@ -238,15 +238,14 @@ The result is displayed dynamically after successful conversion. This project de
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 24  | [ Sticky Note React App ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/24%20-%20Sticky%20Notes%20App) | toggle-based UI ,  best use parent–child component communication with usestate         | Learned Users can add multiple notes dynamically using React state management.Each note supports inline editing with a simple toggle-based UI.Text updates are handled efficiently through parent–child component communication.Notes can be deleted individually without affecting others.
+| 24  | [ Sticky Note React App ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/24%20-%20Sticky%20Notes%20App) | toggle-based UI , best use parent–child component communication with usestate  | Learned Users can add multiple notes dynamically using React state management.Each note supports inline editing with a simple toggle-based UI.Text updates are handled efficiently through parent–child component communication.Notes can be deleted individually without affecting others.
 The layout is responsive and adapts to different screen sizes. Clean component structure improves readability and maintainability. This project demonstrates practical use of React hooks and UI state control.  |
 
 
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 25  | [ Quiz application ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/25%20-%20Quiz%20App) |  props , array extract and useState  | learned This is a React Quiz App built using useState for state management.The app displays multiple-choice array-based questions imported from arrayQuestions.jsx.Users can select answers and navigate between questions using Previous and Next buttons. Each selected answer is compared with the correct answer to calculate the score.The app tracks the current question index, selected choice, and total score.Once all questions are answered, it shows a Quiz Result screen with total score.Users can restart the quiz, which resets all states including score and selections.
-Styling is implemented using Tailwind CSS for responsive and clean UI.Remixicon icons are used for Previous/Next navigation buttons.The app ensures real-time score updating and smooth question transitions for an interactive quiz experience. |
+| 25  | [ Quiz application ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/25%20-%20Quiz%20App) |  props , array extract and useState  | learned This is a React Quiz App built using useState for state management.The app displays multiple-choice array-based questions imported from arrayQuestions.jsx.Users can select answers and navigate between questions using Previous and Next buttons. Each selected answer is compared with the correct answer to calculate the score.The app tracks the current question index, selected choice, and total score.Once all questions are answered, it shows a Quiz Result screen with total score.Users can restart the quiz, which resets all states including score and selections.Styling is implemented using Tailwind CSS for responsive and clean UI.Remixicon icons are used for Previous/Next navigation buttons.The app ensures real-time score updating and smooth question transitions for an interactive quiz experience. |
 
 
 
@@ -254,16 +253,30 @@ Styling is implemented using Tailwind CSS for responsive and clean UI.Remixicon 
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 26  | [ validation with Zod  ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/26-validation-with-zod) |  Zod lib. Form Validation Project and useState  | learned A simple React form with email and password inputs.
-Uses state to manage form values and errors.Validates inputs on form submission (required fields, email format, password length). Displays error messages below inputs when validation fails.Clears specific errors as the user types for better UX.Uses spread operator (...) to update state immutably. |
+| 26  | [ validation with Zod  ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/26-validation-with-zod) |  Zod lib. Form Validation Project and useState  | learned A simple React form with email and password inputs.Uses state to manage form values and errors.Validates inputs on form submission (required fields, email format, password length). Displays error messages below inputs when validation fails.Clears specific errors as the user types for better UX.Uses spread operator (...) to update state immutably. |
 
 
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 27  | [ Text Editor App  ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/27-%20Tiptap%20text%20editor) |    | learned This React app integrates TipTap, a modern rich text editor, with Tailwind CSS styling.It supports bold, headings (H1–H6), paragraphs, code, code blocks, line breaks, and horizontal rules.Users can save content, and undo/redo actions are fully functional.
-The editor is responsive and provides a clean, scrollable toolbar.
+| 27  | [ Text Editor App  ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/27-%20Tiptap%20text%20editor) |    | learned This React app integrates TipTap, a modern rich text editor, with Tailwind CSS styling.It supports bold, headings (H1–H6), paragraphs, code, code blocks, line breaks, and horizontal rules.Users can save content, and undo/redo actions are fully functional.The editor is responsive and provides a clean, scrollable toolbar.
 Saved HTML content is displayed below the editor for easy review or backend submission. This setup is ideal for creating blogs, notes, or any rich text input in React projects. |
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 28  | [ Dynamic Accordion  ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/28-Dynamic%20Accordion) | useState with props and toggle   | learned It displays a list of questions, and users can toggle the visibility of the answers by clicking the "Show" or "Close" buttons. Dynamic FAQ rendering using React. Toggle functionality to show or hide answers.Smooth UI with hover effects and transitions. |
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 29  | [  Crypto Tracker React App  ]( ) | Api with useEffect , useState with other functiolity search for coins | learned This React app displays top cryptocurrencies in PKR using the CoinGecko API. It shows coin name, symbol, price, 24h change, volume, and market cap in a responsive table. Users can search for coins by name or symbol using the search bar.The 24h price change is color-coded: green for positive, red for negative.Fully frontend-only, no API key is required, and works directly in the browser.Built with React, TailwindCSS, and functional components for easy customization. |
+
+
 
 
 
@@ -439,12 +452,19 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
  - Project 27
 
- ![alt text](public/images/text-editor.png)
+ ![alt text](public/images/27-text-editor.png)
 
 
 
+ - Project 28
+
+ ![alt text](public/images/28-Dynamic-Accordion.png)
 
 
+
+ - Project 29
+
+ ![alt text](public/images/29-Crypto-Tracker-App.png)
 
 
 
