@@ -274,7 +274,19 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 29  | [  Crypto Tracker React App  ]( ) | Api with useEffect , useState with other functiolity search for coins | learned This React app displays top cryptocurrencies in PKR using the CoinGecko API. It shows coin name, symbol, price, 24h change, volume, and market cap in a responsive table. Users can search for coins by name or symbol using the search bar.The 24h price change is color-coded: green for positive, red for negative.Fully frontend-only, no API key is required, and works directly in the browser.Built with React, TailwindCSS, and functional components for easy customization. |
+| 29  | [  Crypto Tracker React App  ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/29%20-%20Crypto%20Tracker%20App ) | Api with useEffect , useState with other functiolity search for coins | learned This React app displays top cryptocurrencies in PKR using the CoinGecko API. It shows coin name, symbol, price, 24h change, volume, and market cap in a responsive table. Users can search for coins by name or symbol using the search bar.The 24h price change is color-coded: green for positive, red for negative.Fully frontend-only, no API key is required, and works directly in the browser.Built with React, TailwindCSS, and functional components for easy customization. |
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 30  | [  Random Joke Generator React App  ](  ) |  useEffect , useState with logic | learned This project is a Random Joke Generator built using React.js and Hooks.It fetches jokes from a public API using the Fetch API.The joke setup is displayed first to the user. A button allows users to reveal the punchline on click.State management is handled using useState and useEffect.The UI is styled with Tailwind CSS and Animate.css for better user experience. |
+
+
+
+
+
 
 
 
@@ -468,7 +480,9 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
 
 
+- Project 30
 
+ ![alt text](public/images/30-Random-Joke-Generator.png)
 
 
 
