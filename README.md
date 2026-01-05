@@ -281,9 +281,14 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 30  | [  Random Joke Generator React App  ](  ) |  useEffect , useState with logic | learned This project is a Random Joke Generator built using React.js and Hooks.It fetches jokes from a public API using the Fetch API.The joke setup is displayed first to the user. A button allows users to reveal the punchline on click.State management is handled using useState and useEffect.The UI is styled with Tailwind CSS and Animate.css for better user experience. |
+| 30  | [  Random Joke Generator React App  ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/30%20-%20Random%20Joke%20Generator ) |  useEffect , useState with logic | learned This project is a Random Joke Generator built using React.js and Hooks.It fetches jokes from a public API using the Fetch API.The joke setup is displayed first to the user. A button allows users to reveal the punchline on click.State management is handled using useState and useEffect.The UI is styled with Tailwind CSS and Animate.css for better user experience. |
 
 
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 31  | [   Event Manager ReactJs App  ](  ) |  useEffect , useState with logic | learned to display and filter events efficiently. Users can browse a list of upcoming events with detailed information including date, location, and description.The app provides month and year filtering to help users find relevant events quickly.React Router is used for smooth navigation between pages.Tailwind CSS is implemented for a modern, responsive, and clean user interface.Reusable components improve code readability and maintainability.Event data is dynamically rendered using JavaScript array methods.The filtering logic is handled using controlled components and state management.The application follows a mobile-first responsive design approach.This project is ideal for practicing React fundamentals and UI structuring.  |
 
 
 
@@ -483,6 +488,11 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 - Project 30
 
  ![alt text](public/images/30-Random-Joke-Generator.png)
+
+
+- Project 31  
+ 
+ ![alt text](public/images/31-Event-Manager.png)
 
 
 
