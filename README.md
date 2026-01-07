@@ -288,8 +288,15 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 31  | [   Event Manager ReactJs App  ](  ) |  useEffect , useState with logic | learned to display and filter events efficiently. Users can browse a list of upcoming events with detailed information including date, location, and description.The app provides month and year filtering to help users find relevant events quickly.React Router is used for smooth navigation between pages.Tailwind CSS is implemented for a modern, responsive, and clean user interface.Reusable components improve code readability and maintainability.Event data is dynamically rendered using JavaScript array methods.The filtering logic is handled using controlled components and state management.The application follows a mobile-first responsive design approach.This project is ideal for practicing React fundamentals and UI structuring.  |
+| 31  | [   Event Manager ReactJs App  ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/31-%20Event%20Manager%20App ) |  useEffect , useState with logic | learned to display and filter events efficiently. Users can browse a list of upcoming events with detailed information including date, location, and description.The app provides month and year filtering to help users find relevant events quickly.React Router is used for smooth navigation between pages.Tailwind CSS is implemented for a modern, responsive, and clean user interface.Reusable components improve code readability and maintainability.Event data is dynamically rendered using JavaScript array methods.The filtering logic is handled using controlled components and state management.The application follows a mobile-first responsive design approach.This project is ideal for practicing React fundamentals and UI structuring.  |
 
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 32  | [ User Authentication With Login Signup ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/31-%20Event%20Manager%20App ) |  useEffect , useState with logic | learned modern authentication system built with React and Firebase Authentication. It supports secure user login and registration using email and password.Firebase handles authentication, session management, and user security. Password visibility toggle improves usability during authentication. Error handling provides clear feedback for invalid credentials or network issues. The app uses React Router for seamless navigation between pages. This authentication module can be easily integrated into larger applications. |
 
 
 
@@ -493,6 +500,16 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 - Project 31  
  
  ![alt text](public/images/31-Event-Manager.png)
+
+
+
+- Project 32  
+ 
+ ![alt text](public/images/32-firebase-authencation.png)
+
+
+
+
 
 
 
