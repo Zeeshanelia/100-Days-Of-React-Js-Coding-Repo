@@ -296,7 +296,15 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 32  | [ User Authentication With Login Signup ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/31-%20Event%20Manager%20App ) |  useEffect , useState with logic | learned modern authentication system built with React and Firebase Authentication. It supports secure user login and registration using email and password.Firebase handles authentication, session management, and user security. Password visibility toggle improves usability during authentication. Error handling provides clear feedback for invalid credentials or network issues. The app uses React Router for seamless navigation between pages. This authentication module can be easily integrated into larger applications. |
+| 32  | [ User Authentication With Login Signup ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/32-%20User%20Authentication%20With%20Login%20Signup ) |  logic of firebase authentication with useState   | learned modern  system built with React and Firebase Authentication. It supports secure user login and registration using email and password.Firebase handles authentication, session management, and user security. Password visibility toggle improves usability during authentication. Error handling provides clear feedback for invalid credentials or network issues. The app uses React Router for seamless navigation between pages. This authentication module can be easily integrated into larger applications. |
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 33  | [  ](  ) |  useEffect , useState with logic | learned modern authentication system built with React and Firebase Authentication. It supports secure user login and registration using email and password.Firebase handles authentication, session management, and user security. Password visibility toggle improves usability during authentication. Error handling provides clear feedback for invalid credentials or network issues. The app uses React Router for seamless navigation between pages. This authentication module can be easily integrated into larger applications. |
+
 
 
 
@@ -509,6 +517,9 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
 
 
+- Project 33  
+ 
+ ![alt text](public/images/.png)
 
 
 
