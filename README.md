@@ -303,10 +303,12 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 33  | [  ](  ) |  useEffect , useState with logic | learned modern authentication system built with React and Firebase Authentication. It supports secure user login and registration using email and password.Firebase handles authentication, session management, and user security. Password visibility toggle improves usability during authentication. Error handling provides clear feedback for invalid credentials or network issues. The app uses React Router for seamless navigation between pages. This authentication module can be easily integrated into larger applications. |
+| 33  | [ React Password Protected Contact With Zastand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/33-%20React%20Password%20Protected%20Contact%20With%20Zastand ) |  logic With Zastand | learned  |
 
 
-
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 34  | [  ](  ) |  logic With Zastand | learned  |
 
 
 
@@ -518,6 +520,11 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
 
 - Project 33  
+ 
+ ![alt text](public/images/.png)
+
+
+ - Project 34  
  
  ![alt text](public/images/.png)
 
