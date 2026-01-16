@@ -303,14 +303,22 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 33  | [ React Password Protected Contact With Zastand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/33-%20React%20Password%20Protected%20Contact%20With%20Zastand ) |  logic With Zastand | learned  |
+| 33  | [ React Password Protected Contact With Zastand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/33-%20React%20Password%20Protected%20Contact%20With%20Zastand ) |  logic With Zastand | learned This React application demonstrates modal-based form handling using Ant Design components.useState is used to control modal visibility for password unlocking and adding contacts. The UI is styled with Tailwind CSS, Animate.css, and Remix Icons for a modern experience.Contacts are displayed in a responsive table layout.Sensitive contact information is protected via a password modal.
+Ant Design Form validation ensures required inputs are provided.The Add Contact modal allows users to dynamically submit new contact data. This project is suitable for learning modal workflows and form state management in React. |
+
+
 
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 34  | [  ](  ) |  logic With Zastand | learned  |
+| 34  | [ ShopEase Navigation Component ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/34-%20ShopEase%20Navigation%20Component ) |  Tailwind CSS ,Remix Icons  | learned A fully responsive, modern navigation bar built with React and Tailwind CSS. Features a mobile-friendly design with smooth animations and intuitive user interactions. |
 
 
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 35  | [ World Timezone App ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/34-%20ShopEase%20Navigation%20Component ) | useEffect , setInterval , setTime demonstrates time zone handling useState with Tailwind CSS  ready | learned handling with using Moment Timezone in a React application. Country and time zone data are stored as an array of objects for easy scalability.React useState is used to manage the selected country and its time zone dynamically.Moment Timezone converts and formats time based on the selected time zone.
+The UI updates in real time when the user changes the country selection.The implementation follows clean, reusable component structure.This setup is ideal for time converters, schedulers, and global applications. |
 
 
 
@@ -521,12 +529,17 @@ Saved HTML content is displayed below the editor for easy review or backend subm
 
 - Project 33  
  
- ![alt text](public/images/.png)
+ ![alt text](public/images/33-Password-Protected.png)
 
 
  - Project 34  
  
- ![alt text](public/images/.png)
+ ![alt text](public/images/34-nav-bar.png)
+
+
+  - Project 35  
+ 
+ ![alt text](public/images/35-World`s-TimeZone.png)
 
 
 

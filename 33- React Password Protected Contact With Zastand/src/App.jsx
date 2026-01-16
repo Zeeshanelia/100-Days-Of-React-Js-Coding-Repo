@@ -20,7 +20,7 @@ function App() {
     <>
       <div className="py-4 bg-gradient-to-l from-red-300 via-pink-800 to-yellow-300 min-h-screen">
 
-        <p className="text-xl font-bold text-gray-700  border mx-auto w-96 bg-gradient-to-l from-red-300 via-pink-800 to-yellow-300 text-center rounded-xl"> PassWord Generator </p>
+        <p className="text-xl font-bold text-gray-700  border mx-auto w-96 bg-gradient-to-l from-red-300 via-pink-800 to-yellow-300 text-center rounded-xl"> Password Protected Contact With Zastand </p>
 
          {/* Add Contact Button  */}
         <Button
