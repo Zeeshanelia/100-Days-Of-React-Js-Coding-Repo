@@ -53,14 +53,9 @@ List what concepts each project or the repo as a whole covers:
 
 
 
-
-
 ## Projects List
 This repository contains 100 React projects built over 100 days.  
 Each project is linked below for easy access and learning.
-
-
-
 
 
 
