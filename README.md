@@ -329,6 +329,15 @@ The UI updates in real time when the user changes the country selection.The impl
 
 
 
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 39  | [ To Do Using useReducer ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/34-%20ShopEase%20Navigation%20Component ) | useReducer Form handling with  useState & Tailwind CSS | learned A modern task management application built with React and useReducer. Features full CRUD operations with a clean, responsive UI. The app demonstrates state management using React's useReducer hook, offering predictable state transitions through reducer patterns. Includes gradient backgrounds, smooth transitions, and intuitive task editing capabilities. Perfect for learning React state management concepts in a practical implementation. |
+
+
+
+
+
+
  - Project 1  
  
  ![alt text](public/images/1-Gradient-Unlimited.png)
@@ -546,6 +555,34 @@ The UI updates in real time when the user changes the country selection.The impl
  
  ![alt text](public/images/35-World`s-TimeZone.png)
 
+
+  - Project 36  
+ 
+ ![alt text](public/images/36-Pomodoro-App-Timer-&-Alarm-Tracker.png)
+
+
+   - Project 37  
+ 
+ ![alt text](public/images/37-Form-Data-Export-CSV.png)
+
+
+
+ - Project 38  
+ 
+ ![alt text](public/images/.png)
+
+
+
+   - Project 39  
+ 
+ ![alt text](public/images/39-Task-Manager-using-useReducer.png)
+
+
+
+
+
+
+  
 
 
 
