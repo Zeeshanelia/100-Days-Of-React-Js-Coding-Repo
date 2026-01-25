@@ -323,15 +323,38 @@ The UI updates in real time when the user changes the country selection.The impl
 The UI updates in real time when the user changes the country selection.The implementation follows clean, reusable component structure.This setup is ideal for time converters, schedulers, and global applications. |
 
 
-
-
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 36  | [ Pomodoro Timer App ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/36-%20Pomodoro%20Timer%20App ) | useEffect , setInterval , React and Zustand that helps users track goals useState with Tailwind CSS | learned Goal Management: Create, track, and manage multiple goals with descriptions and custom timers Visual Progress Tracking: Interactive progress bars with gradient colors showing real-time completion status Smart Timer System: Countdown timers with start/pause/reset functionality and automatic alarm notifications Audio Alerts: Customizable alarm sounds that trigger when timers complete Persistent Storage: All goals and progress are saved locally using Zustand persistence Modern UI: Elegant design with Ant Design components, gradient backgrounds, and smooth animations Responsive Design: Works seamlessly across desktop and mobile devices. |
 
 
 
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 39  | [ To Do Using useReducer ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/34-%20ShopEase%20Navigation%20Component ) | useReducer Form handling with  useState & Tailwind CSS | learned A modern task management application built with React and useReducer. Features full CRUD operations with a clean, responsive UI. The app demonstrates state management using React's useReducer hook, offering predictable state transitions through reducer patterns. Includes gradient backgrounds, smooth transitions, and intuitive task editing capabilities. Perfect for learning React state management concepts in a practical implementation. |
+| 37  | [ Data Export CSV App ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/37-%20Data%20Export%20CSV ) | Antd design , Csv useEffect , setInterval  useState with Tailwind CSS  ready | learned Form Input Application built using React.js and Ant Design (AntD) components. The project demonstrates controlled form handling with validation using AntD Form. User input data is managed efficiently with React state and event handling. Submitted form data is stored in a structured format within the application. The application includes a CSV downloader to export user input data. CSV files are generated dynamically based on submitted form values. This project highlights clean UI design and practical data export functionality. |
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 38  | [ Advanced Task Planner With Zustand App ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/38-%20Advanced%20Task%20Planner%20With%20Zustand ) | useEffect , setInterval  useState with Tailwind CSS  ready | learned 
+ |
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 39  | [ To Do Using useReducer ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/39-%20To%20Do%20using%20useReducer ) | useReducer Form handling with  useState & Tailwind CSS | learned A modern task management application built with React and useReducer. Features full CRUD operations with a clean, responsive UI. The app demonstrates state management using React's useReducer hook, offering predictable state transitions through reducer patterns. Includes gradient backgrounds, smooth transitions, and intuitive task editing capabilities. Perfect for learning React state management concepts in a practical implementation. |
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 40  | [ Form Management with Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/39-%20To%20Do%20using%20useReducer ) | Form Persistence , Form handling with Zustand State Management,  useState & Tailwind CSS | learned A modern, responsive sign-in form built with React and Zustand for state management, featuring form persistence and smooth animations. 
+User inputs data → Local component state updates.
+Zustand store syncs → Global state updates
+Persistence middleware → localStorage saves (if remembered)
+Page reload → State auto-restores from localStorage. |
 
 
 
@@ -578,6 +601,10 @@ The UI updates in real time when the user changes the country selection.The impl
  ![alt text](public/images/39-Task-Manager-using-useReducer.png)
 
 
+
+  - Project 40  
+ 
+ ![alt text](public/images/40-form-zustand.png)
 
 
 
