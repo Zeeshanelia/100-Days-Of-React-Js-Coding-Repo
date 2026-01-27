@@ -350,7 +350,7 @@ The UI updates in real time when the user changes the country selection.The impl
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 40  | [ Form Management with Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/39-%20To%20Do%20using%20useReducer ) | Form Persistence , Form handling with Zustand State Management,  useState & Tailwind CSS | learned A modern, responsive sign-in form built with React and Zustand for state management, featuring form persistence and smooth animations. 
+| 40  | [ Form Management with Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/Admin%20Panel%20Layout%20Responsive%20-%20Copy ) | Form Persistence , Form handling with Zustand State Management,  useState & Tailwind CSS | learned A modern, responsive sign-in form built with React and Zustand for state management, featuring form persistence and smooth animations. 
 User inputs data → Local component state updates.
 Zustand store syncs → Global state updates
 Persistence middleware → localStorage saves (if remembered)
