@@ -358,6 +358,13 @@ Page reload → State auto-restores from localStorage. |
 
 
 
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 41  | [ E-Commerce App Fully Functional With useState ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/41-%20Ecommerce%20Fully%20Functional%20With%20useState ) |Array methods: map, filter, reduce, some useState, useEffect & Tailwind CSS | learned Proper state design prevents unnecessary bugs and UI conflicts, React props are case-sensitive and must be passed carefully, Hooks like useNavigate require proper context (Router), Conditional rendering should avoid mixed logical operators,  Always verify which variable is in scope inside .map() loops, Functional updates are safer when updating state based on previous values, Never render UI values directly without validating state existence , Centralized UI state simplifies complex panel management, JavaScript logic quality directly affects React UI stability, Debugging errors strengthens understanding of React’s render cycle
+ |
+
+
+
 
 
 
@@ -605,6 +612,13 @@ Page reload → State auto-restores from localStorage. |
   - Project 40  
  
  ![alt text](public/images/40-form-zustand.png)
+
+
+
+   - Project 41 
+ 
+ ![alt text](public/images/40-E-commerce-Fully-Functional.png)
+
 
 
 
