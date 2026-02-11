@@ -9,7 +9,7 @@ This repo is a commitment to growth, discipline, and improvement.
 You can follow along, try the projects, or get inspired for your own journey.
 Mistakes, fixes, and lessons learned are all part of the process here.
 Every line of code is progress, and progress leads to mastery.
-Let's Start to build, learningsssss , and growssss in ReactJs ! 
+Let's Start to build, learningsssss , and growssss in ReactJs !
 
  -   ![100 Days Of ReactJs Coding & Hard Projects Challenge](https://img.shields.io/badge/100%20Days-ReactJS%20Coding%20%26%20Hard%20Projects-brightgreen)
 
@@ -54,7 +54,7 @@ List what concepts each project or the repo as a whole covers:
 
 
 ## Projects List
-This repository contains 100 React projects built over 100 days.  
+This repository contains 100 React projects built over 100 days.
 Each project is linked below for easy access and learning.
 
 
@@ -148,7 +148,7 @@ Each project is linked below for easy access and learning.
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 13   | [ContextApi Functional Website](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/13-ContextApi%20Functional%20Website) | maximum use of Context Api , Router  | Learned responsive, dynamic e-commerce React app with a functional shopping cart, global state management, dark mode, and smooth UI effects using Tailwind CSS and React Context. Gained hands-on experience with routing, debugging, custom hooks, and clean project structuring for maintainable, modern applications |   
+| 13   | [ContextApi Functional Website](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/13-ContextApi%20Functional%20Website) | maximum use of Context Api , Router  | Learned responsive, dynamic e-commerce React app with a functional shopping cart, global state management, dark mode, and smooth UI effects using Tailwind CSS and React Context. Gained hands-on experience with routing, debugging, custom hooks, and clean project structuring for maintainable, modern applications |
 
 
 
@@ -163,7 +163,7 @@ Each project is linked below for easy access and learning.
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 15   | [ContextApi Functional Website](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/15-Login%20Form%20with%20useReducer%20Mini%20Pro) | Login logOut Form  useReducer useState with hide show password username | Learned Login & Logout Form in React using useReducer for state management.Handle username and ID inputs smoothly with controlled components. Learn simple, clean, and efficient form handling | 
+| 15   | [ContextApi Functional Website](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/15-Login%20Form%20with%20useReducer%20Mini%20Pro) | Login logOut Form  useReducer useState with hide show password username | Learned Login & Logout Form in React using useReducer for state management.Handle username and ID inputs smoothly with controlled components. Learn simple, clean, and efficient form handling |
 
 
 
@@ -179,13 +179,13 @@ Trigger file downloads programmatically |
 
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
-| 17  |[ContextApi Functional Website]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/13-ContextApi%20Functional%20Website ) | maximum use of   | Learned  |   
+| 17  |[ContextApi Functional Website]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/13-ContextApi%20Functional%20Website ) | maximum use of   | Learned  |
 
 
 
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
-| 18 |[Ecommerce With Context Api & useEffect Rest Api](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | maximum use Context API with useEffect with Real World Project   | Learned best approach useEffect to Update Context with fetching data | 
+| 18 |[Ecommerce With Context Api & useEffect Rest Api](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | maximum use Context API with useEffect with Real World Project   | Learned best approach useEffect to Update Context with fetching data |
 
 
 
@@ -193,7 +193,7 @@ Trigger file downloads programmatically |
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
 | 19 |[ Image Rezise Finder ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/19%20-%20image%20Resize%20Finder%20App) | maximum use useState with best logic approach   | Learned in this project It calculates and displays image width and height dynamically. useState is used for managing image data and dimensions. Users can upload an image and get instant results.The interface is clean, responsive, and easy to use.
-Ideal for learning React state management and file handling. | 
+Ideal for learning React state management and file handling. |
 
 
 
@@ -203,7 +203,7 @@ Ideal for learning React state management and file handling. |
 Ant Design (AntD) Form components are used for structured and validated inputs.
 Tailwind CSS is applied for modern, responsive, and clean UI styling. Users can customize QR code size and appearance.The app supports dynamic updates without page reloads.
 State management is handled using React hooks.The UI includes smooth animations for better user experience.The project follows a clean and modular component structure.
-It is beginner-friendly and easy to understand. Ideal for practice, demos, and small utility projects. | 
+It is beginner-friendly and easy to understand. Ideal for practice, demos, and small utility projects. |
 
 
 
@@ -212,7 +212,7 @@ It is beginner-friendly and easy to understand. Ideal for practice, demos, and s
 |-----|---------|----------------|------------------|
 | 21 | [ Image Resize React App ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/21%20-%20Canvas%20Image%20Resizer) | create logic approch with useState Form components are used for structured and validated inputs. | Learned This React application demonstrates a practical image resizing solution using hooks. It focuses on a clear and logical implementation built with useState. Users can upload an image and view its original dimensions instantly. Custom width and height inputs allow controlled resizing.
 State management ensures real-time updates without page reloads. The logic separates original and resized dimensions for accuracy. Basic validation prevents invalid or empty inputs.
-The UI is lightweight and responsive for better usability. This project helps understand state-driven rendering in React. Ideal for beginners learning React logic and hook-based workflows. | 
+The UI is lightweight and responsive for better usability. This project helps understand state-driven rendering in React. Ideal for beginners learning React logic and hook-based workflows. |
 
 
 
@@ -338,7 +338,7 @@ The UI updates in real time when the user changes the country selection.The impl
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 38  | [ Advanced Task Planner With Zustand App ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/38-%20Advanced%20Task%20Planner%20With%20Zustand ) | useEffect , setInterval  useState with Tailwind CSS  ready | learned 
+| 38  | [ Advanced Task Planner With Zustand App ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/38-%20Advanced%20Task%20Planner%20With%20Zustand ) | useEffect , setInterval  useState with Tailwind CSS  ready | learned
  |
 
 
@@ -350,7 +350,7 @@ The UI updates in real time when the user changes the country selection.The impl
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 40  | [ Form Management with Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/Admin%20Panel%20Layout%20Responsive%20-%20Copy ) | Form Persistence , Form handling with Zustand State Management,  useState & Tailwind CSS | learned A modern, responsive sign-in form built with React and Zustand for state management, featuring form persistence and smooth animations. 
+| 40  | [ Form Management with Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/Admin%20Panel%20Layout%20Responsive%20-%20Copy ) | Form Persistence , Form handling with Zustand State Management,  useState & Tailwind CSS | learned A modern, responsive sign-in form built with React and Zustand for state management, featuring form persistence and smooth animations.
 User inputs data → Local component state updates.
 Zustand store syncs → Global state updates
 Persistence middleware → localStorage saves (if remembered)
@@ -360,104 +360,124 @@ Page reload → State auto-restores from localStorage. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 41  | [ E-Commerce App Fully Functional With useState ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/41-%20Ecommerce%20Fully%20Functional%20With%20useState ) |Array methods: map, filter, reduce, some useState, useEffect & Tailwind CSS | learned Proper state design prevents unnecessary bugs and UI conflicts, React props are case-sensitive and must be passed carefully, Hooks like useNavigate require proper context (Router), Conditional rendering should avoid mixed logical operators,  Always verify which variable is in scope inside .map() loops, Functional updates are safer when updating state based on previous values, Never render UI values directly without validating state existence , Centralized UI state simplifies complex panel management, JavaScript logic quality directly affects React UI stability, Debugging errors strengthens understanding of React’s render cycle
- |
+| 41  | [ E-Commerce App Fully Functional With useState ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/41-%20Ecommerce%20Fully%20Functional%20With%20useState ) |Array methods: map, filter, reduce, some useState, useEffect & Tailwind CSS | learned Proper state design prevents unnecessary bugs and UI conflicts, React props are case-sensitive and must be passed carefully, Hooks like useNavigate require proper context (Router), Conditional rendering should avoid mixed logical operators,  Always verify which variable is in scope inside .map() loops, Functional updates are safer when updating state based on previous values, Never render UI values directly without validating state existence , Centralized UI state simplifies complex panel management, JavaScript logic quality directly affects React UI stability, Debugging errors strengthens understanding of React’s render cycle |
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 42  | [  ](  ) |Array methods: map, filter, reduce, some useState, useEffect & Tailwind CSS | learned Proper state design prevents unnecessary bugs and UI conflicts, React props are case-sensitive and must be passed carefully, Hooks like useNavigate require proper context (Router), Conditional rendering should avoid mixed logical operators,  Always verify which variable is in scope inside .map() loops, Functional updates are safer when updating state based on previous values, Never render UI values directly without validating state existence , Centralized UI state simplifies complex panel management, JavaScript logic quality directly affects React UI stability, Debugging errors strengthens understanding of React’s render cycle |
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 43  | [  ](  ) |Array methods: map, filter, reduce, some useState, useEffect & Tailwind CSS | learned Proper state design prevents unnecessary bugs and UI conflicts, React props are case-sensitive and must be passed carefully, Hooks like useNavigate require proper context (Router), Conditional rendering should avoid mixed logical operators,  Always verify which variable is in scope inside .map() loops, Functional updates are safer when updating state based on previous values, Never render UI values directly without validating state existence , Centralized UI state simplifies complex panel management, JavaScript logic quality directly affects React UI stability, Debugging errors strengthens understanding of React’s render cycle |
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 44  | [ Zustand React E-Commerce Cart Logic ](  ) | State management is handled with Zustand for simplicity and scalability | learned Users can view products, add them to the cart, and remove items from the cart. The cart count updates dynamically in the navigation bar. All components are created as functional components with React hooks. The project demonstrates basic React concepts like props, state, and event handling. It’s perfect for beginners to practice component structure, hooks, and state management.
+You can easily expand it with features like total price, quantities, and checkout functionality. |
 
 
 
 
 
 
- - Project 1  
- 
+
+
+ - Project 1
+
  ![alt text](public/images/1-Gradient-Unlimited.png)
 
 
 
- - Project 2 
+ - Project 2
 
   ![alt text](public/images/2-Movie-Search-Api.png)
 
 
 
- - Project 3 
+ - Project 3
 
   ![alt text](public/images/3-Avatar-Image-Generator-Axios.png)
 
 
 
- - Project 4 
+ - Project 4
 
  ![alt text](public/images/4-Context-Api.png)
 
 
 
- - Project 5 
+ - Project 5
 
- ![alt text](public/images/5-CalCulator-Logic.png) 
+ ![alt text](public/images/5-CalCulator-Logic.png)
 
 
 
- - Project 6  
+ - Project 6
 
   ![alt text](public/images/6-Mini-School-App-With-Router.png)
 
 
 
- - Project 7 
+ - Project 7
 
   ![alt text](public/images/7-Avatar-Unique-Api-finder.png)
 
 
 
- - Project 8 
+ - Project 8
 
-  ![alt text](public/images/8-Crud-In-React.png) 
+  ![alt text](public/images/8-Crud-In-React.png)
 
 
 
- - Project 9  
+ - Project 9
 
   ![alt text](public/images/9-Crud-With-Student-Form.png)
 
 
 
 
- - Project 10  
+ - Project 10
 
  ![alt text](public/images/10-Thumnail-Resize-ReactJs.png)
 
 
 
- - Project 11 
+ - Project 11
 
   ![alt text](public/images/11-Custom-Slider.png)
 
 
 
 
- - Project 12 
+ - Project 12
 
   ![alt text](public/images/12-Dark-mode-ContextApi.png)
 
 
 
 
- - Project 13 
+ - Project 13
 
   ![alt text](public/images/13-ContextApi-Functional-Website.png)
 
 
 
- 
-  - Project 14 
+
+  - Project 14
 
   ![alt text](public/images/14-Google-Translate-Clone.png)
 
 
 
 
- - Project 15 
+ - Project 15
 
   ![alt text](public/images/15-Login-Form-with-useReducer.png)
 
@@ -480,7 +500,7 @@ Page reload → State auto-restores from localStorage. |
 
   ![alt text](public/images/18-context-api-with-simple-approach.png)
 
-  
+
 
 
    - Project 19
@@ -559,71 +579,90 @@ Page reload → State auto-restores from localStorage. |
  ![alt text](public/images/30-Random-Joke-Generator.png)
 
 
-- Project 31  
- 
+- Project 31
+
  ![alt text](public/images/31-Event-Manager.png)
 
 
 
-- Project 32  
- 
+- Project 32
+
  ![alt text](public/images/32-firebase-authencation.png)
 
 
 
-- Project 33  
- 
+- Project 33
+
  ![alt text](public/images/33-Password-Protected.png)
 
 
- - Project 34  
- 
+ - Project 34
+
  ![alt text](public/images/34-nav-bar.png)
 
 
-  - Project 35  
- 
+  - Project 35
+
  ![alt text](public/images/35-World`s-TimeZone.png)
 
 
-  - Project 36  
- 
+  - Project 36
+
  ![alt text](public/images/36-Pomodoro-App-Timer-&-Alarm-Tracker.png)
 
 
-   - Project 37  
- 
+   - Project 37
+
  ![alt text](public/images/37-Form-Data-Export-CSV.png)
 
 
 
- - Project 38  
- 
+ - Project 38
+
  ![alt text](public/images/.png)
 
 
 
-   - Project 39  
- 
+   - Project 39
+
  ![alt text](public/images/39-Task-Manager-using-useReducer.png)
 
 
 
-  - Project 40  
- 
+  - Project 40
+
  ![alt text](public/images/40-form-zustand.png)
 
 
 
-   - Project 41 
- 
+   - Project 41
+
+ ![alt text](public/images/41-E-commerce-Fully-Functional.png)
+
+
+
+
+ - Project 42
+
  ![alt text](public/images/40-E-commerce-Fully-Functional.png)
 
 
 
 
 
-  
+  - Project 43
+
+ ![alt text](public/images/43-projectPrev.png)
+
+
+
+- Project 44
+
+ ![alt text](public/images/44-Zustand.png)
+
+
+
+
 
 
 
@@ -636,5 +675,4 @@ I would like to express my gratitude to the following resources and mentors who 
 - [Sir Ahsan React Tutorials](https://www.youtube.com/codewithahsan) – for in-depth explanations and coding insights.
 - [FreeCodeCamp React Tutorials](https://www.freecodecamp.org/) – for beginner-friendly tutorials and exercises.
 - Special thanks to Sir Sourav, Sir Ahsan the ReactJS mentor for their guidance, support, and encouragement.
-                   
-       
+
