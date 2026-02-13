@@ -365,12 +365,13 @@ Page reload → State auto-restores from localStorage. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 42  | [  ](  ) |Array methods: map, filter, reduce, some useState, useEffect & Tailwind CSS | learned Proper state design prevents unnecessary bugs and UI conflicts, React props are case-sensitive and must be passed carefully, Hooks like useNavigate require proper context (Router), Conditional rendering should avoid mixed logical operators,  Always verify which variable is in scope inside .map() loops, Functional updates are safer when updating state based on previous values, Never render UI values directly without validating state existence , Centralized UI state simplifies complex panel management, JavaScript logic quality directly affects React UI stability, Debugging errors strengthens understanding of React’s render cycle |
+| 42  | [  Add to cart with useReducer ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/42-%20Add%20to%20cart%20with%20useReducer ) |Array methods: map, filter, reduce, some useState, useEffect & Tailwind CSS | learned Proper state design prevents unnecessary bugs and UI conflicts, React props are case-sensitive and must be passed carefully, Hooks like useNavigate require proper context (Router), Conditional rendering should avoid mixed logical operators,  Always verify which variable is in scope inside .map() loops, Functional updates are safer when updating state based on previous values, Never render UI values directly without validating state existence , Centralized UI state simplifies complex panel management, JavaScript logic quality directly affects React UI stability, Debugging errors strengthens understanding of React’s render cycle |
 
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 43  | [  ](  ) |Array methods: map, filter, reduce, some useState, useEffect & Tailwind CSS | learned Proper state design prevents unnecessary bugs and UI conflicts, React props are case-sensitive and must be passed carefully, Hooks like useNavigate require proper context (Router), Conditional rendering should avoid mixed logical operators,  Always verify which variable is in scope inside .map() loops, Functional updates are safer when updating state based on previous values, Never render UI values directly without validating state existence , Centralized UI state simplifies complex panel management, JavaScript logic quality directly affects React UI stability, Debugging errors strengthens understanding of React’s render cycle |
+| 43  | [ Light Dark Theme Personal Portfolio ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/43-%20Light%20Dark%20Theme%20Personal%20Portfolio ) | intigrate EmailJs ,Framer Motion (animations) ,react-slick (carousel/slider) ,JavaScript (ES6+)  | learned A modern, responsive personal portfolio built with React + Vite, featuring light/dark theme, smooth animations, and a clean UI to showcase projects and skills.light & Dark theme toggle , Fully responsive layout ,Smooth animations using Framer Motion
+Project slider with react-slick , Clean, minimal, and modern UI |
 
 
 
@@ -378,8 +379,13 @@ Page reload → State auto-restores from localStorage. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 44  | [ Zustand React E-Commerce Cart Logic ](  ) | State management is handled with Zustand for simplicity and scalability | learned Users can view products, add them to the cart, and remove items from the cart. The cart count updates dynamically in the navigation bar. All components are created as functional components with React hooks. The project demonstrates basic React concepts like props, state, and event handling. It’s perfect for beginners to practice component structure, hooks, and state management.
+| 44  | [ Zustand React E-Commerce Cart Logic ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/44-%20Zustand%20E-Commerce%20Cart%20Logic ) | State management is handled with Zustand for simplicity and scalability | learned Users can view products, add them to the cart, and remove items from the cart. The cart count updates dynamically in the navigation bar. All components are created as functional components with React hooks. The project demonstrates basic React concepts like props, state, and event handling. It’s perfect for beginners to practice component structure, hooks, and state management.
 You can easily expand it with features like total price, quantities, and checkout functionality. |
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 45  | [ Expense Tracker using Zustand CRUD ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/45-%20Expense%20Tracker%20using%20Zustand%20CRUD ) | State management is handled with Zustand for simplicity and scalability | learned modern Expense Tracker using Zustand CRUD built with React antd design with zustand and Tailwind CSS. Features a mobile-friendly design with smooth animations and intuitive user interactions. |
 
 
 
