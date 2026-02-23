@@ -1,0 +1,33 @@
+/* index.css */
+@import "tailwindcss";
+
+/* Enable dark mode with class strategy */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Global theme variables */
+:root {
+  --bg-gradient-start: #374151; /* zinc-700 */
+  --bg-gradient-end: #7c3aed; /* purple-800 */
+}
+
+.dark {
+  --bg-gradient-start: #111827; /* gray-900 */
+  --bg-gradient-end: #1e1b4b; /* indigo-950 */
+}
+
+/* Apply to body */
+body {
+  @apply bg-white text-gray-900;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  @apply bg-gray-900 text-gray-100;
+}
+
+/* Smooth transitions for theme changes */
+* {
+  transition: background-color 0.3s ease,
+              border-color 0.3s ease,
+              color 0.3s ease;
+}
