@@ -2,19 +2,29 @@ import { ChevronDown, MapPin, ShoppingCart, LogIn } from "lucide-react";
 import { Link, NavLink, } from "react-router-dom";
 import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from '@clerk/clerk-react';
 
-const Navbar = () => {
-  const location = false
+
+const Navbar = ({ location }) => {
+
+console.log(location)
   return (<>
     <div className="py-2 shadow-2xl">
 
       <div className="max-w-6xl flex justify-between items-center mx-auto">
 
         <span className="flex items-center gap-5">
-          <Link to={"/"} >  <img src="/public/images/logo1.png" className="h-11 " alt="logo" /> </Link>
+          <Link to={"/"} >  <img src="/images/logo1.png" className="h-11 " alt="logo" /> </Link>
 
           <div className="flex gap-1 text-gray-500 items-center">
             <MapPin className="text-rose-500" />
-            <span> {location ? <div> </div> : "add location"} </span>
+            <span>
+              {location
+                ?
+                <div className="space-y-2">
+                  <p>{location.country}</p>
+                  <p>{location.state}</p>
+                </div>
+                : "Add Address"}
+            </span>
             <ChevronDown />
           </div>
         </span>

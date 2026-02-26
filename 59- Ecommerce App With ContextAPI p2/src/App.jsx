@@ -4,36 +4,39 @@ import Contact from './page/Contact'
 import Home from './page/Home'
 import Product from './page/Product'
 import Navbar from './component/Navbar'
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 
 
 function App() {
-  const getLocation = async () => {
+  const [ location , setLocation] = useState(null)
 
+  const getLocation = async () => {
     if (!navigator.geolocation) {
       console.log("Geolocation is not supported by this browser.");
       return;
     }
 
-
     navigator.geolocation.getCurrentPosition(async position => {
       const { latitude, longitude } = position.coords
       console.log(latitude, longitude)
-
-      const url = `https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json&email=your@email.com`;
+        const url = `https://corsproxy.io/?https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`;
 
 
       try {
-        const locationReq = await axios.get(url);
-        console.log(locationReq);
+        const req = await axios.get(url);
+        const actualLocation = res.data.address.city
+         setLocation({
+        country: actualLocation.address.country,
+        state: actualLocation.address.state
+      });
       } catch (error) {
         console.log(error);
       }
     });
   };
 
-
+-
 
   useEffect(() => {
     getLocation()
@@ -45,7 +48,7 @@ function App() {
     <BrowserRouter>
       <div className="min-h-screen w-full bg-gradient-to-br from-pink-200 via-gray-100 to-yellow-200  flex flex-col">
 
-        <Navbar />
+        <Navbar location={location} />
 
         <Routes>
           {/* <Route path="/" element={} /> */}
