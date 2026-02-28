@@ -47,7 +47,7 @@ const Carousel = () => {
 
 
     return (
-        <div className="overflow-hidden pb-4 bg-gradient-to-br from-pink-200 via-gray-100 to-yellow-200">
+        <div className="overflow-hidden pb-3 bg-gradient-to-br from-pink-200 via-gray-100 to-yellow-200">
             <Slider {...settings} >
                 {data?.slice(0, 7)?.map((items, index) => (
                     <div key={index} className="bg-gradient-to-l from-blue-300 to-purple-800 shadow-xl ">
@@ -77,7 +77,7 @@ const Carousel = () => {
                                 <div className="md:w-1/2 flex justify-center mt-2 ">
                                     <img
                                         src={items.image}
-                                        alt="image" className="md:w-66 md:h-66 w-34 h-34 lg:object-fit md:rounded-full shadow-zinc-600 md:hover:shadow-xl" />
+                                        alt="image" className="md:w-66 md:h-66 w-34 h-34 lg:object-contain md:rounded" />
                                 </div>
                                 <div>
                                 </div>
