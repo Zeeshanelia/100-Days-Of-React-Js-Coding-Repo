@@ -6,7 +6,7 @@ import Product from "./page/Product";
 import Navbar from "./component/Navbar";
 import { useEffect, useState } from "react";
 import axios from "axios";
-// import { getData } from "./context/DataContext";
+import Footer from './component/Footer'
 const apiKey = import.meta.env.VITE_GEOAPIFY_KEY;
 
 function App() {
@@ -80,6 +80,7 @@ function App() {
             }
           />
         </Routes>
+        <Footer/>
       </div>
     </BrowserRouter>
   );

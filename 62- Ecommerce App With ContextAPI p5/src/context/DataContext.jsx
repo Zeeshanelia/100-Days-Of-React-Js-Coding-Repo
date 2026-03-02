@@ -12,9 +12,9 @@ export const DataProvider = ({ children }) => {
 
     const fetchAllData = async () => {
         try {
-            const response = await axios.get("https://fakestoreapi.com/products");
-            setData(response.data);
-            // console.log(response.data , "context Data");
+            const response = await axios.get("https://dummyjson.com/products?limit=194");
+            setData(response.data.products);
+            console.log(response.data.products , "context Data");
         } catch (error) {
             console.log("API Error:", error);
         }
@@ -29,11 +29,12 @@ export const DataProvider = ({ children }) => {
             return newValue;
         };
         const categoryOnlyData = getCategories(data, "category");
+         const brandOnlyData = getCategories(data, "brand");
 
 
 
     return (
-        <DataContext.Provider value={{ data, setData, fetchAllData, categoryOnlyData }}>
+        <DataContext.Provider value={{ data, setData, fetchAllData, categoryOnlyData ,  brandOnlyData}}>
             {children}
         </DataContext.Provider>
     );

@@ -49,7 +49,7 @@ const Carousel = () => {
     return (
         <div className="overflow-hidden pb-3 bg-gradient-to-br from-pink-200 via-gray-100 to-yellow-200">
             <Slider {...settings} >
-                {data?.slice(0, 7)?.map((items) => (
+                {data?.slice(0, 5)?.map((items) => (
                     <div key={items.id} className="bg-gradient-to-l from-blue-300 to-purple-800 shadow-xl ">
                         <div className="max-w-6xl mx-auto md:px-10 px-2">
                             <div className="flex  md:flex-row md:items-center md:justify-between gap-10 h-[155px] md:h-[320px]">
@@ -76,7 +76,7 @@ const Carousel = () => {
                                 {/* Image Section */}
                                 <div className="md:w-1/2 flex justify-center mt-2 ">
                                     <img
-                                        src={items.image}
+                                        src={items.images}
                                         alt="image" className="md:w-64 md:h-64 w-32 h-32 lg:object-contain md:rounded" />
                                 </div>
                                 <div>
