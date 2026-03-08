@@ -1,0 +1,27 @@
+.app-container{
+display: flex;
+height: 100%;
+}
+.contant {
+    width: 100% ;
+}
+
+.sidebar{
+    min-height: 540px;
+    background-color: aqua;
+}
+.post-card{
+    margin: 27px 19px;
+    padding: 5px 5px;
+}
+.super{
+    margin: 35px 40px;
+}
+.bord{
+    border: blueviolet solid 1px;
+    border-radius: 10px;
+    
+}
+.hashtag{
+    margin: 1px 4px;
+}
