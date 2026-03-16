@@ -897,6 +897,15 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
+
+ - Project 71
+
+ ![alt text](public/images/71-expense.png)
+
+
+
+
+
 ## Acknowledgements
 
 I would like to express my gratitude to the following resources and mentors who helped me throughout this 100-day ReactJS journey:
