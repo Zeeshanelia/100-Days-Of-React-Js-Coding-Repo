@@ -45,13 +45,10 @@ function TodoApp() {
               onChange={e => setText(e.target.value)}
               onKeyDown={e => e.key === "Enter" && handleAdd()}
               placeholder="What needs to be done?"
-              className="flex-1 px-4 py-2 rounded-lg border border-gray-200 text-sm outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-100 transition"
-            />
-            <button
-              onClick={handleAdd}
-              disabled={!text.trim()}
-              className="px-4 py-2 bg-violet-500 hover:bg-violet-600 disabled:bg-gray-200 disabled:text-gray-400 text-white text-sm font-medium rounded-lg transition"
-            >
+              className="flex-1 px-4 py-2 rounded-lg border border-gray-200 text-sm outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-100 transition" />
+
+            <button onClick={handleAdd} disabled={!text.trim()}
+              className="px-4 py-2 bg-violet-500 hover:bg-violet-600 disabled:bg-gray-200 disabled:text-gray-400 text-white text-sm font-medium rounded-lg transition">
               Add
             </button>
           </div>
@@ -128,8 +125,7 @@ function TodoApp() {
             </span>
             <button
               onClick={() => dispatch(clearCompleted())}
-              className="text-xs text-gray-400 hover:text-red-400 transition"
-            >
+              className="text-xs text-gray-400 hover:text-red-400 transition">
               Clear completed
             </button>
           </div>

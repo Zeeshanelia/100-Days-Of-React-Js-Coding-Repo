@@ -8,8 +8,8 @@ const todosSlice = createSlice({
     // Add a new todo
     addTodo: (state, action) => {
       state.push({
-        id:        Date.now(),
-        text:      action.payload,
+        id: Date.now(),
+        text: action.payload,
         completed: false,
       });
     },
@@ -32,15 +32,15 @@ const todosSlice = createSlice({
   },
 });
 
-export const { addTodo, toggleTodo, deleteTodo, clearCompleted,} = todosSlice.actions;
+export const { addTodo, toggleTodo, deleteTodo, clearCompleted, } = todosSlice.actions;
 
 
 
 // Selectors
-export const selectTodos   = (state) => state.todos;
+export const selectTodos = (state) => state.todos;
 
 export const selectActiveTodos = (state) => state.todos.filter(t => !t.completed);
 
-export const selectDoneTodos  = (state) =>  state.todos.filter(t => t.completed);
+export const selectDoneTodos = (state) => state.todos.filter(t => t.completed);
 
 export default todosSlice.reducer;
