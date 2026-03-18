@@ -12,7 +12,15 @@ const Navbar = () => {
       `https://saavn.me/search/songs?query=${e.target.value}&page=1&limit=2`
     );
     const { data } = await res.data;
-
+    if (
+      data.results.length === 0 ||
+      e.target.value === " " ||
+      e.target.value.length === 0
+    ) {
+      setSearchedSongs([]);
+    } else {
+      setSearchedSongs(data.results);
+    }
 
     console.log(data.results , "data");
   };
