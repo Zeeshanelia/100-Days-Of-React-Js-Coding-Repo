@@ -513,6 +513,13 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 75  | [ Jio Saavn App with Context Api ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/75-%20Jio%20Saavn%20App%20with%20Context%20Api ) | Demonstrates useRef and useEffect , Build tool and dev server
+ Axios , API requests , React Router v6 , Client side routing | learned A music streaming web app , powered by the unofficial JioSaavn API. Browse albums, search songs, and enjoy a fully functional music player , all in the browser.. |
+
+
+
 
 
 
@@ -901,6 +908,32 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
  - Project 71
 
  ![alt text](public/images/71-expense.png)
+
+
+
+
+  - Project 74
+
+ ![alt text](public/images/71-expense.png)
+
+
+  - Project 73
+
+ ![alt text](public/images/71-expense.png)
+
+
+
+
+   - Project 74
+
+ ![alt text](public/images/71-expense.png)
+
+
+
+   - Project 75
+
+ ![alt text](public/images/75-JioSaavn-Clone.png)
+ ![alt text](public/images/75.2-JioSaavn-Clone.png)
 
 
 
