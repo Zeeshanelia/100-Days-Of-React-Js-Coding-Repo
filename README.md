@@ -936,6 +936,10 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
  ![alt text](public/images/75.2-JioSaavn-Clone.png)
 
 
+ - Project 85
+ ![alt text](public/images/85-AI-Diet-Planner.png)
+
+
 
 
 
