@@ -940,6 +940,9 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
  ![alt text](public/images/85-AI-Diet-Planner.png)
 
 
+- Project 88
+ ![alt text](public/images/88-web-scraping.png)
+
 
 
 
