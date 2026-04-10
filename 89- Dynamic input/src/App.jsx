@@ -4,6 +4,8 @@ import { nanoid } from 'nanoid'
 
 const App = () => {
   const [fields, setFields] = useState([])
+  const [output, setOutput] = useState(null)
+  const [copied, setCopied] = useState(false)
 
   const addField = () => {
     setFields(prev => [...prev, { id: nanoid(), key: '', value: '' }])
@@ -30,8 +32,7 @@ const App = () => {
     return obj
   }
 
-  const [output, setOutput] = useState(null)
-  const [copied, setCopied] = useState(false)
+
 
   const handleSubmit = () => {
     const result = getResult()

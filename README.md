@@ -943,6 +943,9 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 - Project 88
  ![alt text](public/images/88-web-scraping.png)
 
+ - Project 89
+ ![alt text](public/images/89-dynamic.png)
+
 
 
 
