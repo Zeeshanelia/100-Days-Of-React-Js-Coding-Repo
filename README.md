@@ -682,6 +682,7 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
+
 - Project  24
 
  - ![Avatar](public/images/24-Sticky-Note-App.png)
@@ -709,6 +710,7 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
+
  - Project 28
 
  ![alt text](public/images/28-Dynamic-Accordion.png)
@@ -721,14 +723,20 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
+
 - Project 30
 
  ![alt text](public/images/30-Random-Joke-Generator.png)
 
 
+
+
+
 - Project 31
 
  ![alt text](public/images/31-Event-Manager.png)
+
+
 
 
 
@@ -738,9 +746,14 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
+
+
 - Project 33
 
  ![alt text](public/images/33-Password-Protected.png)
+
+
+
 
 
  - Project 34
@@ -748,14 +761,23 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
  ![alt text](public/images/34-nav-bar.png)
 
 
+
+
+
   - Project 35
 
  ![alt text](public/images/35-World`s-TimeZone.png)
 
 
+
+
+
   - Project 36
 
  ![alt text](public/images/36-Pomodoro-App-Timer-&-Alarm-Tracker.png)
+
+
+
 
 
  - Project 37
@@ -779,6 +801,8 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
   - Project 40
 
  ![alt text](public/images/40-form-zustand.png)
+
+
 
 
 
@@ -885,15 +909,20 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
+
+
 - Project 55
 
  ![alt text](public/images/55-video-player.png)
 
 
 
+
+
  - Project 56
 
  ![alt text](public/images/56-checkout-stripe.png)
+
 
 
 
@@ -905,6 +934,110 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
+- Project 58
+
+ ![alt text](public/images/58-contextApi-p1.png)
+
+
+
+
+
+ - Project 59
+
+ ![alt text](public/images/59-contextApi-p2.png)
+
+
+
+
+ - Project 60
+
+ ![alt text](public/images/60-contextApi-p3.png)
+
+
+
+
+ - Project 61
+
+ ![alt text](public/images/61-contextApi-p4.png)
+
+
+
+
+ - Project 62
+
+ ![alt text](public/images/62-contextApi-p5.png)
+
+
+
+
+ - Project 63
+ ![alt text](public/images/63-contextApi-p6-2.png)
+ ![alt text](public/images/63-contextApi-p6.png)
+
+
+
+
+ - Project 64
+
+ ![alt text](public/images/64-Cart-Fn.png)
+
+
+
+
+
+
+ - Project 65
+
+ ![alt text](public/images/65-contextApi-p4.png)
+
+
+
+
+
+
+ - Project 66
+
+ ![alt text](public/images/66-contextApi.png)
+
+
+
+
+
+
+ - Project 67
+
+ ![alt text](public/images/.png)
+
+
+
+
+
+
+ - Project 68
+
+ ![alt text](public/images/68-redux-persist.png)
+
+
+
+
+
+
+ - Project 69
+
+ ![alt text](public/images/69-crud-redux.png)
+
+
+
+
+
+
+ - Project 70
+
+ ![alt text](public/images/70-expense.png)
+
+
+
+
  - Project 71
 
  ![alt text](public/images/71-expense.png)
@@ -912,40 +1045,133 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
-  - Project 74
+  - Project 72
 
- ![alt text](public/images/71-expense.png)
+ ![alt text](public/images/72-redux-todo.png)
+
 
 
   - Project 73
 
- ![alt text](public/images/71-expense.png)
+ ![alt text](public/images/73-song-app.png)
 
 
 
 
-   - Project 74
+  - Project 74
 
- ![alt text](public/images/71-expense.png)
+ ![alt text](public/images/74-song-app.png)
 
 
 
-   - Project 75
 
+  - Project 75
  ![alt text](public/images/75-JioSaavn-Clone.png)
  ![alt text](public/images/75.2-JioSaavn-Clone.png)
+
+
+
+
+   - Project 76
+
+ ![alt text](public/images/76-Router-Practice.png)
+
+
+
+
+   - Project 77
+
+ ![alt text](public/images/77-add-to-cart.png)
+
+
+
+
+
+    - Project 78
+
+ ![alt text](public/images/78-Shoping-cart.png)
+
+
+
+
+
+    - Project 79
+
+ ![alt text](public/images/79-async-thunk.png)
+
+
+
+
+    - Project 80
+
+ ![alt text](public/images/80-reduxTK-localStorage.png)
+
+
+
+
+
+    - Project 81
+
+ ![alt text](public/images/81_web.png)
+
+
+
+
+
+    - Project 82
+
+ ![alt text](public/images/82-mp3-player.png)
+
+
+   - Project 83
+
+ ![alt text](public/images/83-thread-app.png)
+
+
+
+   - Project 84
+
+ ![alt text](public/images/84-portfolio.png)
+
+
 
 
  - Project 85
  ![alt text](public/images/85-AI-Diet-Planner.png)
 
 
+
+
+- Project 86
+ ![alt text](public/images/86-card.png)
+
+
+
+
+ - Project 87
+ ![alt text](public/images/87-Meeting-Schedule.png)
+
+
+
+
 - Project 88
  ![alt text](public/images/88-web-scraping.png)
+
+
+
 
  - Project 89
  ![alt text](public/images/89-dynamic.png)
 
+
+
+  - Project 90
+ ![alt text](public/images/90-Attendance-Tracker.png)
+
+
+
+  - Project 91
+ ![alt text](public/images/.png)
 
 
 
