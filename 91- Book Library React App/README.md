@@ -19,3 +19,6 @@ Tech Stack
 
 Usage odf app
 Click "Add a new book", enter the book name and an optional cover image URL, then hit Save. Use the dropdown on each card to update its reading status, or the trash icon to remove it.
+
+
+![alt text](public/Book-Library.png)
