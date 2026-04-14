@@ -788,7 +788,7 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
  - Project 38
 
- ![alt text](public/images/.png)
+ ![alt text](public/images/38-task-zustand.png)
 
 
 
@@ -883,7 +883,7 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 - Project 51
 
- ![alt text](public/images/.png)
+ ![alt text](public/images/51-Ai-chat.png)
 
 
 
@@ -1006,7 +1006,7 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
  - Project 67
 
- ![alt text](public/images/.png)
+ ![alt text](public/images/67-social-app.png)
 
 
 
@@ -1123,6 +1123,10 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
  ![alt text](public/images/82-mp3-player.png)
 
 
+
+
+
+
    - Project 83
 
  ![alt text](public/images/83-thread-app.png)
@@ -1142,7 +1146,7 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
-- Project 86
+   - Project 86
  ![alt text](public/images/86-card.png)
 
 
@@ -1172,6 +1176,25 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
   - Project 91
  ![alt text](public/images/91-Book-Library.png)
+
+
+
+  - Project 92
+ ![alt text](public/images/92-Store-room.png)
+
+
+
+  - Project 93
+ ![alt text](public/images/93-invoice-gen.png)
+
+
+
+
+ - Project 94
+ ![alt text](public/images/94-images-Storage.png)
+
+
+
 
 
 
