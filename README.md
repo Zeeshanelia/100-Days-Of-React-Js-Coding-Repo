@@ -1146,8 +1146,10 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
-   - Project 86
+
+ - Project 85
  ![alt text](public/images/86-card.png)
+
 
 
 
@@ -1189,11 +1191,22 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
-
  - Project 94
  ![alt text](public/images/94-images-Storage.png)
 
 
+
+
+ - Project 95
+![alt text](public/images/95-dumy-json.png)
+
+
+
+
+
+
+ - Project 96
+![alt text](public/images/.png)
 
 
 
