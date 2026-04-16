@@ -5,13 +5,13 @@ An AI-powered diet planning application that generates personalized, structured 
 
 ## 🚀 Features
 
-* ✅ Generate personalized diet plans using AI
-* ✅ Clean and responsive UI (Tailwind CSS)
-* ✅ Real-time API integration with Gemini
-* ✅ Form validation and error handling
-* ✅ Loading states with spinner feedback
-* ✅ Secure API key handling via environment variables
-* ✅ Dynamic HTML rendering of AI responses
+-  Generate personalized diet plans using AI
+-  Clean and responsive UI (Tailwind CSS)
+-  Real-time API integration with Gemini
+-  Form validation and error handling
+-  Loading states with spinner feedback
+-  Secure API key handling via environment variables
+-  Dynamic HTML rendering of AI responses
 
 ---
 
@@ -61,28 +61,6 @@ Always store it in `.env` or use a backend proxy for production.
 * 🎨 Improve UI/UX with animations
 * ⚡ Streaming AI responses (real-time typing effect)
 
----
-
-## 📌 Deployment
-
-You can deploy this project using:
-
-* Vercel
-* Netlify
-* Render
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork this repo and submit a pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 
 ## 👨‍💻 Author

@@ -17,7 +17,7 @@ Tech Stack
 - Nanoid — unique ID generation
 
 
-Usage odf app
+Usage of app
 Click "Add a new book", enter the book name and an optional cover image URL, then hit Save. Use the dropdown on each card to update its reading status, or the trash icon to remove it.
 
 

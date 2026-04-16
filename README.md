@@ -520,6 +520,221 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
 
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 76  | [ React Router Best Practice ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/76-%20React%20Router%20Best%20Practice ) | Demonstrates React Router Best Practice | learned Dynamic Routes & Parameters (Params).. |
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 77  | [ Add to cart redux ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/77-%20Add%20to%20cart%20redux ) | Demonstrates Redux Toolkit | learned A beginner-friendly React shopping cart demo built with Vite + Tailwind CSS + Redux Toolkit. Add products to cart, see live quantity & total price, remove items, and clear the cart. Great first project to learn state management with Redux Toolkit in 2025 style. .. |
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 78  | [ Shopping Cart with Redux Toolkit ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/78-%20Shopping%20Cart%20with%20Redux%20Toolkit ) | Demonstrates  | learned  .. |
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 79  | [ Shopping Cart with Redux Async Thunk ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/79-%20Shopping%20Cart%20with%20Redux%20Async%20Thunk ) | Demonstrates  | learned  .. |
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 80  | [ E-Commerce Cart Redux TK LocalStorage ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/80-%20E-Commerce%20Cart%20Redux%20TK%20LocalStorage ) | Demonstrates Current ,  Approach (Manual localStorage in cartSlice) ,  Browse products from DummyJSON API ,  Add / Remove / Update quantity in cart ,  Real-time cart total calculation ,  Cart persistence using localStorage ,  Clean and responsive UI ,  manually call localStorage.setItem() in every reducer (addItem, removeItem, ,  decreaseQuantity, clearAllItems). | learned A modern React + Redux Toolkit ,  shopping cart application with persistent cart using localStorage. .. |
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 81  | [ Myntra Clone with react js ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/81-%20Myntra%20Clone%20with%20react%20js ) | Demonstrates  | learned  .. |
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 82  | [ React WaveSurfer Audio Player ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/82-%20React%20WaveSurfer%20Audio%20Player ) | Demonstrates Play / Pause audio ⏩ Seek forward & backward (±10 seconds) 🔊 Mute / Unmute functionality 📂 Upload and play custom audio files 📊 Real-time waveform visualization ⏱ Display current time and total duration 🎨 Smooth UI animations using animate.css 💡 Clean icons via lucide-react ⚡ Responsive and modern UI (Tailwind CSS) 🛠️ Tech Stack React (Hooks + Functional Components) WaveSurfer.js @wavesurfer/react  | learned A modern and interactive audio player built with React and WaveSurfer.js, featuring waveform visualization, smooth animations, and custom playback controls. .. |
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 83  | [ Thread App clone part frontend ](  ) | Demonstrates
+components/ → Small reusable UI blocks (buttons, cards, etc.)
+pages/ → Full screens mapped to routes
+redux/slice.js → Handles UI + app state (dark mode, posts, user)
+redux/service.js → Handles all API calls using RTK Query
+store.js → Combines reducers + middleware
+App.jsx → Controls routing + authentication flow | learned This is a modern Threads-like social media frontend built with React, Redux Toolkit, and RTK Query.
+It follows a scalable architecture with clean separation of concerns for components, state management, and API handling. .. |
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 84  | [ PortFolio in React Js ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/84-%20PortFolio%20in%20React%20Js ) | Demonstrates  | learned Easy to understand code of PortFolio ReactJs .. |
+
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 85  | [ AI Diet Planner using React ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/85-%20AI%20Diet%20Planner%20using%20React ) | Demonstrates Generate personalized diet plans using AI , Clean and responsive UI (Tailwind CSS) , Real-time API integration with Gemini , Form validation and error handling , Loading states with spinner feedback , Secure API key handling via environment variables , Dynamic HTML rendering of AI responses | learned AI-powered diet planning application that generates personalized, structured diet plans based on user inputs such as age, weight, and medical conditions. Built with modern frontend technologies and integrated with Google's Gemini API. Styling: Tailwind CSS  ,  HTTP Client: Axios , Notifications: React Toastify
+Icons: Lucide React ,AI Integration: Google Gemini API .. |
+
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 86  | [ Visting Card ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/86-%20Visting%20Card ) | Demonstrates  | learned  .. |
+
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 87  | [ Meeting Scheduler ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/87-%20Meeting%20Scheduler ) | Demonstrates  | learned  .. |
+
+
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 88  | [ Web Scraping App in React ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/88-%20Web%20Scraping%20App%20in%20React ) | Demonstrates  | learned  .. |
+
+
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 89  | [ ](  ) | Demonstrates  | learned  .. |
+
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 90  | [ ](  ) | Demonstrates Check-in / Check-out with live HH:MM:SS timer ,Calendar view showing daily attendance with duration tags, Prevents duplicate sessions — only one check-in per day allowed | learned A React-based attendance tracking app built with **Ant Design**, **Zustand**, and **Moment.js**. .. |
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 91  | [ ](  ) | Demonstrates React — UI , Tailwind CSS — utility-first styling, Ant Design — UI components (Modal, Form, Select, Button) , Zustand — lightweight state management (useBook store) , Moment.js — date formatting , Lucide React — icons , Nanoid — unique ID generation | learned Book Library A sleek React-based personal book tracking app to manage your reading list. Features: Add books with a title and optional poster image URL.Track reading status: Unread, Reading, or Completed. Live count dashboard for each status category.Delete books from your library.Smooth animations powered by Animate.css.. |
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 92  | [ ](  ) | Demonstrates Add Items — Create new inventory entries with a title, quantity, unit of measure, keywords, and an optional image URL.Edit Items — Update any existing item via a pre-filled modal form. Delete Items — Remove items instantly with a single click.Search — Filter items in real time by title or keyword.Image Support — Display item images with a graceful fallback for broken or missing URLs. Tags — Attach multiple keywords to each item for easy categorization and searching. | learned Storeroom A simple and clean inventory management app built with React and Ant Design. It lets you add, edit, delete, and search items stored in a storeroom — complete with images, quantities, units of measure, and searchable keywords.. |
+
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 93  | [ ](  ) | Demonstrates Slide-out drawer form to enter all invoice details
+Dynamic product line-items — add or remove rows on the fly , Auto-calculated subtotal, GST tax, and total , Supports Bank and UPI payment methods
+Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defaults keep the preview meaningful before form submission , Form validation — all fields are required before generating , Fully responsive sidebar action buttons (Create & Print) | learned A printable invoice builder built with React, Ant Design & Moment.js  Invoice Generator is a single-page React application that lets users fill in a form and instantly produce a print-ready, A4-sized invoice. It requires no backend — all data is handled client-side and the final invoice is printed directly from the browser. The app ships with sensible placeholder values so the invoice layout is always visible, even before any data is entered.. |
+
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 94  | [ ](  ) | Demonstrates Upload images (max 5MB) ,  Preview uploaded images instantly ,  Download images anytime ,  Delete images from UI ,  Fast state management using Zustand ,  Clean and responsive UI with Tailwind CSS ,  Toast notifications for better UX | learned A modern React-based image storage application that allows users to upload, preview, download, and delete images directly in the browser. Built with Zustand for state management and Tailwind CSS for styling. .. |
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 95  | [ ](  ) | Demonstrates Send HTTP requests (GET, POST, PUT, PATCH, DELETE) , Dynamic **Payload (Body)** fields , Dynamic **Headers** configuration , Real-time API response viewer , Syntax-highlighted JSON output , Loading states and error handling , Clean and modern UI using Ant Design , Unique field handling with `nanoid` | learned A simple and powerful **API testing tool** built with **React**. This app allows developers to send HTTP requests, customize headers and payloads dynamically, and view formatted JSON responses — similar to a lightweight version of Postman... |
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 96  | [  ](  API testing tool built with **React**. This app allows developers to send HTTP requests, customize headers and payloads dynamically, and view formatted JSON responses similar to a lightweight version of Postman. ) | Demonstrates useRef and useEffect , Build tool and dev server
+ Axios , API requests , React Router v6 , Client side routing | learned  -  Send HTTP requests (GET, POST, PUT, PATCH, DELETE) , Dynamic **Payload (Body)** fields , Dynamic **Headers** configuration , Real-time API response viewer , Syntax-highlighted JSON output , Loading states and error handling , Clean and modern UI using Ant Design , Unique field handling with `nanoid` |
 
 
 
@@ -1206,7 +1421,7 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 
  - Project 96
-![alt text](public/images/.png)
+![alt text](public/images/96-paylaod-header.png)
 
 
 
