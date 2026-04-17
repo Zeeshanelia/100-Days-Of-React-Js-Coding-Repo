@@ -659,7 +659,7 @@ Icons: Lucide React ,AI Integration: Google Gemini API .. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 89  | [ ](  ) | Demonstrates  | learned  .. |
+| 89  | [ Dynamic input ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/89-%20Dynamic%20input ) | Demonstrates  | learned  .. |
 
 
 
@@ -670,7 +670,7 @@ Icons: Lucide React ,AI Integration: Google Gemini API .. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 90  | [ ](  ) | Demonstrates Check-in / Check-out with live HH:MM:SS timer ,Calendar view showing daily attendance with duration tags, Prevents duplicate sessions — only one check-in per day allowed | learned A React-based attendance tracking app built with **Ant Design**, **Zustand**, and **Moment.js**. .. |
+| 90  | [ Attendance Tracker Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/90-%20Attendance%20Tracker%20Zustand ) | Demonstrates Check-in / Check-out with live HH:MM:SS timer ,Calendar view showing daily attendance with duration tags, Prevents duplicate sessions — only one check-in per day allowed | learned A React-based attendance tracking app built with **Ant Design**, **Zustand**, and **Moment.js**. .. |
 
 
 
@@ -680,7 +680,7 @@ Icons: Lucide React ,AI Integration: Google Gemini API .. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 91  | [ ](  ) | Demonstrates React — UI , Tailwind CSS — utility-first styling, Ant Design — UI components (Modal, Form, Select, Button) , Zustand — lightweight state management (useBook store) , Moment.js — date formatting , Lucide React — icons , Nanoid — unique ID generation | learned Book Library A sleek React-based personal book tracking app to manage your reading list. Features: Add books with a title and optional poster image URL.Track reading status: Unread, Reading, or Completed. Live count dashboard for each status category.Delete books from your library.Smooth animations powered by Animate.css.. |
+| 91  | [ Book Library React App Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/91-%20Book%20Library%20React%20App%20Zustand ) | Demonstrates React — UI , Tailwind CSS — utility-first styling, Ant Design — UI components (Modal, Form, Select, Button) , Zustand — lightweight state management (useBook store) , Moment.js — date formatting , Lucide React — icons , Nanoid — unique ID generation | learned Book Library A sleek React-based personal book tracking app to manage your reading list. Features: Add books with a title and optional poster image URL.Track reading status: Unread, Reading, or Completed. Live count dashboard for each status category.Delete books from your library.Smooth animations powered by Animate.css.. |
 
 
 
@@ -690,7 +690,7 @@ Icons: Lucide React ,AI Integration: Google Gemini API .. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 92  | [ ](  ) | Demonstrates Add Items — Create new inventory entries with a title, quantity, unit of measure, keywords, and an optional image URL.Edit Items — Update any existing item via a pre-filled modal form. Delete Items — Remove items instantly with a single click.Search — Filter items in real time by title or keyword.Image Support — Display item images with a graceful fallback for broken or missing URLs. Tags — Attach multiple keywords to each item for easy categorization and searching. | learned Storeroom A simple and clean inventory management app built with React and Ant Design. It lets you add, edit, delete, and search items stored in a storeroom — complete with images, quantities, units of measure, and searchable keywords.. |
+| 92  | [ Store Room App Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/92-Store%20Room%20App%20Zustand ) | Demonstrates Add Items — Create new inventory entries with a title, quantity, unit of measure, keywords, and an optional image URL.Edit Items — Update any existing item via a pre-filled modal form. Delete Items — Remove items instantly with a single click.Search — Filter items in real time by title or keyword.Image Support — Display item images with a graceful fallback for broken or missing URLs. Tags — Attach multiple keywords to each item for easy categorization and searching. | learned Storeroom A simple and clean inventory management app built with React and Ant Design. It lets you add, edit, delete, and search items stored in a storeroom — complete with images, quantities, units of measure, and searchable keywords.. |
 
 
 
@@ -701,7 +701,7 @@ Icons: Lucide React ,AI Integration: Google Gemini API .. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 93  | [ ](  ) | Demonstrates Slide-out drawer form to enter all invoice details
+| 93  | [ invoice generator Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/93-%20invoice%20generator%20Zustand ) | Demonstrates Slide-out drawer form to enter all invoice details
 Dynamic product line-items — add or remove rows on the fly , Auto-calculated subtotal, GST tax, and total , Supports Bank and UPI payment methods
 Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defaults keep the preview meaningful before form submission , Form validation — all fields are required before generating , Fully responsive sidebar action buttons (Create & Print) | learned A printable invoice builder built with React, Ant Design & Moment.js  Invoice Generator is a single-page React application that lets users fill in a form and instantly produce a print-ready, A4-sized invoice. It requires no backend — all data is handled client-side and the final invoice is printed directly from the browser. The app ships with sensible placeholder values so the invoice layout is always visible, even before any data is entered.. |
 
@@ -714,7 +714,7 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 94  | [ ](  ) | Demonstrates Upload images (max 5MB) ,  Preview uploaded images instantly ,  Download images anytime ,  Delete images from UI ,  Fast state management using Zustand ,  Clean and responsive UI with Tailwind CSS ,  Toast notifications for better UX | learned A modern React-based image storage application that allows users to upload, preview, download, and delete images directly in the browser. Built with Zustand for state management and Tailwind CSS for styling. .. |
+| 94  | [ Dummy Data Generator ( fakerjs) ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/95-%20Dummy%20Data%20Generator%20(%20fakerjs) ) | Demonstrates Upload images (max 5MB) ,  Preview uploaded images instantly ,  Download images anytime ,  Delete images from UI ,  Fast state management using Zustand ,  Clean and responsive UI with Tailwind CSS ,  Toast notifications for better UX | learned A modern React-based image storage application that allows users to upload, preview, download, and delete images directly in the browser. Built with Zustand for state management and Tailwind CSS for styling. .. |
 
 
 
@@ -733,12 +733,44 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 96  | [  ](  API testing tool built with **React**. This app allows developers to send HTTP requests, customize headers and payloads dynamically, and view formatted JSON responses similar to a lightweight version of Postman. ) | Demonstrates useRef and useEffect , Build tool and dev server
- Axios , API requests , React Router v6 , Client side routing | learned  -  Send HTTP requests (GET, POST, PUT, PATCH, DELETE) , Dynamic **Payload (Body)** fields , Dynamic **Headers** configuration , Real-time API response viewer , Syntax-highlighted JSON output , Loading states and error handling , Clean and modern UI using Ant Design , Unique field handling with `nanoid` |
+| 96  | [ Api Http Paylaod and Header ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/96-%20Api%20Http%20Paylaod%20and%20Header ) | Demonstrates useRef and useEffect , Build tool and dev server Axios , API requests , React Router v6 , Client side routing | learned  -  API testing tool built with **React**. This app allows developers to send HTTP requests, customize headers and payloads dynamically, and view formatted JSON responses similar to a lightweight version of Postman. Send HTTP requests (GET, POST, PUT, PATCH, DELETE) , Dynamic **Payload (Body)** fields , Dynamic **Headers** configuration , Real-time API response viewer , Syntax-highlighted JSON output , Loading states and error handling , Clean and modern UI using Ant Design , Unique field handling with `nanoid` |
 
 
 
 
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 97  | [  ](   ) | Demonstrates  | learned   |
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 98  | [  ](   ) | Demonstrates  | learned   |
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 99  | [  ](   ) | Demonstrates  | learned   |
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 100  | [ Voice Recording ](   ) | Demonstrates Uses `MediaRecorder` to capture audio stream , Stores chunks in `useRef` to persist across renders , Uses `setInterval` to update recording duration every second,  Cleared properly using `clearInterval` to prevent memory leaks , Converts recorded chunks into a `Blob` , Creates a temporary URL for playback. | learned A modern and minimal **Voice Recorder Web App** built with React that allows users to record audio directly from their browser, play it back, and download it.  |
 
 
 
