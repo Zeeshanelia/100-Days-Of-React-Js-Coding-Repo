@@ -567,16 +567,13 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 81  | [ Myntra Clone with react js ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/81-%20Myntra%20Clone%20with%20react%20js ) | Demonstrates  | learned  .. |
+| 81  | [ Myntra Clone with react js ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/81-%20Myntra%20Clone%20with%20react%20js ) | Demonstrates Slice-Based Architecture. Each feature is isolated into its own slice:
+itemsSlice → Handles product list.bagSlice → Manages cart items
+fetchStatusSlice → Tracks API status, App Layout Pattern.The App.jsx acts as a root layout (App Shell): Persistent UI → Header & Footer Dynamic UI → <Outlet />
+Global Loader → Controlled via Redux {fetchStatus.currentlyFetching ? <LoadingSpinner /> : <Outlet />} ,      Application Flow
+App loads     FetchItems triggers API call.Redux updates:    currentlyFetching = true.Loader is displayed    API response received.Redux updates:    currentlyFetching = false.     fetchDone = true    UI renders actual pages | learned A scalable frontend e-commerce application built with React, Redux Toolkit, and modern architecture patterns. This project demonstrates professional state management, API handling, and clean UI structure similar to real-world production apps. .. |
 
 
-
-
-
-
-| Day | Project | Concept Learned | Notes / Challenges |
-|-----|---------|----------------|------------------|
-| 82  | [ React WaveSurfer Audio Player ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/82-%20React%20WaveSurfer%20Audio%20Player ) | Demonstrates Play / Pause audio ⏩ Seek forward & backward (±10 seconds) 🔊 Mute / Unmute functionality 📂 Upload and play custom audio files 📊 Real-time waveform visualization ⏱ Display current time and total duration 🎨 Smooth UI animations using animate.css 💡 Clean icons via lucide-react ⚡ Responsive and modern UI (Tailwind CSS) 🛠️ Tech Stack React (Hooks + Functional Components) WaveSurfer.js @wavesurfer/react  | learned A modern and interactive audio player built with React and WaveSurfer.js, featuring waveform visualization, smooth animations, and custom playback controls. .. |
 
 
 
@@ -585,7 +582,16 @@ Form data is validated via Yup before being stored in the Zustand store. The arc
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 83  | [ Thread App clone part frontend ](  ) | Demonstrates
+| 82  | [ React WaveSurfer Audio Player ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/82-%20React%20WaveSurfer%20Audio%20Player ) | Demonstrates Play / Pause audio , Seek forward & backward (±10 seconds) , Mute / Unmute functionality , Upload and play custom audio files , Real-time waveform visualization , Display current time and total duration , Smooth UI animations using animate.css , Clean icons via lucide-react , Responsive and modern UI (Tailwind CSS) , Tech Stack React (Hooks + Functional Components) WaveSurfer.js @wavesurfer/react  | learned A modern and interactive audio player built with React and WaveSurfer.js, featuring waveform visualization, smooth animations, and custom playback controls. .. |
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 83  | [ Thread App clone part frontend ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/83-%20Thread%20App%20clone%20frontend%20of%20mern ) | Demonstrates
 components/ → Small reusable UI blocks (buttons, cards, etc.)
 pages/ → Full screens mapped to routes
 redux/slice.js → Handles UI + app state (dark mode, posts, user)
@@ -601,7 +607,7 @@ It follows a scalable architecture with clean separation of concerns for compone
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 84  | [ PortFolio in React Js ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/84-%20PortFolio%20in%20React%20Js ) | Demonstrates  | learned Easy to understand code of PortFolio ReactJs .. |
+| 84  | [ PortFolio in React Js ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/84-%20PortFolio%20in%20React%20Js ) | Demonstrates Dark/Light mode toggle ,Blog integration ,Backend integration for contact form, Animations with Framer Motion    | learned Building scalable React components ,Handling forms efficiently using React Hook Form, Managing API calls with Axios, Improving UX with animations and feedback systems, Structuring a professional frontend project Easy to understand code of PortFolio ReactJs , A modern, responsive developer portfolio website built with React to showcase projects, skills, and contact information. Designed with smooth UX, clean UI, and performance-focused practices.. |
 
 
 
@@ -624,7 +630,7 @@ Icons: Lucide React ,AI Integration: Google Gemini API .. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 86  | [ Visting Card ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/86-%20Visting%20Card ) | Demonstrates  | learned  .. |
+| 86  | [ Visting Card ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/86-%20Visting%20Card ) | Demonstrates  Add Text:  Choose between: Title Subtitle Small text, Input field appears dynamically, Text is added to the card, Each text element is draggable Position updates based on drop coordinates Uses **html2canvas** to capture card Converts to PNG , Automatically downloads | learned A lightweight and interactive **Visiting Card Generator** built with React. This tool allows users to create custom cards by adding images, text, and positioning elements dynamically, then exporting the final design as an image🖼 Upload background image , Add multiple text fields (Title, Subtitle, Small text) , Drag & drop text positioning , Real-time preview , Export card as PNG image , Clean and minimal UI .. |
 
 
 
@@ -635,19 +641,7 @@ Icons: Lucide React ,AI Integration: Google Gemini API .. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 87  | [ Meeting Scheduler ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/87-%20Meeting%20Scheduler ) | Demonstrates  | learned  .. |
-
-
-
-
-
-
-
-
-
-| Day | Project | Concept Learned | Notes / Challenges |
-|-----|---------|----------------|------------------|
-| 88  | [ Web Scraping App in React ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/88-%20Web%20Scraping%20App%20in%20React ) | Demonstrates  | learned  .. |
+| 87  | [ Meeting Scheduler ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/87-%20Meeting%20Scheduler ) | Demonstrates User Input ,Generates a pre-filled event URL ,Redirects user to Google Calendar,, * Controlled forms with Ant Design ,Date handling and formatting ,URL encoding (`encodeURIComponent`) ,External service integration (Google Calendar) ,UI animations and transitions | learned A clean and efficient **Meeting Scheduler** web application that allows users to create meetings and instantly add them to **Google Calendar** with proper date, time, and timezone handling. .. |
 
 
 
@@ -659,7 +653,8 @@ Icons: Lucide React ,AI Integration: Google Gemini API .. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 89  | [ Dynamic input ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/89-%20Dynamic%20input ) | Demonstrates  | learned  .. |
+| 88  | [ Web Scraping App in React ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/88-%20Web%20Scraping%20App%20in%20React ) | Demonstrates React Hooks (`useState`) ,  API integration using Axios ,  Conditional rendering (loading state) ,  Error handling with toast notifications ,  Dynamic list rendering ,  UX improvements with animations | learned A fast and user-friendly **Web Scarping Image Downloader (React)  App** that allows users to extract and download images from any website URL. Built with React and integrated with a backend API to fetch images dynamically,   Enter any website URL to fetch images, Fast API-based image extraction, One-click image download, Loading spinner for better UX, Error handling with toast notifications, Smooth animations with modern UI .. |
+
 
 
 
@@ -670,7 +665,18 @@ Icons: Lucide React ,AI Integration: Google Gemini API .. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 90  | [ Attendance Tracker Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/90-%20Attendance%20Tracker%20Zustand ) | Demonstrates Check-in / Check-out with live HH:MM:SS timer ,Calendar view showing daily attendance with duration tags, Prevents duplicate sessions — only one check-in per day allowed | learned A React-based attendance tracking app built with **Ant Design**, **Zustand**, and **Moment.js**. .. |
+| 89  | [ Dynamic input ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/89-%20Dynamic%20input ) | Demonstrates * React Hooks (`useState`) ,Dynamic form handling ,Immutable state updates ,Array mapping & filtering ,Clipboard API (`navigator.clipboard`) ,Conditional rendering | learned A clean and interactive **Dynamic Input Builder** that allows users to create key-value pairs dynamically and generate a formatted JSON object in real-time. Ideal for practicing form handling, dynamic UI rendering, and state management in React, Add unlimited key-value input fields , Remove fields dynamically , Detect duplicate keys with warning , Auto-generate JSON output , Copy JSON to clipboard , Real-time UI updates , Minimal and modern interface .. |
+
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 90  | [ Attendance Tracker Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/90-%20Attendance%20Tracker%20Zustand ) | Demonstrates Check-in / Check-out with live HH:MM:SS timer ,Calendar view showing daily attendance with duration tags, Prevents duplicate sessions — only one check-in per day allowed | learned A React-based attendance tracking app built with **Ant Design**, **Zustand**, and **Moment.js**.. |
 
 
 
@@ -714,7 +720,7 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 94  | [ Dummy Data Generator ( fakerjs) ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/95-%20Dummy%20Data%20Generator%20(%20fakerjs) ) | Demonstrates Upload images (max 5MB) ,  Preview uploaded images instantly ,  Download images anytime ,  Delete images from UI ,  Fast state management using Zustand ,  Clean and responsive UI with Tailwind CSS ,  Toast notifications for better UX | learned A modern React-based image storage application that allows users to upload, preview, download, and delete images directly in the browser. Built with Zustand for state management and Tailwind CSS for styling. .. |
+| 94  | [ Dummy Data Generator ( fakerjs) ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/95-%20Dummy%20Data%20Generator%20(%20fakerjs) ) | Demonstrates Upload images (max 5MB) ,  Preview uploaded images instantly ,  Download images anytime ,  Delete images from UI ,  Fast state management using Zustand ,  Clean and responsive UI with Tailwind CSS ,  Toast notifications for better UX | learned A modern React-based image storage application that allows users to upload, preview, download, and delete images directly in the browser. Built with Zustand for state management and Tailwind CSS for styling.. |
 
 
 
@@ -724,7 +730,7 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 95  | [ ](  ) | Demonstrates Send HTTP requests (GET, POST, PUT, PATCH, DELETE) , Dynamic **Payload (Body)** fields , Dynamic **Headers** configuration , Real-time API response viewer , Syntax-highlighted JSON output , Loading states and error handling , Clean and modern UI using Ant Design , Unique field handling with `nanoid` | learned A simple and powerful **API testing tool** built with **React**. This app allows developers to send HTTP requests, customize headers and payloads dynamically, and view formatted JSON responses — similar to a lightweight version of Postman... |
+| 95  | [ Dummy Data Generator (React + Faker.js) ](  ) | Demonstrates Send HTTP requests (GET, POST, PUT, PATCH, DELETE) , Dynamic **Payload (Body)** fields , Dynamic **Headers** configuration , Real-time API response viewer , Syntax-highlighted JSON output , Loading states and error handling , Clean and modern UI using Ant Design , Unique field handling with `nanoid` | learned A simple and powerful **API testing tool** built with **React**. This app allows developers to send HTTP requests, customize headers and payloads dynamically, and view formatted JSON responses — similar to a lightweight version of Postman.. |
 
 
 
@@ -733,7 +739,7 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 96  | [ Api Http Paylaod and Header ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/96-%20Api%20Http%20Paylaod%20and%20Header ) | Demonstrates useRef and useEffect , Build tool and dev server Axios , API requests , React Router v6 , Client side routing | learned  -  API testing tool built with **React**. This app allows developers to send HTTP requests, customize headers and payloads dynamically, and view formatted JSON responses similar to a lightweight version of Postman. Send HTTP requests (GET, POST, PUT, PATCH, DELETE) , Dynamic **Payload (Body)** fields , Dynamic **Headers** configuration , Real-time API response viewer , Syntax-highlighted JSON output , Loading states and error handling , Clean and modern UI using Ant Design , Unique field handling with `nanoid` |
+| 96  | [ Api Http Paylaod and Header ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/96-%20Api%20Http%20Paylaod%20and%20Header ) | Demonstrates useRef and useEffect , Build tool and dev server Axios , API requests , React Router v6 , Client side routing | learned  -  API testing tool built with **React**. This app allows developers to send HTTP requests, customize headers and payloads dynamically, and view formatted JSON responses similar to a lightweight version of Postman. Send HTTP requests (GET, POST, PUT, PATCH, DELETE) , Dynamic **Payload (Body)** fields , Dynamic **Headers** configuration , Real-time API response viewer , Syntax-highlighted JSON output , Loading states and error handling , Clean and modern UI using Ant Design , Unique field handling with `nanoid`.. |
 
 
 
@@ -742,7 +748,7 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 97  | [  ](   ) | Demonstrates  | learned   |
+| 97  | [ Voice Recorder App ](   ) | Demonstrates Request microphone access using: navigator.mediaDevices.getUserMedia({ audio: true }) Initialize `MediaRecorder` with the audio stream, Start recording and collect audio chunks stop: , Combine chunks into a `Blob` , Generate a playable URL using `URL.createObjectURL` , Display audio player and  Allow user to download the recorded file | learned A modern and minimal **Voice Recorder Web App** built with React that allows users to record audio directly from their browser, play it back, and download it, Record audio using browser microphone, Live recording timer (MM:SS format), Start / Stop recording controls, Playback recorded audio, Download audio file (`.webm`), Smooth UI animations using `animate.css`, Responsive and clean UI with Tailwind CSS  ..  |
 
 
 
@@ -750,17 +756,7 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 98  | [  ](   ) | Demonstrates  | learned   |
-
-
-
-
-
-
-
-| Day | Project | Concept Learned | Notes / Challenges |
-|-----|---------|----------------|------------------|
-| 99  | [  ](   ) | Demonstrates  | learned   |
+| 98  | [  Firebase CRUD App (React + Ant Design) ](   ) | Demonstrates React Hooks (`useState`, `useEffect`) , Firebase Firestore operations , Controlled forms with Ant Design , Modal-based form UX , Dynamic table rendering , State-driven re-fetching (`updateCount`) | learned A complete **CRUD (Create, Read, Update, Delete) application** built with React and Firebase Firestore. This project demonstrates real-world data management with a clean UI using Ant Design and smooth user interactions, Create new user records, Fetch and display data from Firestore, Edit existing records, Delete records, Timestamp tracking (createdAt), Data table with responsive layout, Success & error messages, Smooth UI animations..  |
 
 
 
@@ -770,7 +766,20 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 100  | [ Voice Recording ](   ) | Demonstrates Uses `MediaRecorder` to capture audio stream , Stores chunks in `useRef` to persist across renders , Uses `setInterval` to update recording duration every second,  Cleared properly using `clearInterval` to prevent memory leaks , Converts recorded chunks into a `Blob` , Creates a temporary URL for playback. | learned A modern and minimal **Voice Recorder Web App** built with React that allows users to record audio directly from their browser, play it back, and download it.  |
+| 99  | [ React Authentication App (Protected Routes) ](   ) | Demonstrates Authentication Logic: localStorage.setItem("token", "dummyToken")  2. AuthGuard Flow
+const isAuthenticated = localStorage.getItem("token") return isAuthenticated ? <Outlet />  : <Navigate to="/login" replace /> 3. Route Protection
+<Route element={<AuthGuard />}>  <Route path="/profile" element={<Profile />} />
+</Route> | learned A simple and scalable React application demonstrating authentication flow with protected routes using React Router v6,, Login & Signup pages, Protected route (/profile), Route guarding using AuthGuard, Redirect unauthorized users to login, LocalStorage-based authentication (basic demo), 404 page handling, Core Concept, Protected Routing..  |
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 100  | [ ](   ) | Demonstrates  | learned ..  |
 
 
 
@@ -1456,6 +1465,31 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 ![alt text](public/images/96-paylaod-header.png)
 
 
+
+
+
+ - Project 97
+![alt text](public/images/97-Voice-Recorder.png)
+
+
+
+
+
+
+ - Project 98
+![alt text](public/images/98-fb-crud.png)
+
+
+
+ Project 99
+![alt text](public/images/.png)
+
+
+
+
+
+ Project 100
+![alt text](public/images/.png)
 
 
 ## Acknowledgements
