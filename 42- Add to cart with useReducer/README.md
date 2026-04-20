@@ -1,11 +1,12 @@
 # Reducer Store App
 
 
+A simple and scalable global state management setup for handling a shopping cart using React Context API and useReducer. This store allows you to add and remove products from a cart while automatically updating the total price.
+
 
 
  Practice use in Project :
 
- - # Project Structure
 
 1. `src/App.js` – Main app component where routes and providers are set up.
 2. `context&reducer/StoreContext.js` – Creates React context and provides add/remove cart functions.

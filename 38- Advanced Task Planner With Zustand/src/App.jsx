@@ -1,262 +1,306 @@
-import "animate.css";
-import { Badge, Card, Tag, Select, Modal, Input, Form, Button, message } from "antd";
-import { useEffect, useState } from 'react';
-import 'remixicon/fonts/remixicon.css'
+import { useEffect, useState } from 'react'
+import 'animate.css';
+import { Badge, Button, Card, DatePicker, Empty, Form, Input, Modal, Popconfirm, Select, Tag } from 'antd';
+import { Delete, Plus } from 'lucide-react';
+import { usePlanner } from './store/usePlanner';
+import '@ant-design/v5-patch-for-react-19';
+import moment from 'moment';
 
-function App() {
-  const [open, setOpen] = useState(false);
-  const [timer, setTimer] = useState(new Date().toLocaleDateString());
-  const [form] = Form.useForm();
-  const [tasks, setTasks] = useState({
-    highest: [],
-    medium: [],
-    lowest: []
-  });
+const desc = "Learn How to Quickly Generate Placeholder Text Using a Lorem Ipsum Tool. Explore How Lorem Ipsum Generators Can Liven up Your Web Layout Wireframes and Mockups. 100+ Templates. A/B Testing & Surveys."
 
-  // Sample initial tasks
-  const initialTasks = {
-    highest: [
-      { id: 1, title: "Complete project report", description: "Finish the quarterly project report and submit", status: "pending" },
-      { id: 2, title: "Client meeting", description: "Prepare for important client presentation", status: "pending" }
-    ],
-    medium: [
-      { id: 3, title: "Team sync", description: "Weekly team synchronization meeting", status: "inProgress" },
-      { id: 4, title: "Code review", description: "Review pull requests from team members", status: "pending" }
-    ],
-    lowest: [
-      { id: 5, title: "Update documentation", description: "Update project documentation", status: "completed" },
-      { id: 6, title: "Organize files", description: "Clean up and organize project files", status: "pending" }
-    ]
-  };
+const App = () => {
+  const [form] = Form.useForm()
+  const [open, setOpen] = useState(false)
+  const [timer, setTimer] = useState(new Date().toLocaleTimeString())
+  const {tasks, addTask, deleteTask, updateStatus, deleteAllTask } = usePlanner()
+  const highestTasks = tasks.filter((item)=>item.priority === "highest")
+  const mediumTasks = tasks.filter((item)=>item.priority === "medium")
+  const lowestTasks = tasks.filter((item)=>item.priority === "lowest")
 
-  // Initialize tasks on component mount
-  useEffect(() => {
-    setTasks(initialTasks);
-    
-    const interval = setInterval(() => {
-      setTimer(new Date().toLocaleTimeString());
-    }, 1000);
-     
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
+  const createTask = (value)=>{
+    value.status = "pending"
+    value.id = Date.now()
+    value.createdAt = new Date()
+    addTask(value)
+    handleClose()
+  }
 
-  const createTask = (values) => {
-    const newTask = {
-      id: Date.now(),
-      title: values.title,
-      description: values.discription,
-      status: "pending",
-      priority: values.periorty
-    };
+  const handleClose = ()=>{
+    setOpen(false)
+    form.resetFields()
+  }
 
-    // Add task to the appropriate priority array
-    setTasks(prevTasks => ({
-      ...prevTasks,
-      [values.periorty]: [...prevTasks[values.periorty], newTask]
-    }));
+  useEffect(()=>{
+    const interval = setInterval(()=>{
+      setTimer(new Date().toLocaleTimeString())
+    }, 1000)
 
-    message.success('Task created successfully!');
-    form.resetFields();
-    setOpen(false);
-  };
-
-  const handleClose = () => {
-    form.resetFields();
-    setOpen(false);
-  };
-
-  const handleStatusChange = (taskId, priority, newStatus) => {
-    setTasks(prevTasks => ({
-      ...prevTasks,
-      [priority]: prevTasks[priority].map(task => 
-        task.id === taskId ? { ...task, status: newStatus } : task
-      )
-    }));
-  };
-
-  const handleDeleteTask = (taskId, priority) => {
-    setTasks(prevTasks => ({
-      ...prevTasks,
-      [priority]: prevTasks[priority].filter(task => task.id !== taskId)
-    }));
-    message.info('Task deleted');
-  };
-
-  const getStatusColor = (status) => {
-    switch(status) {
-      case 'pending': return 'blue';
-      case 'inProgress': return 'orange';
-      case 'completed': return 'green';
-      default: return 'default';
+    return ()=>{
+      clearInterval(interval)
     }
-  };
-
-  const renderTaskCard = (task, priority) => (
-    <div key={task.id} className="mb-4 p-3 rounded shadow">
-      <Card hoverable>
-        <Card.Meta
-          title={task.title}
-          description={task.description}
-        />
-        
-        <div className="flex justify-between mt-2">
-          <div className="flex gap-3 mt-2">
-            <Tag color={getStatusColor(task.status)}>
-              {task.status.charAt(0).toUpperCase() + task.status.slice(1)}
-            </Tag>
-            <Tag 
-              className="!bg-red-400 cursor-pointer" 
-              onClick={() => handleDeleteTask(task.id, priority)}
-            >
-              Delete
-            </Tag>
-          </div>
-          <div>
-            <Select 
-              size="small" 
-              placeholder="Change Status"
-              value={task.status}
-              onChange={(value) => handleStatusChange(task.id, priority, value)}
-            >
-              <Select.Option value="pending">Pending</Select.Option>
-              <Select.Option value="inProgress">In Progress</Select.Option>
-              <Select.Option value="completed">Completed</Select.Option>
-            </Select>
-          </div>
-        </div>
-      </Card>
-    </div>
-  );
+  }, [])
 
   return (
-    <>
-      <div className="h-screen overflow-hidden bg-gradient-to-r from-black/55 to-blue-300 text-white">
-        <nav className="w-full bg-white h-8 fixed top-0 left-0 border flex justify-between items-center bg-yellow-100">
-          <div className="flex">
-            <p className="ml-1 border px-2 rounded-xl bg-zinc-900 text-purple-800 text-xl font-bold">P</p>
-            <p className="text-xl font-bold text-purple-800">laner</p>
+    <div className='bg-gray-200 h-screen overflow-hidden'>
+      <nav className='bg-gradient-to-r from-rose-500 via-slate-800 to-slate-900 text-white bg-white h-[60px] fixed top-0 left-0 w-full flex justify-between items-center px-8'>
+          <div className='flex items-center'>
+            <button className='w-10 h-10 bg-[radial-gradient(circle_at_center,_#00c6ff_0%,_#0072ff_50%,_hsl(288.0,_60.877127978136066%,_57.31748127924382%)_100%)] rounded-full font-bold text-white'>
+              PL
+            </button>
+            <h1 className='text-2xl font-bold ml-px'>anner</h1>
           </div>
-          <h1 className="mr-1 text-xl font-bold text-purple-800">{timer}</h1>
-        </nav>
 
-        <section className="fixed top-[30px] left-0 w-full overflow-auto h-[calc(100%-96px)] grid grid-cols-3 gap-8 p-5">
-          {/* Highest Priority Column */}
-          <div className="h-full">
-            <Badge.Ribbon text="HIGHEST" className="!bg-pink-500 font-bold">
-              <div className="h-full overflow-y-auto bg-white rounded">
-                <div className="min-h-[1000px] bg-gradient-to-b from-blue-100 to-purple-100 p-5">
-                  <button 
-                    onClick={() => setOpen(true)} 
-                    className="flex gap-1 text-lg py-1 px-1 bg-indigo-400 hover:bg-indigo-500 font-semibold hover:scale-110 transform duration-400 shadow-lg mb-4"
-                  >
-                    <i className="ri-folder-add-line text-xl"></i>
-                    Add Task
-                  </button>
-                  
-                  {tasks.highest.map(task => renderTaskCard(task, 'highest'))}
-                </div>
+          <div className='flex gap-5 items-center'>
+            <h1 className='text-2xl font-bold lg:block hidden'>{timer}</h1>
+            <DatePicker className='!py-1.5' />
+            <button onClick={()=>setOpen(true)} className='focus:shadow-lg hover:scale-105 transition-translate duration-300 items-center text-sm py-2 px-3 rounded bg-gradient-to-tr from-blue-600 via-blue-500 to-blue-600 text-white flex gap-1 font-medium'>
+                <Plus className='w-4 h-4' />
+                Add task
+            </button>
+
+            <Popconfirm title="Do you want to delete all tasks ?" onConfirm={()=>deleteAllTask()}>
+              <button className='focus:shadow-lg hover:scale-105 transition-translate duration-300 items-center text-sm py-2 px-3 rounded bg-gradient-to-tr from-rose-600 via-red-500 to-rose-600 text-white flex gap-1 font-medium'>
+                  <Delete className='w-4 h-4' />
+                  Delete all tasks
+              </button>
+            </Popconfirm>
+          </div>
+
+      </nav>
+
+      <section className='fixed top-[60px] left-0 h-[calc(100%-120px)] w-full overflow-x-auto overflow-y-visible grid lg:grid-cols-3 gap-8 p-8'>
+        <div className='lg:h-full lg:min-h-0 h-[300px]'>
+          <Badge.Ribbon
+            text="Highest"
+            className='!bg-gradient-to-br !from-rose-500 !via-pink-500 !to-rose-500 !font-medium !z-[20000]'
+          />
+
+          <div className='bg-white rounded-lg h-full min-h-0 overflow-auto p-6 space-y-8'>
+              <div className='flex flex-col gap-8'>
+                {
+                  highestTasks.length === 0 &&
+                  (
+                    <>
+                      <Empty description="There is no task added as highest priority" />
+                      <button onClick={()=>setOpen(true)} className='w-fit mx-auto focus:shadow-lg hover:scale-105 transition-translate duration-300 items-center text-sm py-2 px-3 rounded bg-gradient-to-tr from-blue-600 via-blue-500 to-blue-600 text-white flex gap-1 font-medium'>
+                          <Plus className='w-4 h-4' />
+                          Add task
+                      </button>
+                    </>
+                  )
+                }
+                {
+                  highestTasks.map((item, index)=>(
+                    <Card hoverable key={index}>
+                      <Card.Meta
+                        title={<label className='capitalize-first'>{item.title}</label>}
+                        description={<label className='capitalize-first'>{item.description}</label>}
+                      />
+                      <div className='mt-4 flex justify-between items-center'>
+                        <div>
+                          {
+                            item.status === "pending"
+                            &&
+                            <Tag className='capitalize'>{item.status}</Tag>
+                          }
+                          {
+                            item.status === "inProgress"
+                            &&
+                            <Tag className='capitalize' color='geekblue'>{item.status}</Tag>
+                          }
+                          {
+                            item.status === "completed"
+                            &&
+                            <Tag className='capitalize' color='green'>{item.status}</Tag>
+                          }
+                          <Popconfirm title="Do you want to delete this tasks ?" onConfirm={()=>deleteTask(item.id)}>
+                            <Tag className='!bg-rose-500 !border-rose-500 !text-white'>Delete</Tag>
+                          </Popconfirm>
+                        </div>
+                        <Select size='small' placeholder="Change status" onChange={(status)=>updateStatus(item.id, status)}>
+                          <Select.Option value="pending">Pending</Select.Option>
+                          <Select.Option value="inProgress">inProgress</Select.Option>
+                          <Select.Option value="completed">Completed</Select.Option>
+                        </Select>
+                      </div>
+                      <label className='text-slate-600 text-xs flex mt-3'>{moment(item.createdAt).format('DD MMM YYYY hh:mm A')}</label>
+                    </Card>
+                  ))
+                }
               </div>
-            </Badge.Ribbon>
           </div>
+        </div>
 
-          {/* Medium Priority Column */}
-          <div className="h-full">
-            <Badge.Ribbon text="MEDIUM" className="!bg-pink-500 font-bold">
-              <div className="h-full overflow-y-auto bg-white rounded">
-                <div className="min-h-[1000px] bg-gradient-to-b from-blue-100 to-purple-100 p-5">
-                  <button 
-                    onClick={() => setOpen(true)} 
-                    className="flex gap-1 text-lg py-1 px-1 bg-indigo-400 hover:bg-indigo-500 font-semibold hover:scale-110 transform duration-400 shadow-lg mb-4"
-                  >
-                    <i className="ri-folder-add-line text-xl"></i>
-                    Add Task
-                  </button>
-                  
-                  {tasks.medium.map(task => renderTaskCard(task, 'medium'))}
-                </div>
+        <div className='lg:h-full lg:min-h-0 h-[300px]'>
+          <Badge.Ribbon
+            text="Medium"
+            className='!bg-gradient-to-br !from-indigo-500 !via-blue-500 !to-indigo-500 !font-medium !z-[20000]'
+          />
+
+          <div className='bg-white rounded-lg h-full min-h-0 overflow-auto p-6 space-y-8'>
+              <div className='flex flex-col gap-8'>
+                {
+                  mediumTasks.length === 0 &&
+                  (
+                    <>
+                      <Empty description="There is no task added as medium priority" />
+                      <button onClick={()=>setOpen(true)} className='w-fit mx-auto focus:shadow-lg hover:scale-105 transition-translate duration-300 items-center text-sm py-2 px-3 rounded bg-gradient-to-tr from-blue-600 via-blue-500 to-blue-600 text-white flex gap-1 font-medium'>
+                          <Plus className='w-4 h-4' />
+                          Add task
+                      </button>
+                    </>
+                  )
+                }
+                {
+                  mediumTasks.map((item, index)=>(
+                    <Card hoverable key={index}>
+                      <Card.Meta
+                        title={<label className='capitalize-first'>{item.title}</label>}
+                        description={<label className='capitalize-first'>{item.description}</label>}
+                      />
+                      <div className='mt-4 flex justify-between items-center'>
+                        <div>
+                          {
+                            item.status === "pending"
+                            &&
+                            <Tag className='capitalize'>{item.status}</Tag>
+                          }
+                          {
+                            item.status === "inProgress"
+                            &&
+                            <Tag className='capitalize' color='geekblue'>{item.status}</Tag>
+                          }
+                          {
+                            item.status === "completed"
+                            &&
+                            <Tag className='capitalize' color='green'>{item.status}</Tag>
+                          }
+                          <Popconfirm title="Do you want to delete this tasks ?" onConfirm={()=>deleteTask(item.id)}>
+                            <Tag className='!bg-rose-500 !border-rose-500 !text-white'>Delete</Tag>
+                          </Popconfirm>
+                        </div>
+                        <Select size='small' placeholder="Change status" onChange={(status)=>updateStatus(item.id, status)}>
+                          <Select.Option value="pending">Pending</Select.Option>
+                          <Select.Option value="inProgress">inProgress</Select.Option>
+                          <Select.Option value="completed">Completed</Select.Option>
+                        </Select>
+                      </div>
+                      <label className='text-slate-600 text-xs flex mt-3'>{moment(item.createdAt).format('DD MMM YYYY hh:mm A')}</label>
+                    </Card>
+                  ))
+                }
               </div>
-            </Badge.Ribbon>
           </div>
+        </div>
 
-          {/* Lowest Priority Column */}
-          <div className="h-full">
-            <Badge.Ribbon text="LOWEST" className="!bg-pink-500 font-bold">
-              <div className="h-full overflow-y-auto bg-white rounded">
-                <div className="min-h-[1000px] bg-gradient-to-b from-blue-100 to-purple-100 p-5">
-                  <button 
-                    onClick={() => setOpen(true)} 
-                    className="flex gap-1 text-lg py-1 px-1 bg-indigo-400 hover:bg-indigo-500 font-semibold hover:scale-110 transform duration-400 shadow-lg mb-4"
-                  >
-                    <i className="ri-folder-add-line text-xl"></i>
-                    Add Task
-                  </button>
-                  
-                  {tasks.lowest.map(task => renderTaskCard(task, 'lowest'))}
-                </div>
+        <div className='lg:h-full lg:min-h-0 h-[300px]'>
+          <Badge.Ribbon
+            text="Lowest"
+            className='!bg-gradient-to-br !from-amber-500 !via-orange-500 !to-amber-500 !font-medium !z-[20000]'
+          />
+
+          <div className='bg-white rounded-lg h-full min-h-0 overflow-auto p-6 space-y-8'>
+              <div className='flex flex-col gap-8'>
+                {
+                  lowestTasks.length === 0 &&
+                  (
+                    <>
+                      <Empty description="There is no task added as lowest priority" />
+                      <button onClick={()=>setOpen(true)} className='w-fit mx-auto focus:shadow-lg hover:scale-105 transition-translate duration-300 items-center text-sm py-2 px-3 rounded bg-gradient-to-tr from-blue-600 via-blue-500 to-blue-600 text-white flex gap-1 font-medium'>
+                          <Plus className='w-4 h-4' />
+                          Add task
+                      </button>
+                    </>
+                  )
+                }
+                {
+                  lowestTasks.map((item, index)=>(
+                    <Card hoverable key={index}>
+                      <Card.Meta
+                        title={<label className='capitalize-first'>{item.title}</label>}
+                        description={<label className='capitalize-first'>{item.description}</label>}
+                      />
+                      <div className='mt-4 flex justify-between items-center'>
+                        <div>
+                          {
+                            item.status === "pending"
+                            &&
+                            <Tag className='capitalize'>{item.status}</Tag>
+                          }
+                          {
+                            item.status === "inProgress"
+                            &&
+                            <Tag className='capitalize' color='geekblue'>{item.status}</Tag>
+                          }
+                          {
+                            item.status === "completed"
+                            &&
+                            <Tag className='capitalize' color='green'>{item.status}</Tag>
+                          }
+                          <Popconfirm title="Do you want to delete this tasks ?" onConfirm={()=>deleteTask(item.id)}>
+                            <Tag className='!bg-rose-500 !border-rose-500 !text-white'>Delete</Tag>
+                          </Popconfirm>
+                        </div>
+                        <Select size='small' placeholder="Change status" onChange={(status)=>updateStatus(item.id, status)}>
+                          <Select.Option value="pending">Pending</Select.Option>
+                          <Select.Option value="inProgress">inProgress</Select.Option>
+                          <Select.Option value="completed">Completed</Select.Option>
+                        </Select>
+                      </div>
+                      <label className='text-slate-600 text-xs flex mt-3'>{moment(item.createdAt).format('DD MMM YYYY hh:mm A')}</label>
+                    </Card>
+                  ))
+                }
               </div>
-            </Badge.Ribbon>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <footer className="w-full bg-white h-8 fixed bottom-0 left-0 border flex justify-between items-center bg-yellow-100">
-          <div className="w-full text-center text-purple-800 font-semibold">
-            Total Tasks: {tasks.highest.length + tasks.medium.length + tasks.lowest.length}
-          </div>
-        </footer>
-
-        {/* Modal for creating new task */}
-        <Modal 
-          open={open} 
-          maskClosable={false} 
-          onCancel={handleClose} 
-          footer={null} 
-          title="New Task"
-        >
-          <Form 
-            form={form} 
-            onFinish={createTask}
-            layout="vertical"
+      <footer className='text-white bg-gradient-to-l from-rose-500 via-slate-800 to-slate-900 bg-white h-[60px] fixed bottom-0 left-0 w-full flex items-center justify-between px-8'>
+            <h1 className='text-2xl font-bold'>Total tasks - {tasks.length}</h1>
+            <a href="https://codingott.com" className='hover:underline'>www.codingott.com</a>
+      </footer>
+      <Modal open={open} footer={null} onCancel={handleClose} maskClosable={false}>
+        <h1 className='text-lg font-medium mb-3'>New task</h1>
+        <Form onFinish={createTask} form={form} initialValues={{description: desc}}>
+          <Form.Item
+            name="title"
+            rules={[{required: true}]}
           >
-            <Form.Item
-              name="title" 
-              label="Task Title"
-              rules={[{ required: true, message: 'Please enter task title' }]}
-            >
-              <Input.TextArea placeholder="Enter task name" rows={2} />
-            </Form.Item>
+            <Input
+              placeholder='Task name'
+              size='large'
+            />
+          </Form.Item>
 
-            <Form.Item
-              name="discription" 
-              label="Description"
-              rules={[{ required: true, message: 'Please enter task description' }]}
-            >
-              <Input.TextArea placeholder="Enter task description" rows={5} />
-            </Form.Item>
+          <Form.Item
+            name="description"
+            rules={[{required: true}]}
+          >
+            <Input.TextArea
+              placeholder='Task description goes here'
+              rows={5}
+            />
+          </Form.Item>
 
-            <Form.Item
-              name="periorty" 
-              label="Priority"
-              rules={[{ required: true, message: 'Please select priority' }]}
-            >
-              <Select size="large" placeholder="Select priority">
-                <Select.Option value="highest">Highest</Select.Option>
-                <Select.Option value="medium">Medium</Select.Option>
-                <Select.Option value="lowest">Lowest</Select.Option>
-              </Select>
-            </Form.Item>
+          <Form.Item
+            name="priority"
+            rules={[{required: true}]}
+          >
+            <Select size='large' placeholder="Choose priority">
+              <Select.Option value="highest">Highest</Select.Option>
+              <Select.Option value="medium">Medium</Select.Option>
+              <Select.Option value="lowest">Lowest</Select.Option>
+            </Select>
+          </Form.Item>
 
-            <Form.Item className="text-right">
-              <Button type="primary" htmlType="submit">
-                Create Task
-              </Button>
-            </Form.Item>
-          </Form>
-        </Modal>
-      </div>
-    </>
-  );
+          <Form.Item>
+            <Button htmlType='submit' type='primary' size='large'>Submit</Button>
+          </Form.Item>
+        </Form>
+      </Modal>
+    </div>
+  )
 }
 
-export default App;
+export default App

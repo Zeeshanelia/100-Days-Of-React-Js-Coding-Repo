@@ -1,26 +1,17 @@
 ## React E-Commerce With maximum use useState
 
 
-
-Project  – React E-Commerce Application
-
-
-##  🛠️ Tech Stack
- 
- -  Frontend
+    Tech Stack
 
  -  React (Functional Components)
  -  React Hooks: useState, useEffect
- -  Tailwind CSS (Utility-first styling)
+ -  Array methods: map, filter, reduce, some
  -  Remix Icon (Icon library)
  -  State & Logic
- -  JavaScript ES6+
- -  Array methods: map, filter, reduce, some
  -  Conditional rendering and controlled components
  -  Tooling
- -  Vite (Fast development environment)
  -  PostCSS
- -  npm package manager
+
 
 
 
@@ -65,7 +56,7 @@ A single activePanel state controls Cart, Wishlist, and Order panels to avoid UI
 
 
 
- - User Action → Products.jsx (click AddToCart) 
+ - User Action → Products.jsx (click AddToCart)
    └──> Home.jsx cart state updated
          ├──> Cart.jsx (reads cart state → renders drawer)
          └──> LocalStorage updated automatically via useEffect
@@ -89,8 +80,8 @@ A single activePanel state controls Cart, Wishlist, and Order panels to avoid UI
 
 
 
-<!-- 
- Use item — the current product in the .map() iteration , Wrap in an arrow function () => addToCart(item) so that it passes the product on click 
+<!--
+ Use item — the current product in the .map() iteration , Wrap in an arrow function () => addToCart(item) so that it passes the product on click
 
 
  <button
@@ -99,7 +90,7 @@ A single activePanel state controls Cart, Wishlist, and Order panels to avoid UI
   Add to Cart
 </button>
 
-then render automatically  
+then render automatically
 
 <img src={product.img} />
 <h2>{product.name}</h2>

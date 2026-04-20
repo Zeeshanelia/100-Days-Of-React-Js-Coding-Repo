@@ -1,6 +1,6 @@
-// Cart.jsx
+
 import React from 'react';
-import { useCartStore } from '../store/cartStore'; // ✅ Make sure this path is correct
+import { useCartStore } from '../store/cartStore';
 
 export const Cart = () => {
   const cart = useCartStore(state => state.cart);

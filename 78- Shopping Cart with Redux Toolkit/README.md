@@ -1,6 +1,8 @@
 # Simple Add to Cart App
 
-A beginner-friendly React shopping cart demo built with Vite + Tailwind CSS + Redux Toolkit.
-Add products to cart, see live quantity & total price, remove items, and clear the cart.
-Great first project to learn state management with Redux Toolkit in 2025 style.
 
+Cart state is managed globally using Redux Toolkit. The cartSlice exposes an addToCart action that any component can dispatch. The ProductCard component dispatches this action directly on button click: dispatch(addToCart(product));
+
+Product cards feature a clean white image panel with mix-blend-multiply for transparent product photos
+Indigo accent color used consistently for prices and CTA buttons
+Cards use hover:shadow-xl for subtle depth on interaction

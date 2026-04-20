@@ -1,150 +1,93 @@
-# 📋 Task Planner App (React + Ant Design)
+## Advanced Task Planner App (React + Zustand + Ant Design)
 
-A clean and interactive **Task Management (Planner) App** built with **React**, **Ant Design (Antd)**, and modern UI styling. This application allows users to create, manage, and track tasks based on priority levels.
+A powerful and elegant task management application built with React, Zustand, and Ant Design. This planner helps you organize tasks by priority, track their status, and manage them efficiently with a clean and responsive interface.
 
----
+🚀 Features
+📝 Create tasks with title, description, and priority
+📊 Categorize tasks into:
+🔴 Highest Priority
+🔵 Medium Priority
+🟡 Lowest Priority
 
-## 🚀 Features
 
-* ✅ Create new tasks with title, description, and priority
-* 📊 Organize tasks into 3 priority levels:
+🔄 Update task status:
+Pending
+In Progress
+Completed
+🗑️ Delete individual tasks
+❌ Delete all tasks with confirmation
+⏱️ Live clock in navbar
+📅 Built-in date picker
+📌 Task creation timestamp
+📭 Empty state UI for no tasks
+🎨 Smooth UI with gradients and animations
 
-  * 🔴 Highest
-  * 🟡 Medium
-  * 🟢 Lowest
-* 🔄 Update task status:
 
-  * Pending
-  * In Progress
-  * Completed
-* ❌ Delete tasks instantly
-* ⏱️ Live clock display in navbar
-* 📈 Total task counter in footer
-* 🎨 Smooth UI with gradients and animations (Animate.css + Remix Icons)
+🛠️ Tech Stack
+React (Hooks)
+Zustand (State Management)
+Ant Design (UI Components)
+Animate.css
+Lucide Icons
+Moment.js
 
----
 
-## 🧠 Tech Stack
 
-* **React.js** (Hooks: `useState`, `useEffect`)
-* **Ant Design (antd)** – UI components
-* **Animate.css** – Animations
-* **Remix Icons** – Icons
-* **Tailwind CSS** (utility classes for styling)
+📂 Project Structure
 
----
-
-## 📂 Project Structure (Simplified)
-
-```
 src/
-│
-├── App.jsx        # Main application logic
-├── index.js       # Entry point
-├── styles/        # Optional styling files
-```
-
-
-## 🧩 Core Concepts Explained
-
-### 1. State Management
-
-The app uses React local state:
-
-```js
-const [tasks, setTasks] = useState({
-  highest: [],
-  medium: [],
-  lowest: []
-});
-```
-
-👉 Tasks are grouped by **priority**, not a flat list.
-
----
-
-### 2. Task Creation
-
-* Uses Ant Design `Form`
-* On submit → `createTask()` is triggered
-* Task is added dynamically based on selected priority
-
-```js
-[values.periorty]: [...prevTasks[values.periorty], newTask]
-```
-
----
-
-### 3. Status Handling
-
-Each task has a `status` field:
-
-```js
-pending | inProgress | completed
-```
-
-Updated using dropdown (`Select` component).
-
----
-
-### 4. Dynamic Rendering
-
-Reusable function:
-
-```js
-renderTaskCard(task, priority)
-```
-
-👉 Keeps UI clean and avoids repetition.
-
----
-
-### 5. Live Timer
-
-```js
-setInterval(() => {
-  setTimer(new Date().toLocaleTimeString());
-}, 1000);
-```
-
-👉 Updates every second.
-
----
-
-## 🎯 UI Layout
-
-* **Navbar (Top)** → App name + Live Time
-* **Main Section** → 3 Columns (Priority-based tasks)
-* **Footer (Bottom)** → Total tasks count
-* **Modal** → Create new task
-
----
-
-## ⚠️ Important Notes / Improvements
-
-* ❗ Typo in variable names:
-
-  * `periorty` → should be `priority`
-  * `discription` → should be `description`
-
-* 💡 Possible Enhancements:
-
-  * Add drag-and-drop (like Trello)
-  * Persist data using LocalStorage / Backend
-  * Add authentication
-  * Add due dates & reminders
-  * Dark mode toggle
-
----
-
-## 📸 Preview Idea
-
-This app behaves similar to:
-
-* Trello board (basic version)
-* Kanban-style task manager
+ ├── App.jsx
+ ├── store/
+ │    └── usePlanner.js
+ ├── index.js
+ └── styles (optional)
 
 
 
-* **screenshots section**
+All tasks are managed globally using a custom hook:
 
+const { tasks, addTask, deleteTask, updateStatus, deleteAllTask } = usePlanner();
+📌 Task Creation
+Click "Add Task"
+Fill out:
+Title
+Description
+Priority
+Submit to add task with:
+Auto-generated ID
+Default status: pending
+Timestamp
+const createTask = (value) => {
+  value.status = "pending";
+  value.id = Date.now();
+  value.createdAt = new Date();
+  addTask(value);
+};
+
+📌 Task Filtering
+
+Tasks are grouped dynamically:
+
+const highestTasks = tasks.filter(t => t.priority === "highest");
+const mediumTasks = tasks.filter(t => t.priority === "medium");
+const lowestTasks = tasks.filter(t => t.priority === "lowest");
+
+📌 Status Updates
+updateStatus(taskId, status);
+
+📌 Delete Tasks
+Delete single task via confirmation
+Delete all tasks using top action button
+
+🎨 UI Highlights
+Responsive 3-column layout
+Beautiful gradient headers
+Ant Design Cards & Badges
+Empty states with call-to-action
+Smooth hover and transition effects
+
+⚙️ Configuration
+Modal Form Defaults
+initialValues={{ description: desc }}
+Date Formatting
+moment(item.createdAt).format('DD MMM YYYY hh:mm A')
