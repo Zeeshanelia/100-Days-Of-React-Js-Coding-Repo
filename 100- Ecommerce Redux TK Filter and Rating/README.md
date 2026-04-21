@@ -56,31 +56,7 @@ A modern **E-commerce frontend application** built with **React**, using **Conte
 
 ---
 
-## 📁 Project Structure
 
-```
-src/
-│
-├── components/
-│   ├── Header/
-│   │   └── Header.jsx
-│   ├── CartProductCard/
-│   │   └── CartProductCard.jsx
-│
-├── context/
-│   └── cartContext/
-│       ├── CartContext.jsx
-│       └── cartReducer.js
-│
-├── pages/
-│   └── home/
-│       └── filterBar/
-│           └── FilterBar.jsx
-│
-└── App.jsx
-```
-
----
 
 ## ⚙️ Core Concepts Explained
 

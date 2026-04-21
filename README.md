@@ -170,24 +170,22 @@ Each project is linked below for easy access and learning.
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 15   | [ContextApi Functional Website](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/15-Login%20Form%20with%20useReducer%20Mini%20Pro) | Demonstrates Login logOut Form  useReducer useState with hide show password username | Learned Login & Logout Form in React using useReducer for state management.Handle username and ID inputs smoothly with controlled components. Learn simple, clean, and efficient form handling |
+| 15  | [ContextApi Functional Website](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/15-Login%20Form%20with%20useReducer%20Mini%20Pro) | Demonstrates Login logOut Form  useReducer useState with hide show password username | Learned Login & Logout Form in React using useReducer for state management.Handle username and ID inputs smoothly with controlled components. Learn simple, clean, and efficient form handling |
 
 
 
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 16  | [ Emoji Finder React App ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/16-Emoji%20Finder%20App )  | Demonstrates useState practice & download logic uses <a>tag clicks | Learned An emoji is NOT an image
-Emojis such as 😀 or 😎 are text characters, not image files. This is why they cannot be downloaded directly as .jpg or .png .Convert emojis into real images (PNG/JPG) Use canvas drawing .Create flexible React download functions
-Trigger file downloads programmatically |
+| 16  | [ Emoji Finder React App ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/16-Emoji%20Finder%20App )  | Demonstrates useState practice & download logic uses <a>tag clicks | Learned An emoji is NOT an image, Emojis such as 😀 or 😎 are text characters, not image files. This is why they cannot be downloaded directly as .jpg or .png .Convert emojis into real images (PNG/JPG) Use canvas drawing .Create flexible React download functions, Trigger file downloads programmatically |
 
 
 
 
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
-| 17  |[ContextApi Functional Website]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/13-ContextApi%20Functional%20Website ) | Demonstrates maximum use of react image editor library, Add drag & drop upload ,Add image filters preview
-Save edited images to cloud, Dark mode toggle, Image history (undo/redo enhancements) | Learned A simple and modern image upload and editing application built with React. This app allows users to upload an image, preview it, open an editor, make adjustments, and download the edited image.  |
+| 17  |[ ContextApi Functional Website ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/13-ContextApi%20Functional%20Website ) | Demonstrates maximum use of react image editor library, Add drag & drop upload ,Add image filters preview
+Save edited images to cloud, Dark mode toggle, Image history (undo/redo enhancements) | Learned A simple and modern image upload and editing application built with React. This app allows users to upload an image, preview it, open an editor, make adjustments, and download the edited image.. |
 
 
 
@@ -195,14 +193,15 @@ Save edited images to cloud, Dark mode toggle, Image history (undo/redo enhancem
 
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
-| 18 |[Ecommerce With Context Api & useEffect Rest Api](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | Demonstrates maximum use Context API with useEffect with Real World Project   | Learned best approach useEffect to Update Context with fetching data |
+| 18 |[Ecommerce With Context Api & useEffect Rest Api](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/18%20-%20Ecommerce%20With%20Context%20Api%20%26%20useEffect%20Rest%20Api) | Demonstrates maximum use Context API with useEffect with Real World Project | Learned best approach useEffect to Update Context with fetching data |
+
 
 
 
 
 | Number of Project or Day | Project Name | Concepts Learned | Notes OR Challenges |
 |-----|---------|----------------|------------------|
-| 19 |[ Image Rezise Finder ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/19%20-%20image%20Resize%20Finder%20App) | Demonstrates maximum use useState with best logic approach   | Learned in this project It calculates and displays image width and height dynamically. useState is used for managing image data and dimensions. Users can upload an image and get instant results.The interface is clean, responsive, and easy to use. Ideal for learning React state management and file handling. |
+| 19 |[ Image Rezise Finder ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/19%20-%20image%20Resize%20Finder%20App) | Demonstrates maximum use useState with best logic approach  | Learned in this project It calculates and displays image width and height dynamically. useState is used for managing image data and dimensions. Users can upload an image and get instant results.The interface is clean, responsive, and easy to use. Ideal for learning React state management and file handling. |
 
 
 
@@ -235,7 +234,7 @@ Save edited images to cloud, Dark mode toggle, Image history (undo/redo enhancem
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 23  | [ Password Generator App ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/23%20-%20Password%20Generator) | Demonstrates best usecase of useState   | Learned Random Password Generator using useState and TailwindCSS.Generates secure passwords with customizable length based on a predefined pattern.Users can input desired password length and generate a random password instantly.Displays the generated password in a read-only field with copy icon for convenience.Styled with responsive layout, gradients, shadows, and modern UI elements. Perfect for quickly creating strong passwords for online accounts and security needs. |
+| 23  | [ Password Generator App ](https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/23%20-%20Password%20Generator) | Demonstrates best usecase of useState  | Learned Random Password Generator using useState and TailwindCSS.Generates secure passwords with customizable length based on a predefined pattern.Users can input desired password length and generate a random password instantly.Displays the generated password in a read-only field with copy icon for convenience.Styled with responsive layout, gradients, shadows, and modern UI elements. Perfect for quickly creating strong passwords for online accounts and security needs. |
 
 
 
@@ -367,8 +366,7 @@ Save edited images to cloud, Dark mode toggle, Image history (undo/redo enhancem
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 40  | [ Form Management with Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/Admin%20Panel%20Layout%20Responsive%20-%20Copy ) |  Demonstrates Form Persistence , Form handling with Zustand State Management,  useState & Tailwind CSS | learned A modern, responsive sign-in form built with React and Zustand for state management, featuring form persistence and smooth animations. User inputs data → Local component state updates. Zustand store syncs → Global state updates
-Persistence middleware → localStorage saves (if remembered)
+| 40  | [ Form Management with Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/Admin%20Panel%20Layout%20Responsive%20-%20Copy ) |  Demonstrates Form Persistence , Form handling with Zustand State Management,  useState & Tailwind CSS | learned A modern, responsive sign-in form built with React and Zustand for state management, featuring form persistence and smooth animations. User inputs data → Local component state updates. Zustand store syncs → Global state updates, Persistence middleware → localStorage saves (if remembered)
 Page reload → State auto-restores from localStorage. |
 
 
@@ -384,8 +382,7 @@ Page reload → State auto-restores from localStorage. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 42  | [  Add to cart with useReducer ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/42-%20Add%20to%20cart%20with%20useReducer ) |  Demonstrates Home.jsx –> Homepage showing product list. Cart.jsx –> Shopping cart page displaying added products. Product.jsx –> Optional product detail page. Nav.jsx –> Navigation bar with links and cart indicator. CartItem.jsx –> Component for displaying individual items in cart. addToCart.jsx –> Button/component handling product addition to cart. | learned A simple and scalable global state management setup for handling a shopping cart using React Context API and useReducer. This store allows you to add and remove products from a cart while automatically updating the total price.
-All components use StoreContext to access and update cart state globally. |
+| 42  | [  Add to cart with useReducer ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/42-%20Add%20to%20cart%20with%20useReducer ) |  Demonstrates Home.jsx –> Homepage showing product list. Cart.jsx –> Shopping cart page displaying added products. Product.jsx –> Optional product detail page. Nav.jsx –> Navigation bar with links and cart indicator. CartItem.jsx –> Component for displaying individual items in cart. addToCart.jsx –> Button/component handling product addition to cart. | learned A simple and scalable global state management setup for handling a shopping cart using React Context API and useReducer. This store allows you to add and remove products from a cart while automatically updating the total price.All components use StoreContext to access and update cart state globally. |
 
 
 
@@ -400,8 +397,7 @@ All components use StoreContext to access and update cart state globally. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 44  | [ Zustand React E-Commerce Cart Logic ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/44-%20Zustand%20E-Commerce%20Cart%20Logic ) | Demonstrates The app uses a global store (useCartStore) to manage cart state: cart → array of items
-addItem(product) → adds item to cart , removeItem(id) → removes item from cart | learned Users can view products, add them to the cart, and remove items from the cart. The cart count updates dynamically in the navigation bar. All components are created as functional components with React hooks. The project demonstrates basic React concepts like props, state, and event handling. It’s perfect for beginners to practice component structure, hooks, and state management. You can easily expand it with features like total price, quantities, and checkout functionality. |
+| 44  | [ Zustand React E-Commerce Cart Logic ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/44-%20Zustand%20E-Commerce%20Cart%20Logic ) | Demonstrates The app uses a global store (useCartStore) to manage cart state: cart → array of items addItem(product) → adds item to cart , removeItem(id) → removes item from cart | learned Users can view products, add them to the cart, and remove items from the cart. The cart count updates dynamically in the navigation bar. All components are created as functional components with React hooks. The project demonstrates basic React concepts like props, state, and event handling. It’s perfect for beginners to practice component structure, hooks, and state management. You can easily expand it with features like total price, quantities, and checkout functionality. |
 
 
 
@@ -462,9 +458,7 @@ Conditional Rendering, Component-based architecture | learned This is a simple a
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 51  | [ AI Chat Bot using React App ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/52-%20p2%20Ecommerce%20With%20payment%20intigration%20App%20Zustand ) | Demonstrates Real-time chat with AI, AI responses using Google Gemini (Generative Language API)
-, Message timestamps (formatted with Moment.js), Smooth animations using Animate.css, Error handling with toast notifications
-, Typing indicator ("Typing..."), Controlled input field (React best practice), Responsive UI | learned A modern AI Chat Application built with React, integrating Google Gemini API to generate intelligent responses in real-time. The app provides a clean chat interface with typing indicators, timestamps, and smooth animations.  |
+| 51  | [ AI Chat Bot using React App ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/52-%20p2%20Ecommerce%20With%20payment%20intigration%20App%20Zustand ) | Demonstrates Real-time chat with AI, AI responses using Google Gemini (Generative Language API) , Message timestamps (formatted with Moment.js), Smooth animations using Animate.css, Error handling with toast notifications, Typing indicator ("Typing..."), Controlled input field | learned A modern AI Chat Application built with React, integrating Google Gemini API to generate intelligent responses in real-time. The app provides a clean chat interface with typing indicators, timestamps, and smooth animations.  |
 
 
 
@@ -531,8 +525,7 @@ Conditional Rendering, Component-based architecture | learned This is a simple a
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 58  | [ Ecommerce App With ContextAPI p1 ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/58-%20Ecommerce%20App%20With%20ContextAPI%20p1  ) | Demonstrates Uses browser's **Geolocation API** , Retrieves:  Latitude , Longitude , Sends request to OpenStreetMap reverse geocoding API: ```id="geoapi"
-https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json``` | learned A modern **React E-Commerce Frontend** with geolocation support, authentication (Clerk), and dynamic routing. This project demonstrates how to build a scalable UI with location detection and user session handling.. |
+| 58  | [ Ecommerce App With ContextAPI p1 ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/58-%20Ecommerce%20App%20With%20ContextAPI%20p1  ) | Demonstrates Uses browser's **Geolocation API** , Retrieves:  Latitude , Longitude , Sends request to OpenStreetMap reverse geocoding API: ```id="geoapi"   https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json``` | learned A modern **React E-Commerce Frontend** with geolocation support, authentication (Clerk), and dynamic routing. This project demonstrates how to build a scalable UI with location detection and user session handling.. |
 
 
 
@@ -580,7 +573,7 @@ https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json``` |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 64  | [ Ecommerce App With ContextAPI Cart Fn p6 ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/64-%20Ecommerce%20App%20With%20ContextAPI%20Cart%20Fn%20p6 ) | Demonstrates  | learned .. |
+| 64  | [ Ecommerce App With ContextAPI Cart Fn p7 ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/64-%20Ecommerce%20App%20With%20ContextAPI%20Cart%20Fn%20p6 ) | Demonstrates  | learned .. |
 
 
 
@@ -589,7 +582,7 @@ https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json``` |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 65  | [ Ecommerce App With ContextAPI contact p7 ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/65-%20Ecommerce%20App%20With%20ContextAPI%20contact%20p7 ) | Demonstrates  | learned .. |
+| 65  | [ Ecommerce App With ContextAPI contact p8 ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/65-%20Ecommerce%20App%20With%20ContextAPI%20contact%20p7 ) | Demonstrates  | learned .. |
 
 
 
@@ -625,7 +618,7 @@ https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json``` |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 69  | [ Redux crud app ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/69-%20Redux%20crud%20app  ) | Demonstrates  | learned .. |
+| 69  | [ Redux crud app ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/69-%20Redux%20crud%20app  ) | Demonstrates Redux Toolkit, React Router DOM, and Tailwind CSS | learned React app to manage customers using Redux Toolkit for state management. Supports full CRUD create, read, update, and delete customers from a central Redux store. Each customer has a name, product, price, and discount field. Form validation is handled natively using HTML required attributes and Number() conversion. Data is stored in Redux state only — refreshing the page will reset all customers... |
 
 
 
@@ -634,17 +627,7 @@ https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json``` |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 70  | [ expense tracker with Context Api p1 ](   ) | Demonstrates  | learned .. |
-
-
-
-
-
-
-
-| Day | Project | Concept Learned | Notes / Challenges |
-|-----|---------|----------------|------------------|
-| 71  | [ expense tracker with Context Api final ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/71-%20expense%20tracker%20with%20Context%20Api%20final  ) | Demonstrates  | learned .. |
+| 70  | [ expense tracker with Context Api p1 ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/70-%20expense%20tracker%20with%20Context%20Api%20p1  ) | Demonstrates,  Add new expenses with unique IDs,  Update existing expenses,  Delete expenses,    Custom tooltip with formatted currency | learned A clean and scalable Expense Management System built with React using Context API + useReducer for state management and Recharts for data visualization. The app persists data in localStorage, ensuring your expenses are (saved) even after page refresh.. |
 
 
 
@@ -654,7 +637,17 @@ https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json``` |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 72  | [ Redux Todo Approach ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/72-%20Redux%20Todo%20Approach  ) | Demonstrates  | learned .. |
+| 71  | [ expense tracker with Context Api final ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/71-%20expense%20tracker%20with%20Context%20Api%20final  ) | Demonstrates Persistent storage using `localStorage`,  Global state management via Context API,  Error handling & loading states,  Interactive bar chart visualization, | learned Expense Management System built using Context API , useReducer for state management also Recharts for data visualization.. |
+
+
+
+
+
+
+
+| Day | Project | Concept Learned | Notes / Challenges |
+|-----|---------|----------------|------------------|
+| 72  | [ Redux Todo Approach ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/72-%20Redux%20Todo%20Approach  ) | Demonstrates Add, complete, and delete todos ,Filter by All / Active / Completed  | learned A simple Todo application built with Redux Toolkit , this App manage custmise using Redux Toolkit for state management.. |
 
 
 
@@ -673,7 +666,7 @@ https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json``` |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 74  | [ Jio Saavn app with context api functional p2 ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/74-%20Jio%20Saavn%20app%20with%20context%20api%20functional%20p2 ) | Demonstrates  | learned .. |
+| 74  | [ Jio Saavn app with context api functional p2 ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/74-%20Jio%20Saavn%20app%20with%20context%20api%20functional%20p2 ) | Demonstrates Play songs with global state control , Play / Pause / Next / Previous controls , Dynamic album slider (horizontal scroll) , Live song search using API | learned A modern **Music Streaming Frontend Application** inspired by platforms like JioSaavn. Built using **React**, **Context API**, and **Tailwind CSS**, this project focuses on **component-driven architecture**, **global state management**, and **interactive audio controls**... |
 
 
 
@@ -683,7 +676,7 @@ https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json``` |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 75  | [ Jio Saavn App with Context Api ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/75-%20Jio%20Saavn%20App%20with%20Context%20Api ) | Demonstrates useRef and useEffect , Build tool and dev server Axios , API requests , React Router v6 , Client side routing | learned A music streaming web app , powered by the unofficial JioSaavn API. Browse albums, search songs, and enjoy a fully functional music player , all in the browser.. |
+| 75  | [ Jio Saavn App with Context Api ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/75-%20Jio%20Saavn%20App%20with%20Context%20Api ) | Demonstrates useRef and useEffect , Build tool and dev server Axios , API requests , React Router v6 , Client side routing , Play songs with global state control , Play / Pause / Next / Previous controls , Dynamic album slider (horizontal scroll) , Live song search using API , Album-based navigation , Volume controller with hover interaction , Download song functionality , Fully responsive UI , Smooth UI animations & transitions | learned A music streaming web app , powered by the unofficial JioSaavn API. Browse albums, search songs, and enjoy a fully functional music player , all in the browser.. |
 
 
 
@@ -717,7 +710,7 @@ https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json``` |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 79  | [ Shopping Cart with Redux Async Thunk ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/79-%20Shopping%20Cart%20with%20Redux%20Async%20Thunk ) | Demonstrates   | learned  .. |
+| 79  | [ Shopping Cart with Redux Async Thunk ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/79-%20Shopping%20Cart%20with%20Redux%20Async%20Thunk ) | Demonstrates Product cards feature a clean white image panel with mix-blend-multiply for transparent product photos Indigo accent color used consistently for prices and CTA buttons Cards use hover:shadow-xl for subtle depth on interaction  , Fetch products from API async handling , Add items to car , Decrease item quantit , Remove items from car , Clear entire car , Auto calculation of total amoun , Total quantity trackin , Optimized state updates using Redux Toolkit | learned A scalable and production-ready **E-Commerce Cart Application** built using **React** and **Redux Toolkit**. This project demonstrates **asynchronous data fetching**, **global state management**, and **cart logic handling**—all essential for frontend interviews and real-world apps.. |
 
 
 
@@ -735,11 +728,8 @@ https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json``` |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 81  | [ Myntra Clone with react js ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/81-%20Myntra%20Clone%20with%20react%20js ) | Demonstrates Slice-Based Architecture. Each feature is isolated into its own slice:
-itemsSlice → Handles product list.bagSlice → Manages cart items
-fetchStatusSlice → Tracks API status, App Layout Pattern.The App.jsx acts as a root layout (App Shell): Persistent UI → Header & Footer Dynamic UI → <Outlet />
-Global Loader → Controlled via Redux {fetchStatus.currentlyFetching ? <LoadingSpinner /> : <Outlet />} ,      Application Flow
-App loads     FetchItems triggers API call.Redux updates:    currentlyFetching = true.Loader is displayed    API response received.Redux updates:    currentlyFetching = false.     fetchDone = true    UI renders actual pages | learned A scalable frontend e-commerce application built with React, Redux Toolkit, and modern architecture patterns. This project demonstrates professional state management, API handling, and clean UI structure similar to real-world production apps. .. |
+| 81  | [ Myntra Clone with react js ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/81-%20Myntra%20Clone%20with%20react%20js ) | Demonstrates Slice-Based Architecture. Each feature is isolated into its own slice: itemsSlice → Handles product list.bagSlice → Manages cart items,  fetchStatusSlice → Tracks API status, App Layout Pattern.The App.jsx acts as a root layout (App Shell): Persistent UI → Header & Footer Dynamic UI → <Outlet />
+Global Loader → Controlled via Redux {fetchStatus.currentlyFetching ? <LoadingSpinner /> : <Outlet />} , Application Flow :App loads , FetchItems triggers API call.Redux updates: currentlyFetching = true.Loader is displayed , API response received.Redux updates: currentlyFetching = false. fetchDone = true    UI renders actual pages | learned A scalable frontend e-commerce application built with React, Redux Toolkit, and modern architecture patterns. This project demonstrates professional state management, API handling, and clean UI structure similar to real-world production apps.. |
 
 
 
@@ -759,14 +749,8 @@ App loads     FetchItems triggers API call.Redux updates:    currentlyFetching =
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 83  | [ Thread App clone part frontend ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/83-%20Thread%20App%20clone%20frontend%20of%20mern ) | Demonstrates
-components/ → Small reusable UI blocks (buttons, cards, etc.)
-pages/ → Full screens mapped to routes
-redux/slice.js → Handles UI + app state (dark mode, posts, user)
-redux/service.js → Handles all API calls using RTK Query
-store.js → Combines reducers + middleware
-App.jsx → Controls routing + authentication flow | learned This is a modern Threads-like social media frontend built with React, Redux Toolkit, and RTK Query.
-It follows a scalable architecture with clean separation of concerns for components, state management, and API handling. .. |
+| 83  | [ Thread App clone part frontend ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/83-%20Thread%20App%20clone%20frontend%20of%20mern ) | Demonstrates  components/ → Small reusable UI blocks (buttons, cards, etc.)
+pages/ → Full screens mapped to routes, redux/slice.js → Handles UI + app state (dark mode, posts, user) ,  redux/service.js → Handles all API calls using RTK Query, store.js → Combines reducers + middleware, App.jsx → Controls routing + authentication flow | learned This is a modern Threads-like social media frontend built with React, Redux Toolkit, and RTK Query. It follows a scalable architecture with clean separation of concerns for components, state management, and API handling. .. |
 
 
 
@@ -786,8 +770,7 @@ It follows a scalable architecture with clean separation of concerns for compone
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 85  | [ AI Diet Planner using React ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/85-%20AI%20Diet%20Planner%20using%20React ) | Demonstrates Generate personalized diet plans using AI , Clean and responsive UI (Tailwind CSS) , Real-time API integration with Gemini , Form validation and error handling , Loading states with spinner feedback , Secure API key handling via environment variables , Dynamic HTML rendering of AI responses | learned AI-powered diet planning application that generates personalized, structured diet plans based on user inputs such as age, weight, and medical conditions. Built with modern frontend technologies and integrated with Google's Gemini API. Styling: Tailwind CSS  ,  HTTP Client: Axios , Notifications: React Toastify
-Icons: Lucide React ,AI Integration: Google Gemini API .. |
+| 85  | [ AI Diet Planner using React ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/85-%20AI%20Diet%20Planner%20using%20React ) | Demonstrates Generate personalized diet plans using AI , Clean and responsive UI (Tailwind CSS) , Real-time API integration with Gemini , Form validation and error handling , Loading states with spinner feedback , Secure API key handling via environment variables , Dynamic HTML rendering of AI responses | learned AI-powered diet planning application that generates personalized, structured diet plans based on user inputs such as age, weight, and medical conditions. Built with modern frontend technologies and integrated with Google's Gemini API. Styling: Tailwind CSS  ,  HTTP Client: Axios , Notifications: React Toastify Icons: Lucide React ,AI Integration: Google Gemini API .. |
 
 
 
@@ -875,9 +858,7 @@ Icons: Lucide React ,AI Integration: Google Gemini API .. |
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 93  | [ invoice generator Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/93-%20invoice%20generator%20Zustand ) | Demonstrates Slide-out drawer form to enter all invoice details
-Dynamic product line-items — add or remove rows on the fly , Auto-calculated subtotal, GST tax, and total , Supports Bank and UPI payment methods
-Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defaults keep the preview meaningful before form submission , Form validation — all fields are required before generating , Fully responsive sidebar action buttons (Create & Print) | learned A printable invoice builder built with React, Ant Design & Moment.js  Invoice Generator is a single-page React application that lets users fill in a form and instantly produce a print-ready, A4-sized invoice. It requires no backend — all data is handled client-side and the final invoice is printed directly from the browser. The app ships with sensible placeholder values so the invoice layout is always visible, even before any data is entered.. |
+| 93  | [ invoice generator Zustand ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/93-%20invoice%20generator%20Zustand ) | Demonstrates Slide-out drawer form to enter all invoice details Dynamic product line-items — add or remove rows on the fly , Auto-calculated subtotal, GST tax, and total , Supports Bank and UPI payment methods , Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defaults keep the preview meaningful before form submission , Form validation — all fields are required before generating , Fully responsive sidebar action buttons (Create & Print) | learned A printable invoice builder built with React, Ant Design & Moment.js  Invoice Generator is a single-page React application that lets users fill in a form and instantly produce a print-ready, A4-sized invoice. It requires no backend — all data is handled client-side and the final invoice is printed directly from the browser. The app ships with sensible placeholder values so the invoice layout is always visible, even before any data is entered.. |
 
 
 
@@ -907,7 +888,7 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 96  | [ Api Http Paylaod and Header ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/96-%20Api%20Http%20Paylaod%20and%20Header ) | Demonstrates useRef and useEffect , Build tool and dev server Axios , API requests , React Router v6 , Client side routing | learned  -  API testing tool built with **React**. This app allows developers to send HTTP requests, customize headers and payloads dynamically, and view formatted JSON responses similar to a lightweight version of Postman. Send HTTP requests (GET, POST, PUT, PATCH, DELETE) , Dynamic **Payload (Body)** fields , Dynamic **Headers** configuration , Real-time API response viewer , Syntax-highlighted JSON output , Loading states and error handling , Clean and modern UI using Ant Design , Unique field handling with `nanoid`.. |
+| 96  | [ Api Http Paylaod and Header ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/96-%20Api%20Http%20Paylaod%20and%20Header ) | Demonstrates useRef and useEffect , Build tool and dev server Axios , API requests , React Router v6 , Client side routing | learned  -  API testing tool built with **React**. This app allows developers to send HTTP requests, customize headers and payloads dynamically, and view formatted JSON responses similar to a lightweight version of Postman. Send HTTP requests (GET, POST, PUT, PATCH, DELETE) , Dynamic **Payload (Body)** fields , Dynamic **Headers** configuration , Real-time API response viewer  Syntax-highlighted JSON output , Loading states and error handling , Clean and modern UI using Ant Design , Unique field handling with `nanoid`.. |
 
 
 
@@ -944,7 +925,7 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 100  | [ ](   ) | Demonstrates  | learned ..  |
+| 100  | [ ](   ) | Demonstrates  Shopping Cart, Persistent State , Fake Product Data , Key Actions:  `ADD_TO_CART` `REMOVE_FROM_CART` `INCREMENT_QUANTITY` `DECREMENT_QUANTITY` `SET_PRODUCTS` `SET_STATE`| learned A modern **E-commerce frontend application** built with **React**, using **Context API + useReducer** for global state management. This project demonstrates real-world shopping cart functionality including product filtering, cart operations, and persistent state using localStorage...  |
 
 
 
@@ -1266,7 +1247,7 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
  - Project 46
 
- ![alt text](public/images/.png)
+ ![alt text](public/images/46-Note-Book.png)
 
 
 
@@ -1318,7 +1299,7 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
  - Project 53
 
- ![alt text](public/images/.png)
+ ![alt text](public/images/53-e-com-app.png)
 
 
 
@@ -1647,14 +1628,16 @@ Print-optimised layout (A4, 210 × 297 mm) via window.print() , Placeholder defa
 
 
  Project 99
-![alt text](public/images/.png)
+![alt text](public/images/98-fb-crud.png)
 
 
 
 
 
  Project 100
-![alt text](public/images/.png)
+![alt text](public/images/99-Authentication-Zustand.png)
+
+
 
 
 ## Acknowledgements
