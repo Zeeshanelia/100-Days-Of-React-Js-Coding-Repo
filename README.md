@@ -546,7 +546,7 @@ Conditional Rendering, Component-based architecture | learned This is a simple a
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 61  | [  Ecommerce App With ContextAPI p4 ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/61-%20Ecommerce%20App%20With%20ContextAPI%20p4  ) | Demonstrates  | learned .. |
+| 61  | [  Ecommerce App With ContextAPI p4 ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/61-%20Ecommerce%20App%20With%20ContextAPI%20p4  ) | Demonstrates Product Management ,Category System , Filter Section , Banner (Hero Section) , Routing ,  Reusable Components | learned A modern, scalable React application that fetches product data and enhances UX with real-time location detection, product filtering, categories, and a visually engaging banner section.. |
 
 
 
@@ -555,7 +555,7 @@ Conditional Rendering, Component-based architecture | learned This is a simple a
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 62  | [ Ecommerce App With ContextAPI p5 ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/62-%20Ecommerce%20App%20With%20ContextAPI%20p5  ) | Demonstrates  | learned .. |
+| 62  | [ Ecommerce App With ContextAPI p5 ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/62-%20Ecommerce%20App%20With%20ContextAPI%20p5  ) | Demonstrates **Frontend:** React.js, **Routing:** react-router-dom, **State Management:** Context API, **HTTP Client:** Axios, **Styling:** Tailwind CSS, **APIs Used:** , Fake Store API (Products) , Geoapify API (Location) | learned A production-ready React application featuring product filtering, category management, pagination, and real-time location detection. Designed with scalable architecture and modern UI practices... |
 
 
 
@@ -564,7 +564,7 @@ Conditional Rendering, Component-based architecture | learned This is a simple a
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 63  | [ Ecommerce App With ContextAPI p6 ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/63-%20Ecommerce%20App%20With%20ContextAPI%20p6 ) | Demonstrates  | learned .. |
+| 63  | [ Ecommerce App With ContextAPI p6 ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/63-%20Ecommerce%20App%20With%20ContextAPI%20p6 ) | Demonstrates **Auth:** Clerk, **APIs:** Fake Store API  Geoapify API , **Routing:** react-router-dom,  **State:** Context API ,**HTTP:** Axios ,  **Slider:** react-slick | learned A scalable React e-commerce frontend with **geolocation, filtering, categories, pagination, authentication UI, carousel, and modern UI design**. Built with real-world architecture and production-level component patterns.. |
 
 
 
@@ -573,7 +573,7 @@ Conditional Rendering, Component-based architecture | learned This is a simple a
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 64  | [ Ecommerce App With ContextAPI Cart Fn p7 ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/64-%20Ecommerce%20App%20With%20ContextAPI%20Cart%20Fn%20p6 ) | Demonstrates  | learned .. |
+| 64  | [ Ecommerce App With ContextAPI Cart Fn p7 ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/64-%20Ecommerce%20App%20With%20ContextAPI%20Cart%20Fn%20p6 ) | Demonstrates **Routing:** react-router-dom, **State Management:** Context API, **HTTP Client:** Axios, **APIs Used:** , Fake Store API (Products) , Geoapify API (Location) | learned e-commerce frontend with **carousel, geolocation, filtering, categories, pagination, authentication UI,  and modern UI design**. Built with real-world architecture and production-level component patterns.. |
 
 
 
@@ -582,7 +582,7 @@ Conditional Rendering, Component-based architecture | learned This is a simple a
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 65  | [ Ecommerce App With ContextAPI contact p8 ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/65-%20Ecommerce%20App%20With%20ContextAPI%20contact%20p7 ) | Demonstrates  | learned .. |
+| 65  | [ Ecommerce App With ContextAPI contact p8 ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/65-%20Ecommerce%20App%20With%20ContextAPI%20contact%20p7 ) | Demonstrates Authentication (Clerk) , Breadcrumb Navigation , Clickable navigation, Uses `useNavigate`,  Dynamic product title support ,  Improves UX and navigation clarity,  Navbar (Advanced) | learned **Routing:** react-router-dom, **State Management:** Context API, **HTTP Client:** Axios, **APIs Used:** , Fake Store API (Products) , Geoapify API (Location) | learned e-commerce frontend with **carousel, geolocation, filtering, categories, pagination, authentication UI,  and modern UI design**. Built with real-world architecture and production-level component patterns.. |
 
 
 
@@ -591,7 +591,7 @@ Conditional Rendering, Component-based architecture | learned This is a simple a
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 66  | [ Ecommerce App With ContextAPI localStorage final fully Functional ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/66-%20Ecommerce%20App%20With%20ContextAPI%20localStorage%20final%20fully%20Functional  ) | Demonstrates  | learned .. |
+| 66  | [ Ecommerce App With ContextAPI localStorage final fully Functional ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/66-%20Ecommerce%20App%20With%20ContextAPI%20localStorage%20final%20fully%20Functional  ) | Demonstrates Carousel + Category Section, Category System ,Advanced Filtering System , Smart Pagination (Ellipsis Logic) ,Product Card (ProductCart) ,Authentication (Clerk) ,Single Product Page ,Data Fetching (Single Product) , | learned A **full-featured React e-commerce application** built with modern frontend practices. This project includes **geolocation, product filtering, categories, pagination, authentication, cart system, product details page, carousel, and responsive UI**.. |
 
 
 
@@ -600,7 +600,8 @@ Conditional Rendering, Component-based architecture | learned This is a simple a
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 67  | [ Social Media With Context Api Reducer ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/67-%20Social%20Media%20With%20Context%20Api%20Reducer%20useEffect%20p2 ) | Demonstrates  | learned .. |
+| 67  | [ Social Media With Context Api Reducer ]( https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/67-%20Social%20Media%20With%20Context%20Api%20Reducer%20useEffect%20p2 ) | Demonstrates  Centralized global state using **Context API** , Complex state logic handled with **useReducer** , Clean separation of logic and UI
+| learned A clean and scalable **React CRUD-style Post Management Application** built using **Context API + useReducer**. This project demonstrates **state management, API integration, component architecture, and form handling** — ideal for learning core React concepts.. |
 
 
 
@@ -609,7 +610,7 @@ Conditional Rendering, Component-based architecture | learned This is a simple a
 
 | Day | Project | Concept Learned | Notes / Challenges |
 |-----|---------|----------------|------------------|
-| 68  | [ Redux Persist RememberMe project ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/68-%20Redux%20Persist%20RememberMe%20project ) | Demonstrates  | learned .. |
+| 68  | [ Redux Persist RememberMe project ](  https://github.com/Zeeshanelia/100-Days-Of-React-Js-Coding-Repo/tree/main/68-%20Redux%20Persist%20RememberMe%20project ) | Demonstrates Global login state using **Redux Toolkit** , Stores user credentials (username & password) ,  Supports:  Login (set user) , Logout (remove user) | learned A simple yet powerful **React authentication state management system** using **Redux Toolkit** and **Redux Persist**. This project demonstrates how to manage login state globally and persist user data across page reloads.. |
 
 
 
